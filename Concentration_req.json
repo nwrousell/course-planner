@@ -35,16 +35,200 @@
         },
         "Pathways": {
           "Pick": 1,
-          "Systems": [],
-          "Software Principles": [],
-          "Data": [],
-          "AI/ML": [],
-          "Theory": [],
-          "Security": [],
-          "Visual Computing": [],
-          "Computer Architecture": [],
-          "Computational Biology": [],
-          "Design": []
+          "Systems": {
+            "Core": ["CSCI 1380", "CSCI 1670", "CSCI 1680"],
+            "Related Courses": [
+              "CSCI 1260",
+              "CSCI 1270",
+              "CSCI 1320",
+              "CSCI 1600",
+              "CSCI 1650",
+              "CSCI 1650",
+              "CSCI 1660",
+              "CSCI 1710",
+              "CSCI 1730",
+              "CSCI 1760",
+              "ENGN 1640"
+            ],
+            "Intermediate Courses": ["CSCI 0300", "CSCI 0330", "CSCI 0220"]
+          },
+
+          "Software Principles": {
+            "Core Courses": [
+              "CSCI 1260",
+              "CSCI 1320",
+              "CSCI 1600",
+              "CSCI 1710",
+              "CSCI 1730"
+            ],
+            "Related Courses": [
+              "CSCI 1270",
+              "CSCI 1380",
+              "CSCI 1650",
+              "CSCI 1680",
+              "CSCI 1951I",
+              "CSCI 1951T",
+              "CSCI 1951X"
+            ],
+            "Intermediate Courses": [
+              "CSCI 0300",
+              "CSCI 0330",
+              "CSCI 0320",
+              "CSCI 0220"
+            ]
+          },
+          "Data": {
+            "Core Courses": ["CSCI 1270", "CSCI 1420", "CSCI 1951A"],
+            "Related Courses": ["CSCI 1550"],
+            "Intermediate Courses": {
+              "Syst": ["CSCI 0320", "CSCI 0300", "CSCI 0330"],
+              "Lin": ["MATH 0520", "MATH 0540", "CSCI 0530"],
+              "Stat": ["CSCI 1450", "APMA 1650", "APMA 1655"]
+            }
+          },
+          "AI/ML": {
+            "Core Courses": [
+              "CSCI 1410",
+              "CSCI 1420",
+              "CSCI 1430",
+              "CSCI 1460",
+              "CSCI 1470",
+              "CSCI 1850",
+              "CSCI 1951R"
+            ],
+            "Related Courses": [
+              "CSCI 1440",
+              "CSCI 1550",
+              "CSCI 1951A",
+              "CSCI 1951C",
+              "APMA 1740",
+              "ENGN 1610"
+            ],
+            "Intermediate Courses": {
+              "Stat": ["CSCI 1450", "APMA 1650", "1655"],
+              "Linalg": ["MATH 0520", "MATH 0540", "CSCI 0530"]
+            }
+          },
+          "Theory": {
+            "Core Courses": [
+              "CSCI 1510",
+              "CSCI 1550",
+              "CSCI 1570",
+              "CSCI 1760",
+              "CSCI 1951W",
+              "CSCI 1951X"
+            ],
+            "Related Courses": [
+              "CSCI 1440",
+              "CSCI 1550",
+              "CSCI 1710",
+              "CSCI 1810",
+              "CSCI 1820",
+              "CSCI 1950H",
+              "CSCI 1950G"
+            ],
+            "Intermediate Courses": {
+              "one": ["CSCI 1010"],
+              "stat": ["CSCI 1450", "APMA 1650", "APMA 1655"],
+              "lin": ["MATH 0520", "MATH 0540", "CSCI 0530"]
+            }
+          },
+          "Security": {
+            "Core Courses": ["CSCI 1510", "CSCI 1650", "CSCI 1660"],
+            "Related Courses": [
+              "CSCI 1320",
+              "CSCI 1380",
+              "CSCI 1670",
+              "CSCI 1680",
+              "CSCI 1710",
+              "CSCI 1730",
+              "CSCI 1800",
+              "CSCI 1805",
+              "1951L"
+            ],
+            "Intermediate": [
+              "CSCI 0330",
+              "CSCI 0300",
+              "CSCI 0220",
+              "CSCI 1450",
+              "APMA 1650",
+              "APMA 1655"
+            ]
+          },
+          "Visual Computing": {
+            "Core Courses": [
+              "CSCI 1230",
+              "CSCI 1250",
+              "CSCI 1280",
+              "CSCI 1290",
+              "CSCI 1300",
+              "CSCI 1370",
+              "CSCI 1430",
+              "CSCI 1950T",
+              "CSCI 1951T"
+            ],
+            "Related Courses": [
+              "CSCI 1950N",
+              "CSCI 1470",
+              "CSCI 1950N",
+              "CSCI 1950U",
+              "CSCI 1951V",
+              "CLPS 1520"
+            ],
+            "Intermediate Courses": [
+              "CSCI 0320",
+              "CSCI 0330",
+              "MATH 0520",
+              "MATH 0540",
+              "CSCI 0530"
+            ]
+          },
+          "Computer Architecture": {
+            "Core Courses": ["ENGN 1630", "ENGN 1640", "ENGN 1650"],
+            "Related Courses": ["CSCI 1660", "CSCI 1760", "ENGN 1600"],
+            "Intermediate Courses": ["CSCI 0330", "CSCI 0330"]
+          },
+          "Computational Biology": {
+            "Core Courses": ["CSCI 1810", "CSCI 1820", "CSCI 1850"],
+            "Related Courses": [
+              "CSCI 1420",
+              "CSCI 1430",
+              "CSCI 1470",
+              "CSCI 1951A",
+              "CLPS 1520"
+            ],
+            "Intermediate Courses": [
+              "CSCI 0220",
+              "CSCI 1010",
+              "CSCI 1450",
+              "APMA 1650",
+              "APMA 1655"
+            ]
+          },
+          "Design": {
+            "Core Courses": ["CSCI 1300", "CSCI 1370", "CSCI 1951C"],
+            "Related Courses": [
+              "CSCI 1230",
+              "CSCI 1320",
+              "CSCI 1360",
+              "CSCI 1600",
+              "CSCI 1951A",
+              "CSCI 1951I",
+              "CSCI 1951T",
+              "CSCI 1951V",
+              "CSCI 1952B",
+              "ENGN 1931I",
+              "VISA 1720"
+            ],
+            "Intermediate Courses": [
+              "CSCI 0300",
+              "CSCI 0320",
+              "CSCI 0330",
+              "CSCI 1450",
+              "APMA 1650",
+              "APMA 1655"
+            ]
+          }
         }
       },
       "ScB": {}
