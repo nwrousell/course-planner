@@ -1,0 +1,888 @@
+[
+    {
+        "code": "APMA 0160",
+        "term": "Spring 2024",
+        "title": "Introduction to Scientific Computing",
+        "description": "For students in any discipline that may involve numerical computations. Includes instruction for programming in MATLAB. Applications discussed include solution of linear equations (with vectors and matrices) and nonlinear equations (by bisection, iteration, and Newton's method), interpolation, and curve-fitting, difference equations, iterated maps, numerical differentiation and integration, and differential equations. Prerequisites: MATH 0100 or equivalent.",
+        "prereq_text": "Prerequisites: MATH 0100, APMA 0350, MATH 0170, 0180, 0190, 0200, 0350, minimum score of 4 in 'AP Calculus BC' or minimum score of 6 in 'IB HL Math Analysis & Approach'.",
+        "prereqs": [
+            "MATH 0100",
+            "APMA 0350",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 6 in IB HL Math Analysis & Approach"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/0160",
+        "critical_review_data": {
+            "average_hours": "5.12",
+            "max_hours": "8.56",
+            "course_rating": "49%\n4.28",
+            "professor_rating": "53%\n4.61"
+        }
+    },
+    {
+        "code": "APMA 0200",
+        "term": "Fall 2023",
+        "title": "Introduction to Modeling",
+        "description": "This course provides an introduction to the mathematical modeling of selected biological, chemical, engineering, and physical processes. The goal is to illustrate the typical way in which applied mathematicians approach practical applications, from understanding the underlying problem, creating a model, analyzing the model using mathematical techniques, and interpreting the findings in terms of the original problem. Single-variable calculus is the only requirement; all other techniques from differential equations, linear algebra, and numerical methods, to probability and statistics will be introduced in class. Prerequisites: Math 0100 or equivalent.",
+        "prereq_text": "Prerequisites: MATH 0100, 0170, 0180, 0190, 0200, 0350, APMA 0350, minimum score of 4 in 'AP Calculus BC', minimum score of 5 in 'AP Calculus BC', minimum score of 6 in 'IB SL Math Analysis & Approach' or minimum score of 7 in 'IB SL Math Analysis & Approach'.",
+        "prereqs": [
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "APMA 0350",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 5 in AP Calculus BC",
+            "minimum score of 6 in IB SL Math Analysis & Approach",
+            "minimum score of 7 in IB SL Math Analysis & Approach"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/0200",
+        "critical_review_data": {
+            "average_hours": "2.63",
+            "max_hours": "5.57",
+            "course_rating": "71%\n3.57",
+            "professor_rating": "89%\n4.45"
+        }
+    },
+    {
+        "code": "APMA 0350",
+        "term": "Fall 2023",
+        "title": "Applied Ordinary Differential Equations",
+        "description": "This course provides a comprehensive introduction to ordinary differential equations and their applications. During the course, we will see how applied mathematicians use ordinary differential equations to solve practical applications, from understanding the underlying problem, creating a differential-equations model, solving the model using analytical, numerical, or qualitative methods, and interpreting the findings in terms of the original problem. We will also learn about the underlying rigorous theoretical foundations of differential equations. Prerequisites: MATH 0100 or equivalent; knowledge of matrix-vector operations, determinants, and linear systems.",
+        "prereq_text": "Prerequisites: MATH 0100, 0170, 0180, 0190, 0200, 0350, minimum score of 4 in 'AP Calculus BC' or minimum score of 6 in 'IB HL Math Analysis & Approach'.",
+        "prereqs": [
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 6 in IB HL Math Analysis & Approach"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/0350",
+        "critical_review_data": {
+            "average_hours": "3.80",
+            "max_hours": "7.43",
+            "course_rating": "61%\n4.08",
+            "professor_rating": "82%\n4.79"
+        }
+    },
+    {
+        "code": "APMA 0360",
+        "term": "Fall 2023",
+        "title": "Applied Partial Differential Equations I",
+        "description": "This course provides an introduction to partial differential equations and their applications. We will learn how to use partial differential equations to solve problems that arise in practical applications, formulating questions about a real-world problem, creating a partial differential equation model that can help answer these questions, solving the resulting system using analytical, numerical, and qualitative methods, and interpreting the results in terms of the original application. To help us support and justify our approaches and solutions, we will also learn about theoretical foundations of partial differential equations. Prerequisites: APMA 0350 or equivalent.",
+        "prereq_text": "Prerequisites: (APMA 0330 and 0340) or APMA 0350 or MATH 1110.",
+        "prereqs": [
+            "APMA 0330",
+            "APMA 0340",
+            "APMA 0350",
+            "MATH 1110"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/0360",
+        "critical_review_data": {
+            "average_hours": "4.85",
+            "max_hours": "9.00",
+            "course_rating": "61%\n3.57",
+            "professor_rating": "81%\n4.19"
+        }
+    },
+    {
+        "code": "APMA 0650",
+        "term": "Spring 2024",
+        "title": "Essential Statistics",
+        "description": "A first course in probability and statistics emphasizing statistical reasoning and basic concepts. Topics include visual and numerical summaries of data, representative and non-representative samples, elementary discrete probability theory, the normal distribution, sampling variability, elementary statistical inference, measures of association. Examples and applications from the popular press and the life, social and physical sciences. Not calculus-based. No prerequisites.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/0650",
+        "critical_review_data": {
+            "average_hours": "7.60",
+            "max_hours": "12.70",
+            "course_rating": "48%\n3.26",
+            "professor_rating": "74%\n4.01"
+        }
+    },
+    {
+        "code": "APMA 1001",
+        "term": "Spring 2024",
+        "title": "Mathematical Writing and Experimentation",
+        "description": "This course is an introduction to mathematical experimentation and writing, with an emphasis on proofs. The first part of the course will be dedicated to developing familiarity with a variety of proof techniques, including direct proofs, contradiction/contrapositive, existence and uniqueness, and induction. In the second part, students will work on experimental projects, formulate conjectures, and produce research papers detailing their approach.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1001",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 1070",
+        "term": "Spring 2024",
+        "title": "Quantitative Models of Biological Systems",
+        "description": "Quantitative dynamic models help understand problems in biology and there has been rapid progress in recent years. This course provides an introduction to the concepts and techniques, with applications to population dynamics, infectious diseases, enzyme kinetics, and cellular biology. Additional topics covered will vary. Mathematical techniques will be discussed as they arise in the context of biological problems. Prerequisites: APMA 0350 or equivalent.",
+        "prereq_text": "Prerequisites: (APMA 0330 and 0340) or APMA 0350, MATH 1110 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 0330",
+            "APMA 0340",
+            "APMA 0350",
+            "MATH 1110"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1070",
+        "critical_review_data": {
+            "average_hours": "6.38",
+            "max_hours": "11.33",
+            "course_rating": "69%\n3.77",
+            "professor_rating": "83%\n4.31"
+        }
+    },
+    {
+        "code": "APMA 1080",
+        "term": "Fall 2023",
+        "title": "Inference in Genomics and Molecular Biology",
+        "description": "This course is an introduction to the probabilistic and statistical models that have found widespread use in genomics and molecular biology. The emphasis is on foundational models and ideas rather than practical application. Likely topics include Markov chains, hidden Markov models, directed graphical models, mixture models, linear regression, regularization, dimensionality reduction, clustering, Bayesian inference, and multiple hypothesis testing. Examples will focus on the connection to genomics and molecular biology, but all of these tools have found widespread use in a variety of disciplines. Mathematical and computational exercises will reinforce the topics presented in lecture. Prerequisites: APMA 1650 or equivalent; MATH 520 or equivalent; APMA 0160 or CSCI 0111 or equivalent.",
+        "prereq_text": "Prerequisites: (APMA 1650, 1655, MATH 1610, CSCI 1450 or 0450) and (MATH 0520 or 0540) and (APMA 0160, 0200, 1160, 1170, 1180, 1210, 1690, 1740, 1860, 1720, CSCI 0111, 0150, 0170, 0190, CLPS 0950, 1292, EEPS 0250 or GEOL 0250) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450",
+            "MATH 0520",
+            "MATH 0540",
+            "APMA 0160",
+            "APMA 0200",
+            "APMA 1160",
+            "APMA 1170",
+            "APMA 1180",
+            "APMA 1210",
+            "APMA 1690",
+            "APMA 1740",
+            "APMA 1860",
+            "APMA 1720",
+            "CSCI 0111",
+            "CSCI 0150",
+            "CSCI 0170",
+            "CSCI 0190",
+            "CLPS 0950",
+            "CLPS 1292",
+            "EEPS 0250",
+            "GEOL 0250"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1080",
+        "critical_review_data": {
+            "average_hours": "7.50",
+            "max_hours": "11.30",
+            "course_rating": "87%\n4.39",
+            "professor_rating": "90%\n4.52"
+        }
+    },
+    {
+        "code": "APMA 1160",
+        "term": "Fall 2023",
+        "title": "An Introduction to Numerical Optimization",
+        "description": "This course provides a thorough introduction to numerical methods and algorithms for solving non-linear continuous optimization problems. A particular attention will be given to the mathematical underpinnings to understand the theoretical properties of the optimization problems and the algorithms designed to solve them. Topics will include: line search methods, trust-region methods, nonlinear conjugate gradient methods, an introduction to constrained optimization (Karush-Kuhn-Tucker conditions, mini-maximization, saddle-points of Lagrangians). Some applications in signal and image processing will be explored. Prerequisites: MATH 0180 or equivalent; MATH 0520 or equivalent; APMA 0160 or CSCI 0111 or equivalent. APMA 1170 or equivalent is recommended.",
+        "prereq_text": "Prerequisites: (MATH 0180, 0200 or 0350) and (MATH 0520 or 0540) and (APMA 0160, 0200, 1170, 1180, 1210, 1690, 1740, 1860, 1720, CSCI 0111, 0150, 0170, 0190, EEPS 0250, GEOL 0250, CLPS 0950 or 1292) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350",
+            "MATH 0520",
+            "MATH 0540",
+            "APMA 0160",
+            "APMA 0200",
+            "APMA 1170",
+            "APMA 1180",
+            "APMA 1210",
+            "APMA 1690",
+            "APMA 1740",
+            "APMA 1860",
+            "APMA 1720",
+            "CSCI 0111",
+            "CSCI 0150",
+            "CSCI 0170",
+            "CSCI 0190",
+            "EEPS 0250",
+            "GEOL 0250",
+            "CLPS 0950",
+            "CLPS 1292"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1160",
+        "critical_review_data": {
+            "average_hours": "3.64",
+            "max_hours": "5.55",
+            "course_rating": "80%\n4.02",
+            "professor_rating": "55%\n4.80"
+        }
+    },
+    {
+        "code": "APMA 1170",
+        "term": "Fall 2023",
+        "title": "Introduction to Computational Linear Algebra",
+        "description": "Focuses on fundamental algorithms in computational linear algebra with relevance to all science concentrators. Basic linear algebra and matrix decompositions (Cholesky, LU, QR, etc.), round-off errors and numerical analysis of errors and convergence. Iterative methods and conjugate gradient techniques. Computation of eigenvalues and eigenvectors, and an introduction to least squares methods. Prerequisites: MATH 0100 or equivalent; MATH 0520 or equivalent. Experience with a programming language is strongly recommended.",
+        "prereq_text": "Prerequisites: (MATH 0100, 0170, 0180, 0190, 0200, APMA 0350, MATH 0350, minimum score of 4 in 'AP Calculus BC' or minimum score of 6 in 'IB HL Math Analysis & Approach') and (MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "APMA 0350",
+            "MATH 0350",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 6 in IB HL Math Analysis & Approach",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1170",
+        "critical_review_data": {
+            "average_hours": "5.83",
+            "max_hours": "9.96",
+            "course_rating": "44%\n3.78",
+            "professor_rating": "53%\n4.62"
+        }
+    },
+    {
+        "code": "APMA 1200",
+        "term": "Spring 2024",
+        "title": "Operations Research: Probabilistic Models",
+        "description": "APMA 1200 serves as an introduction to stochastic processes and stochastic optimization. After a review of basic probability theory, including conditional probability and conditional expectations, topics covered will include discrete-time Markov chains, exponential distributions, Poisson processes and continuous-time Markov chains, elementary queueing theory, martingales, Markov decision processes and dynamic programming. If time permits topics selected from filtering of hidden Markov chains, renewal processes, and Brownian motion could be included. Prerequisites: APMA 1650 (or equivalent) and MATH 520 (or equivalent). The course assumes calculus, basic probability theory, and linear algebra.",
+        "prereq_text": "Prerequisites: (APMA 1650, 1655, MATH 1610, CSCI 1450 or 0450) and (MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1200",
+        "critical_review_data": {
+            "average_hours": "3.88",
+            "max_hours": "7.34",
+            "course_rating": "35%\n3.72",
+            "professor_rating": "42%\n4.49"
+        }
+    },
+    {
+        "code": "APMA 1210",
+        "term": "Fall 2023",
+        "title": "Operations Research: Deterministic Models",
+        "description": "An introduction to the basic mathematical ideas and computational methods of optimizing allocation of effort or resources, with or without constraints. Linear programming, network models, dynamic programming, and integer programming. Prerequisites: MATH 0100 or equivalent; MATH 520 or equivalent; APMA 0160 or CSCI 0111 or equivalent.",
+        "prereq_text": "Prerequisites: (MATH 0100, 0170, 0180, 0190, 0200, APMA 0350, MATH 0350, minimum score of 6 in 'IB HL Math Analysis & Approach' or minimum score of 4 in 'AP Calculus BC') and (MATH 0520 or 0540) and (APMA 0160, 0200, 1160, 1170, 1180, 1690, 1740, 1860, 1720, CSCI 0111, 0150, 0170, 0190, EEPS 0250, GEOL 0250, CLPS 0950 or 1292) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "APMA 0350",
+            "MATH 0350",
+            "minimum score of 6 in IB HL Math Analysis & Approach",
+            "minimum score of 4 in AP Calculus BC",
+            "MATH 0520",
+            "MATH 0540",
+            "APMA 0160",
+            "APMA 0200",
+            "APMA 1160",
+            "APMA 1170",
+            "APMA 1180",
+            "APMA 1690",
+            "APMA 1740",
+            "APMA 1860",
+            "APMA 1720",
+            "CSCI 0111",
+            "CSCI 0150",
+            "CSCI 0170",
+            "CSCI 0190",
+            "EEPS 0250",
+            "GEOL 0250",
+            "CLPS 0950",
+            "CLPS 1292"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1210",
+        "critical_review_data": {
+            "average_hours": "2.50",
+            "max_hours": "5.17",
+            "course_rating": "47%\n4.08",
+            "professor_rating": "55%\n3.69"
+        }
+    },
+    {
+        "code": "APMA 1330",
+        "term": "Fall 2023",
+        "title": "Applied Partial Differential Equations II",
+        "description": "Review of vector calculus and curvilinear coordinates. Partial differential equations. Heat conduction and diffusion equations, the wave equation, Laplace and Poisson equations. Separation of variables, special functions, Fourier series and power series solution of differential equations. Sturm-Liouville problem and eigenfunction expansions. Prerequisites: APMA 0360 or equivalent.",
+        "prereq_text": "Prerequisites: APMA 0360, MATH 1120 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 0360",
+            "MATH 1120"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1330",
+        "critical_review_data": {
+            "average_hours": "4.80",
+            "max_hours": "10.30",
+            "course_rating": "43%\n4.53",
+            "professor_rating": "64%\n4.82"
+        }
+    },
+    {
+        "code": "APMA 1360",
+        "term": "Spring 2024",
+        "title": "Applied Dynamical Systems",
+        "description": "This course gives an overview of the theory and applications of dynamical systems modeled by differential equations and maps. We will discuss changes of the dynamics when parameters are varied, investigate periodic and homoclinic solutions that arise in applications, and study the impact of additional structures such as time reversibility and conserved quantities on the dynamics. We will also study systems with complicated \"chaotic\" dynamics that possess attracting sets which do not have an integer dimension. Applications to chemical reactions, climate, epidemiology, and phase transitions will be discussed. Prerequisites: APMA 0350 or equivalent.",
+        "prereq_text": "Prerequisites: (APMA 0330 and 0340) or APMA 0350, MATH 1110 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 0330",
+            "APMA 0340",
+            "APMA 0350",
+            "MATH 1110"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1360",
+        "critical_review_data": {
+            "average_hours": "4.66",
+            "max_hours": "8.97",
+            "course_rating": "54%\n4.70",
+            "professor_rating": "73%\n4.96"
+        }
+    },
+    {
+        "code": "APMA 1650",
+        "term": "Fall 2023",
+        "title": "Statistical Inference I",
+        "description": "APMA 1650 is an integrated first course in mathematical statistics. The first half of APMA 1650 covers probability and the last half is statistics, integrated with its probabilistic foundation. Specific topics include probability spaces, discrete and continuous random variables, methods for parameter estimation, confidence intervals, and hypothesis testing. Prerequisites: MATH 0100 or equivalent.",
+        "prereq_text": "Prerequisites: (MATH 0100, 0170, 0180, 0190, 0200, APMA 0350, MATH 0350, minimum score of 6 in 'IB HL Math Analysis & Approach' or minimum score of 4 in 'AP Calculus BC') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "APMA 0350",
+            "MATH 0350",
+            "minimum score of 6 in IB HL Math Analysis & Approach",
+            "minimum score of 4 in AP Calculus BC"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1650",
+        "critical_review_data": {
+            "average_hours": "4.67",
+            "max_hours": "8.42",
+            "course_rating": "37%\n3.24",
+            "professor_rating": "55%\n3.43"
+        }
+    },
+    {
+        "code": "APMA 1655",
+        "term": "Fall 2023",
+        "title": "Honors Statistical Inference I",
+        "description": "Students may opt to enroll in APMA 1655 for more in depth coverage of APMA 1650. Enrollment in 1655 will include an optional recitation section and required additional individual work. Applied Math concentrators are encouraged to take 1655. Prerequisites: MATH 0180 or equivalent.",
+        "prereq_text": "Prerequisites: MATH 0180, 0200, 0350 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1655",
+        "critical_review_data": {
+            "average_hours": "5.35",
+            "max_hours": "9.62",
+            "course_rating": "88%\n4.52",
+            "professor_rating": "97%\n4.83"
+        }
+    },
+    {
+        "code": "APMA 1660",
+        "term": "Spring 2024",
+        "title": "Statistical Inference II",
+        "description": "APMA 1660 is designed as a sequel to APMA 1650 to form one of the alternative tracks for an integrated year's course in mathematical statistics. The main topic is linear models in statistics. Specific topics include likelihood-ratio tests, nonparametric tests, introduction to statistical computing, matrix approach to simple-linear and multiple regression, analysis of variance, and design of experiments. Prerequisites: APMA 1650 or equivalent; MATH 0520 or equivalent.",
+        "prereq_text": "Prerequisites: (APMA 1650, 1655, MATH 1610, CSCI 1450 or 0450) and (MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1660",
+        "critical_review_data": {
+            "average_hours": "5.32",
+            "max_hours": "8.32",
+            "course_rating": "83%\n4.33",
+            "professor_rating": "97%\n4.85"
+        }
+    },
+    {
+        "code": "APMA 1690",
+        "term": "Fall 2023",
+        "title": "Computational Probability and Statistics",
+        "description": "Examination of probability theory and mathematical statistics from the perspective of computing. Topics selected from random number generation, Monte Carlo methods, limit theorems, stochastic dependence, Bayesian networks, dimensionality reduction. Prerequisites: APMA 1650 or equivalent; programming experience is recommended.",
+        "prereq_text": "Prerequisites: APMA 1650, 1655, MATH 1610, CSCI 1450, 0450 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1690",
+        "critical_review_data": {
+            "average_hours": "6.84",
+            "max_hours": "10.63",
+            "course_rating": "44%\n3.86",
+            "professor_rating": "65%\n4.38"
+        }
+    },
+    {
+        "code": "APMA 1710",
+        "term": "Spring 2024",
+        "title": "Information Theory",
+        "description": "Information theory is the study of the fundamental limits of information transmission and storage. This course, intended primarily for advanced undergraduates and beginning graduate students, offers a broad introduction to information theory and its applications: Entropy and information, lossless data compression, communication in the presence of noise, channel capacity, channel coding, source-channel separation, lossy data compression. Prerequisites: APMA 1650 or equivalent.",
+        "prereq_text": "Prerequisites: APMA 1650, 1655, MATH 1610, CSCI 1450, 0450 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1710",
+        "critical_review_data": {
+            "average_hours": "8.87",
+            "max_hours": "13.22",
+            "course_rating": "67%\n4.17",
+            "professor_rating": "87%\n4.70"
+        }
+    },
+    {
+        "code": "APMA 1720",
+        "term": "Spring 2024",
+        "title": "Monte Carlo Simulation with Applications to Finance",
+        "description": "The course will cover the basics of Monte Carlo and its applications to financial engineering: generating random variables and simulating stochastic processes; analysis of simulated data; variance reduction techniques; binomial trees and option pricing; Black-Scholes formula; portfolio optimization; interest rate models. The course will use MATLAB as the standard simulation tool. Prerequisites: APMA 1650 or MATH 1610",
+        "prereq_text": "Prerequisites: APMA 1650, 1655, MATH 1610, CSCI 1450, 0450 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1720",
+        "critical_review_data": {
+            "average_hours": "4.87",
+            "max_hours": "8.00",
+            "course_rating": "50%\n2.48",
+            "professor_rating": "36%\n2.38"
+        }
+    },
+    {
+        "code": "APMA 1740",
+        "term": "Spring 2024",
+        "title": "Recent Applications of Probability and Statistics",
+        "description": "This course develops the mathematical foundations of modern applications of statistics to the computational, cognitive, engineering, and neural sciences. The course is rigorous, but the emphasis is on application. Topics include: Gibbs ensembles and their relation to maximum entropy, large deviations, exponential models, and information theory; statistical estimation and classification; graphical models, dynamic programming, MCMC, parameter estimation, and the EM algorithm. Graduate version: 2610; Undergraduate version: 1740. Prerequisites: APMA 1650 or equivalent; programming experience; strong mathematics background. APMA 1200 or APMA 1690 or similar courses recommended. MATH 1010 or equivalent is recommended for APMA 2610.",
+        "prereq_text": "Prerequisites: APMA 1650, 1655, MATH 1610, CSCI 1450, 0450 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1740",
+        "critical_review_data": {
+            "average_hours": "8.40",
+            "max_hours": "15.20",
+            "course_rating": "50%\n4.33",
+            "professor_rating": "54%\n4.71"
+        }
+    },
+    {
+        "code": "APMA 1860",
+        "term": "Spring 2024",
+        "title": "Graphs and Networks",
+        "description": "Selected topics about the mathematics of graphs and networks with an emphasis on random graph models and the dynamics of processes operating on these graphs. Topics include: empirical properties of biological, social, and technological networks (small-world effects, scale-free properties, transitivity, community structure); mathematical and statistical models of random graphs and their properties (Bernoulli random graphs, preferential attachment models, stochastic block models, phase transitions); dynamical processes on graphs and networks (percolation, cascades, epidemics, queuing, synchronization). Prerequisites: MATH 520 or equivalent; APMA 0350 or equivalent; APMA 1650 or equivalent; programming experience. APMA 1200 or APMA 1690 or similar courses recommended.",
+        "prereq_text": "Prerequisites: (MATH 0520 or 0540) and ((APMA 0330 and 0340) or (APMA 0350 or MATH 1110)) and (APMA 1650, 1655, MATH 1610, CSCI 1450 or 0450) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540",
+            "APMA 0330",
+            "APMA 0340",
+            "APMA 0350",
+            "MATH 1110",
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1860",
+        "critical_review_data": {
+            "average_hours": "7.21",
+            "max_hours": "10.79",
+            "course_rating": "78%\n4.58",
+            "professor_rating": "91%\n4.92"
+        }
+    },
+    {
+        "code": "APMA 1910",
+        "term": "Fall 2023",
+        "title": "Race and Gender in the Scientific Community",
+        "description": "This course examines the (1) disparities in representation in the scientific community, (2) issues facing different groups in the sciences, and (3) paths towards a more inclusive scientific environment. We will delve into the current statistics on racial and gender demographics in the sciences and explore their background through texts dealing with the history, philosophy, and sociology of science. We will also explore the specific problems faced by underrepresented and well-represented racial minorities, women, and LGBTQ community members. The course is reading intensive and discussion based. To be added to the waitlist for this course, please go to https://goo.gl/forms/foK0fyGxm5Eu2irA2",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1910",
+        "critical_review_data": {
+            "average_hours": "4.80",
+            "max_hours": "9.40",
+            "course_rating": "62%\n4.14",
+            "professor_rating": "79%\n4.66"
+        }
+    },
+    {
+        "code": "APMA 1920",
+        "term": "Fall 2023",
+        "title": "Form and Formalism",
+        "description": "This seminar will examine formalisms across art and mathematics in order to chart an intellectual pre-history of the computer and our contemporary digital imaginary. We will investigate topics such as: conceptions of \u201cform\u201d in nineteenth-century theories of perception, collective psychology, and geometry; methods of abstraction in twentieth-century art history and mathematics; the emergence of cybernetics and artificial intelligence; and anxieties about historicity and agency that motivated thinkers across all fields. Central questions include: what is the relationship between computation and creativity? How are truth and beauty understood and valued in our respective fields? What in the history of formalisms made the computer\u2014and computational imaginary\u2014possible? Ultimately this course will inquire into an intellectual history in which the humanities have always been digital, and new ways of conceiving human experience and understanding were forged at the intersections of art history and math.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1920",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 1930P",
+        "term": "Spring 2024",
+        "title": "Mathematics and Climate",
+        "description": "Mathematical models play a critical role in projecting and understanding climate processes. This course will discuss techniques for application of theoretical models, computational experiments, and data analysis in climate science, including oceanic, atmospheric, and ecological phenomena. Intended for students in applied mathematics and other concentrations with quantitative skills who are interested in applying their knowledge to mathematical modeling and climate problems. No previous coursework in climate science is required. Physical science concepts and mathematical techniques will be introduced throughout the course. Students will develop collaborative or individual projects later in the semester. Prerequisites: APMA 0360, or APMA 0340, or written permission; APMA 1650 is recommended.",
+        "prereq_text": "Prerequisites: APMA 0360, 0340, MATH 1120 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 0360",
+            "APMA 0340",
+            "MATH 1120"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1930P",
+        "critical_review_data": {
+            "average_hours": "4.75",
+            "max_hours": "8.35",
+            "course_rating": "76%\n4.09",
+            "professor_rating": "87%\n4.52"
+        }
+    },
+    {
+        "code": "APMA 1930W",
+        "term": "Fall 2023",
+        "title": "Probabilities in Quantum Mechanics",
+        "description": "We will start from scratch. We will be rigorous, while making a careful accounting of the (surprisingly few) conceptual assumptions that lead inexorably to consequences that are almost impossible to believe. With an eye on some of the most startling and vexing of these, we will construct a minimum mathematical foundation sufficient to explore: the abrupt transition from the weird quantum to the familiar classical world; the uncertainty principles; teleportation; Bell\u2019s theorem and the Einstein-Bohr debates; quantum erasure; the Conway-Kochen \u201cfree-will theorem\u201d; (unbreakable) quantum encryption, and, an introduction to quantum computing.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1930W",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 1930X",
+        "term": "Fall 2023",
+        "title": "Probability, Optimization, and Stochastic Calculus",
+        "description": "This senior seminar will explore various topics in probability, including stochastic processes, stochastic optimization including optimal stopping and optimal stochastic control, Brownian motion, stochastic calculus, connection to partial differential equations, and some of their applications. The class format will involve both lectures and class discussions. Calculus based undergraduate probability, such as APMA 1650/1655 or MATH 1610, is required. Minimal experience in MATLAB is recommended, but not required.",
+        "prereq_text": "Prerequisites: APMA 1650, 1655, MATH 1610 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1930X",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 1930Y",
+        "term": "Fall 2023",
+        "title": "Mathematical Biology",
+        "description": "This is an advanced undergraduate course that focuses on mathematical biology. The goal of the course is to demonstrate how various methods of linear algebra, differential and partial differential equations are used to analyze biological phenomena. The course will cover various topics, including the spread of infectious diseases, tumor growth models and cancer therapy, and spatial pattern formation. The mathematical topics include nonlinear differential equations, reaction-diffusion equations, and transport equations. The course is a natural continuation of APMA 1070, although the latter is not a prerequisite.",
+        "prereq_text": "Prerequisites: APMA 0350 and 0360 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 0350",
+            "APMA 0360"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1930Y",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 1941E",
+        "term": "Spring 2024",
+        "title": "Quasi-stationary Distributions",
+        "description": "The quasi-stationary distribution (QSD) of a Markov process with respect to a set G characterizes the distribution of the process, given that it has stayed in G for a very long time. Although they have a long history in probability, QSDs are not nearly as well understood as their (linear) cousins, stationary distributions. Among other issues, the methods available for numerically approximating QSDs are not nearly as good as one would like, and to date there is a poor understanding of when QSDs are unique when the set is unbounded. We will examine the topic in detail and consider all aspects, including computational issues using Monte Carlo and other methods. Prerequisites for the course are two advanced undergraduate courses on probability and stochastic processes.",
+        "prereq_text": "Prerequisites: (APMA 1650, 1655 or MATH 1610) and APMA 0350 and (APMA 1200, 1690, 1710, 1740 or 1860) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "APMA 0350",
+            "APMA 1200",
+            "APMA 1690",
+            "APMA 1710",
+            "APMA 1740",
+            "APMA 1860"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1941E",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 1941F",
+        "term": "Spring 2024",
+        "title": "Matroid Theory",
+        "description": "This senior seminar will introduce the theory of matroids. Matroids are a combinatorial abstraction of the notion of linear independence. We will first explore multiple formalizations of this idea and the \u201ccryptomorphisms\u201d between them. Further topics include contraction / deletion recursions, Tutte polynomials, connections to optimization, and modern algebraic applications.",
+        "prereq_text": "Prerequisites: (MATH 0520 or 0540) and (APMA 1650 or 1655) and (APMA 1200, 1210, 1170, 1740, 1860, MATH 1230, 1530 or 1580) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540",
+            "APMA 1650",
+            "APMA 1655",
+            "APMA 1200",
+            "APMA 1210",
+            "APMA 1170",
+            "APMA 1740",
+            "APMA 1860",
+            "MATH 1230",
+            "MATH 1530",
+            "MATH 1580"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1941F",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 1941G",
+        "term": "Spring 2024",
+        "title": "Asymptotic Methods in Differential Equations",
+        "description": "This will be an applied differential equations course, covering various sort-of rigorous and actually rigorous methods for nonlinear ODE and PDE in interesting asymptotic limits. The main idea is this: If you have a family of differential equations depending on some parameter epsilon, what happens as epsilon goes to 0? Conversely, given a differential equation, what happens if you perturb the solutions a little bit? Topics covered include multiple scales, Laplace's method, matched asymptotic expansions, stationary phase, and WKB methods.",
+        "prereq_text": "Prerequisites: APMA 0350 and 0360 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 0350",
+            "APMA 0360"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/1941G",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2070",
+        "term": "Spring 2024",
+        "title": "Deep Learning for Scientists & Engineers",
+        "description": "This course introduces concepts and implementation of deep learning techniques for computational science and engineering problems to first or second year graduate students. This course entails various methods, including theory and implementation of deep learning techniques to solve a broad range of problems using scientific machine learning. Lectures and tutorials on Python, Tensorflow and PyTorch are also included. Students will understand the underlying theory and mathematics of deep learning; analyze and synthesize data in order to model physical, chemical, biological, and engineering systems; and apply physics-informed neural networks and neural operators to model and simulate multiphysics systems. Undergraduate students who want to enroll in this course should request an override through Courses@Brown.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2070",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2190",
+        "term": "Fall 2023",
+        "title": "Nonlinear Dynamical Systems I",
+        "description": "Basic theory of ordinary differential equations, flows, and maps. Two-dimensional systems. Linear systems. Hamiltonian and integrable systems. Lyapunov functions and stability. Invariant manifolds, including stable, unstable, and center manifolds. Bifurcation theory and normal forms. Nonlinear oscillations and the method of averaging. Chaotic motion, including horseshoe maps and the Melnikov method. Applications in the physical and biological sciences.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2190",
+        "critical_review_data": {
+            "average_hours": "12.38",
+            "max_hours": "21.29",
+            "course_rating": "56%\n3.75",
+            "professor_rating": "84%\n4.56"
+        }
+    },
+    {
+        "code": "APMA 2200",
+        "term": "Spring 2024",
+        "title": "Nonlinear Dynamical Systems: Theory and Applications",
+        "description": "Basic theory of ordinary differential equations, flows, and maps. Two-dimensional systems. Linear systems. Hamiltonian and integrable systems. Lyapunov functions and stability. Invariant manifolds, including stable, unstable, and center manifolds. Bifurcation theory and normal forms. Nonlinear oscillations and the method of averaging. Chaotic motion, including horseshoe maps and the Melnikov method. Applications in the physical and biological sciences.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2200",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2230",
+        "term": "Fall 2023",
+        "title": "Partial Differential Equations I",
+        "description": "The theory of the classical partial differential equations, as well as the method of characteristics and general first order theory. Basic analytic tools include the Fourier transform, the theory of distributions, Sobolev spaces, and techniques of harmonic and functional analysis. More general linear and nonlinear elliptic, hyperbolic, and parabolic equations and properties of their solutions, with examples drawn from physics, differential geometry, and the applied sciences. Generally, semester II of this course concentrates in depth on several special topics chosen by the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2230",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2240",
+        "term": "Spring 2024",
+        "title": "Partial Differential Equations",
+        "description": "The theory of the classical partial differential equations, as well as the method of characteristics and general first order theory. Basic analytic tools include the Fourier transform, the theory of distributions, Sobolev spaces, and techniques of harmonic and functional analysis. More general linear and nonlinear elliptic, hyperbolic, and parabolic equations and properties of their solutions, with examples drawn from physics, differential geometry, and the applied sciences. Generally, semester II of this course concentrates in depth on several special topics chosen by the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2240",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2550",
+        "term": "Fall 2023",
+        "title": "Numerical Solution of Partial Differential Equations I",
+        "description": "Finite difference methods for solving time-dependent initial value problems of partial differential equations. Fundamental concepts of consistency, accuracy, stability and convergence of finite difference methods will be covered. Associated well-posedness theory for linear time-dependent PDEs will also be covered. Some knowledge of computer programming expected.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2550",
+        "critical_review_data": {
+            "average_hours": "10.67",
+            "max_hours": "40.00",
+            "course_rating": "67%\n4.50",
+            "professor_rating": "92%\n5.00"
+        }
+    },
+    {
+        "code": "APMA 2560",
+        "term": "Spring 2024",
+        "title": "Numerical Solution of Partial Differential Equations II",
+        "description": "An introduction to weighted residual methods, specifically spectral, finite element and spectral element methods. Topics include a review of variational calculus, the Rayleigh-Ritz method, approximation properties of spectral end finite element methods, and solution techniques. Homework will include both theoretical and computational problems.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2560",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2570B",
+        "term": "Fall 2023",
+        "title": "Numerical Solution of Partial Differential Equations III",
+        "description": "We will cover finite element methods for ordinary differential equations and for elliptic, parabolic and hyperbolic partial differential equations. Algorithm development, analysis, and computer implementation issues will be addressed. In particular, we will discuss in depth the discontinuous Galerkin finite element method. Prerequisite: APMA 2550 or equivalent knowledge in numerical methods.",
+        "prereq_text": "Prerequisite: APMA 2550.",
+        "prereqs": [
+            "APMA 2550"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2570B",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2580C",
+        "term": "Spring 2024",
+        "title": "Optimization",
+        "description": "This course provides a solid presentation of modern convex analysis and convex optimization algorithms for large scale problems. Topics include: Ekeland's variational principle, subdifferential calculus, duality and Fenchel-Legendre transform, projection on a closed convex set, proximal operators and Moreau's regularization, accelerated and optimal first-order methods, Hopf/Lax-Oleinik representation formulas for Hamilton-Jacobi equations. The course will provide the mathematical and algorithmic underpinnings. It will also explore some applications in signal and image processing, optimal control and machine learning.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2580C",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2610",
+        "term": "Spring 2024",
+        "title": "Recent Applications of Probability and Statistics",
+        "description": "This course develops the mathematical foundations of modern applications of statistics to the computational, cognitive, engineering, and neural sciences. The course is rigorous, but the emphasis is on application. Topics include: Gibbs ensembles and their relation to maximum entropy, large deviations, exponential models and information theory; statistical estimation and classification; graphical models, dynamic programming, MCMC, parameter estimation, and the EM algorithm. Graduate version: 2610; Undergraduate version: 1740. Prerequisites: APMA 1650 or equivalent, programming experience, strong mathematics background. APMA 1200 or APMA 1690 or similar courses recommended. MATH 1010 or equivalent is recommended for APMA 2610.",
+        "prereq_text": "Prerequisites: APMA 1650, 1655, MATH 1610, CSCI 1450, 0450 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1610",
+            "CSCI 1450",
+            "CSCI 0450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2610",
+        "critical_review_data": {
+            "average_hours": "9.00",
+            "max_hours": "13.88",
+            "course_rating": "56%\n4.91",
+            "professor_rating": "74%\n4.98"
+        }
+    },
+    {
+        "code": "APMA 2630",
+        "term": "Fall 2023",
+        "title": "Theory of Probability I",
+        "description": "Part one of a two semester course that provides an introduction to probability theory based on measure theory. The first semester (APMA 2630) covers the following topics: countable state Markov chains, review of real analysis and metric spaces, probability spaces, random variables and measurable functions, Borel-Cantelli lemmas, weak and strong laws of large numbers, conditional expectation and beginning of discrete time martingale theory. Prerequisites\u2014undergraduate probability and analysis, co-requisite\u2014graduate real analysis.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2630",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2640",
+        "term": "Spring 2024",
+        "title": "Theory of Probability II",
+        "description": "Part two of a two semester course that provides an introduction to probability theory based on measure theory. Standard topics covered in the second-semester (APMA 2640) include the following: discrete time martingale theory, weak convergence (also called convergence in distribution) and the central limit theorem, and a study of Brownian motion. Optional topics include the ergodic theorem and large deviation theory. Prerequisites\u2014undergraduate probability and analysis, co-requisite\u2014graduate real analysis.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2640",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2680",
+        "term": "Spring 2024",
+        "title": "Mathematical Statistics II",
+        "description": "The course covers modern nonparametric statistical methods. Topics include: density estimation, multiple regression, adaptive smoothing, cross-validation, bootstrap, classification and regression trees, nonlinear discriminant analysis, projection pursuit, the ACE algorithm for time series prediction, support vector machines, and neural networks. The course will provide the mathematical underpinnings, but it will also touch upon some applications in computer vision/speech recognition, and biological, neural, and cognitive sciences. Prerequisite: APMA 2670.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2680",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2811X",
+        "term": "Spring 2024",
+        "title": "Finite Element Exterior Calculus",
+        "description": "In this course we will cover finite elements for the Hodge Laplacian. We start in three dimensions and discuss the Nedelec finite element spaces for H^1, H(curl) and H(div) and discuss the corresponding de Rham complex. We discuss how they can be applied to the Stokes problem and electro-magnetic problems. We then generalize these spaces to higher dimensions and show how to use them to approximate the Hodge Laplacian. We will mostly follow the review paper: [Finite Element Exterior Calculus: from Hodge Theory to Numerical Stability].",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2811X",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2812A",
+        "term": "Fall 2023",
+        "title": "An Introduction to Stochastic Control",
+        "description": "This is a course on the optimal control of random processes. The first part of the course will focus on discrete time and the optimal control of Markov chains (also called Markov Decision Theory in the context of Reinforcement Learning). Various optimality criteria are introduced and questions of existence of solutions to the corresponding Bellman equation and characterization of optimal controls are addressed. Applications from finance, engineering and optimal stopping will be developed, as well as methods for numerical solution of the Bellman equation. We then consider problems in continuous time, and the difficulties that occur when there is no classical sense solution to the corresponding Bellman equation. If time permits, other applications areas and models with partial observations may be considered. Prerequisites: APMA 2630/2640.",
+        "prereq_text": "Prerequisites: APMA 2630 and 2640.",
+        "prereqs": [
+            "APMA 2630",
+            "APMA 2640"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2812A",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2812H",
+        "term": "Fall 2023",
+        "title": "Introduction to Random Graphs",
+        "description": "This is a proof-based course on various topics in random graphs including properties of the Erdos-Renyi random graphs and configuration models, local weak limit, Kahn-Kalai conjecture and proof, Szemeredi regularity lemma. In addition to the theory, we'll talk about a wide range of applications. Prerequisites: students are expected to have already taken a proof-based probability course such as APMA 2630.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2812H",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2812I",
+        "term": "Spring 2024",
+        "title": "Topics in the Regularity Theory of PDEs",
+        "description": "The course will cover some classical and also recent results about regularity theory of partial differential equations. The topics include boundary degenerate equations, hyperelliptic equations, (stationary and non-stationary) Stokes systems, and well-posedness of certain fluid equations. Prerequisites: graduate level real and functional analysis, and a graduate level PDE course (at least the first semester).",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2812I",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2822B",
+        "term": "Fall 2023",
+        "title": "Introduction to Parallel Computing on Heterogeneous (CPU+GPU) Systems",
+        "description": "This course we will learn fundamental aspects of parallel computing on heterogeneous systems composed of multi-core CPUs and GPUs. This course will contain lectures and hands-on parts. We will cover the following topics: shared memory and distributed memory programming models, parallelization strategies and nested parallelism. We will also learn techniques for managing memory and data on systems with heterogeneous memories (DDR for CPUs and HBM for GPUs); parallelization strategies using OpenMP and MPI; programming GPUs using OpenMP4.5 directives and CUDA. We will focus on programming strategies and application performance. Grading will be based on home-work assignments, and final project.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2822B",
+        "critical_review_data": {}
+    },
+    {
+        "code": "APMA 2822F",
+        "term": "Fall 2023",
+        "title": "Topics in Kinetic Theory",
+        "description": "This is an advanced graduate topic course for PDE techniques in the study of kinetic theory. The course will cover Boltzmann, Landau, and Vlasov types of systems arising in mathematical physics. We will study mathematical topics such as solutions near Maxwellians and vacuum, hydrodynamic limits, and boundary value problems. The course will emphasize developments in the last twenty years in velocity-diffusive kinetic equations such as Landau and non-cutoff Boltzmann equation.",
+        "prereq_text": "Prerequisites: APMA 2230 or MATH 2370.",
+        "prereqs": [
+            "APMA 2230",
+            "MATH 2370"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/APMA/2822F",
+        "critical_review_data": {}
+    }
+]

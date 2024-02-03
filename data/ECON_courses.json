@@ -1,0 +1,1241 @@
+[
+    {
+        "code": "ECON 0110",
+        "term": "Fall 2023",
+        "title": "Principles of Economics",
+        "description": "Extensive coverage of economic issues, institutions, and terminology, plus an introduction to economic analysis and its application to current social problems. Required for all economics concentrators. Prerequisite for ECON 1110, 1130, 1210 and 1620. Serves as a general course for students who will take no other economics courses and want a broad introduction to the discipline. Weekly one-hour conference required.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/0110",
+        "critical_review_data": {
+            "average_hours": "3.90",
+            "max_hours": "8.19",
+            "course_rating": "53%\n3.56",
+            "professor_rating": "71%\n4.14"
+        }
+    },
+    {
+        "code": "ECON 0160",
+        "term": "Spring 2024",
+        "title": "Intro to Finance - Money, Markets and You",
+        "description": "References to business, accounting, and financial markets are ubiquitous in our daily lives but are often intimidating to the outsider due to the specialized vocabulary and extensive use of abbreviations and acronyms (S&P 500, Fed Funds rate, EBITDA, EPS, P/E, DCF, EVA, etc.). However, regardless of our career choices, business and the financial markets play a role in our lives. All of us are consumers of financial services and we are all directly and indirectly impacted by capital allocation and market movements - it behooves us to be educated consumers, employees, business owners, and citizens.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/0160",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 0170",
+        "term": "Fall 2023",
+        "title": "Essential Mathematics for Economics",
+        "description": "This course teaches the mathematical skills useful for upper level Economics classes. Emphasis is on acquisition of tools, problem solving, intuition, and applications rather than proofs.\n\nThis course satisfies the mathematics requirement for the Economics concentration, but does not serve as a prerequisite for upper level courses in Math, Applied Math, or other departments. Students planning further courses in those areas should take MATH 0100 or MATH 0170 (which also satisfy the Economics concentration requirement) instead. Ideally, ECON 0170 should be taken before ECON 1110, or at least simultaneously.",
+        "prereq_text": "Prerequisites: MATH 0060, 0070, 0090, minimum score of 4 in 'AP Calculus AB', minimum score of 3 in 'AP Calculus BC', minimum score of 6 in 'IB SL Mathematics', minimum score of 5 in 'IB HL Math Analysis & Approach', minimum score of 6 in 'IB SL Math Analysis & Approach' or minimum score of 6 in 'IB HL Math Appl. & Interpreta.'.",
+        "prereqs": [
+            "MATH 0060",
+            "MATH 0070",
+            "MATH 0090",
+            "minimum score of 4 in AP Calculus AB",
+            "minimum score of 3 in AP Calculus BC",
+            "minimum score of 6 in IB SL Mathematics",
+            "minimum score of 5 in IB HL Math Analysis & Approach",
+            "minimum score of 6 in IB SL Math Analysis & Approach",
+            "minimum score of 6 in IB HL Math Appl & Interpreta"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/0170",
+        "critical_review_data": {
+            "average_hours": "2.82",
+            "max_hours": "4.91",
+            "course_rating": "64%\n4.35",
+            "professor_rating": "79%\n4.66"
+        }
+    },
+    {
+        "code": "ECON 0400",
+        "term": "Spring 2024",
+        "title": "Race and Inequality in America",
+        "description": "This seminar examines the social disadvantage of African American in the United States from the perspectives of economics, though with due attention to sociology, politics and history. The course takes a holistic view of the relevant issues, ranging broadly. Quantitative economic analysis is used, but mastery of technique is not our primary focus. Issues to be examined include: \u2022 Persistent racial disparities and their structural/historical origins \u2022 Racial stereotypes, racial stigma, and racial justice \u2022 Affirmative action policies \u2022 Reparations for slavery, segregation and discrimination \u2022 Race, Incarceration and American Values \u2022 Race, crime, and urban policing \u2022 Race and American politics",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/0400",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 0600",
+        "term": "Fall 2023",
+        "title": "Gender in the Economy",
+        "description": "What determines the division of labor in a household? Why is the employment to population ratio for men lower today than it was in the 1950s? Why is it higher for women? What is the cause of the gender wage gap and how has it changed over time? These are some of the questions addressed in this course. We will cover economic theories, empirical research, and trends associated with: marriage, divorce, cohabitation, labor supply decisions, division of labor in the household, gender inequality, and fertility choices.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/0600",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 0710",
+        "term": "Fall 2023",
+        "title": "Financial Accounting",
+        "description": "This course covers the basics of accounting theory and practice. Students learn about the accounting procedures for various forms of business organizations. In addition, students learn how to read, analyze, and understand financial statements, and learn how the numbers in the financial statements get there.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/0710",
+        "critical_review_data": {
+            "average_hours": "2.63",
+            "max_hours": "7.63",
+            "course_rating": "41%\n3.60",
+            "professor_rating": "55%\n3.68"
+        }
+    },
+    {
+        "code": "ECON 1000",
+        "term": "Fall 2023",
+        "title": "Using Big Data to Solve Economic and Social Problems",
+        "description": "This course will show how \"big data\" can be used to understand and address some of the most important social and economic problems of our time. The course will give students an introduction to frontier research and policy applications in economics and social science in a non-technical manner that does not require prior coursework in economics or statistics, making it suitable both for students exploring economics for the first time, as well as those with more experience. Topics include equality of opportunity, education, racial disparities, effects of the COVID-19 pandemic, health care, climate change, criminal justice, and tax policy.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1000",
+        "critical_review_data": {
+            "average_hours": "3.42",
+            "max_hours": "7.13",
+            "course_rating": "45%\n3.90",
+            "professor_rating": "67%\n4.57"
+        }
+    },
+    {
+        "code": "ECON 1070",
+        "term": "Fall 2023",
+        "title": "Race, Crime, and Punishment in America",
+        "description": "This new course will use the perspectives of economics to examine the causes and consequences of high levels of incarceration in the United States, especially as it relates to the social disadvantage of African Americans. Quantitative analysis will be used sparingly. Students will be evaluated based on three short writing assignments. Issues examined include: racial disparities in punishment; the impact of crime on communities; policing and race relations in American cities; stereotypes and the economics of crime; the governing of prisons and the limits of punishment.",
+        "prereq_text": "Prerequisites: ECON 0110, minimum score of 4 in 'AP Microeconomics', minimum score of 4 in 'AP Macroeconomics', minimum score of 6 in 'IB HL Economics' or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 0110",
+            "minimum score of 4 in AP Microeconomics",
+            "minimum score of 4 in AP Macroeconomics",
+            "minimum score of 6 in IB HL Economics"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1070",
+        "critical_review_data": {
+            "average_hours": "3.14",
+            "max_hours": "8.14",
+            "course_rating": "44%\n3.82",
+            "professor_rating": "60%\n4.03"
+        }
+    },
+    {
+        "code": "ECON 1090",
+        "term": "Fall 2023",
+        "title": "Introduction to Game Theory",
+        "description": "This course introduces students to game theory, the study of interactive decision making. Students will learn about major solution concepts, gaining a critical understanding of their meaning and limitations, as well as an ability to compute them. Game theory will then be applied to gain insight into a wide range of issues.",
+        "prereq_text": "Prerequisites: MATH 0060, 0070, 0100, 0090, 0170, 0180, 0190, 0200, 0350, ECON 0170, minimum score of 4 in 'AP Calculus AB', minimum score of 4 in 'AP Calculus AB', minimum score of 3 in 'AP Calculus BC', minimum score of 6 in 'IB SL Mathematics' or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0060",
+            "MATH 0070",
+            "MATH 0100",
+            "MATH 0090",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "ECON 0170",
+            "minimum score of 4 in AP Calculus AB",
+            "minimum score of 4 in AP Calculus AB",
+            "minimum score of 3 in AP Calculus BC",
+            "minimum score of 6 in IB SL Mathematics"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1090",
+        "critical_review_data": {
+            "average_hours": "2.80",
+            "max_hours": "4.75",
+            "course_rating": "58%\n3.96",
+            "professor_rating": "72%\n4.24"
+        }
+    },
+    {
+        "code": "ECON 1110",
+        "term": "Fall 2023",
+        "title": "Intermediate Microeconomics",
+        "description": "Tools for use in microeconomic analysis, with some public policy applications. Theory of consumer demand, theories of the firm, market behavior, welfare economics, and general equilibrium.",
+        "prereq_text": "Prerequisites: (ECON 0110 or (minimum score of 4 in 'AP Microeconomics' and minimum score of 4 in 'AP Macroeconomics') or minimum score of 6 in 'IB HL Economics') and (MATH 0060, 0070, 0090, 0100, 0170, 0190, 0180, 0200, 0350, ECON 0170, minimum score of 4 in 'AP Calculus AB', minimum score of 3 in 'AP Calculus BC', minimum score of 6 in 'IB SL Mathematics', minimum score of 5 in 'IB HL Math Analysis & Approach', minimum score of 6 in 'IB SL Math Analysis & Approach' or minimum score of 6 in 'IB HL Math Appl. & Interpreta.') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 0110",
+            "minimum score of 4 in AP Microeconomics",
+            "minimum score of 4 in AP Macroeconomics",
+            "minimum score of 6 in IB HL Economics",
+            "MATH 0060",
+            "MATH 0070",
+            "MATH 0090",
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0190",
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350",
+            "ECON 0170",
+            "minimum score of 4 in AP Calculus AB",
+            "minimum score of 3 in AP Calculus BC",
+            "minimum score of 6 in IB SL Mathematics",
+            "minimum score of 5 in IB HL Math Analysis & Approach",
+            "minimum score of 6 in IB SL Math Analysis & Approach",
+            "minimum score of 6 in IB HL Math Appl & Interpreta"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1110",
+        "critical_review_data": {
+            "average_hours": "3.47",
+            "max_hours": "9.47",
+            "course_rating": "36%\n3.80",
+            "professor_rating": "58%\n4.37"
+        }
+    },
+    {
+        "code": "ECON 1130",
+        "term": "Fall 2023",
+        "title": "Intermediate Microeconomics (Mathematical)",
+        "description": "Microeconomic theory: Theories of the consumer and firm, competitive equilibrium, factor markets, imperfect competition, game theory, welfare economics, general equilibrium. May not be taken in addition to ECON 1110.",
+        "prereq_text": "Prerequisites: (ECON 0110 or (minimum score of 4 in 'AP Microeconomics' and minimum score of 4 in 'AP Macroeconomics') or minimum score of 6 in 'IB HL Economics') and (MATH 0100, 0170, 0180, 0190, 0200, 0350, ECON 0170, minimum score of 4 in 'AP Calculus BC' or minimum score of 6 in 'IB HL Math Analysis & Approach') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 0110",
+            "minimum score of 4 in AP Microeconomics",
+            "minimum score of 4 in AP Macroeconomics",
+            "minimum score of 6 in IB HL Economics",
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "ECON 0170",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 6 in IB HL Math Analysis & Approach"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1130",
+        "critical_review_data": {
+            "average_hours": "5.33",
+            "max_hours": "10.47",
+            "course_rating": "55%\n3.68",
+            "professor_rating": "59%\n3.44"
+        }
+    },
+    {
+        "code": "ECON 1200",
+        "term": "Fall 2023",
+        "title": "History of Economic Thought",
+        "description": "This course covers the history of modern (20th century) economics and economic thinking from the marginal revolution through the first half of the 20th century. The aim will be to develop an understanding of the origin and evolution of central concepts in economic theory, including subjective utility, marginal analysis, competitive markets, examine methodological disputes over positivism and formalism, and the development of general competitive equilibrium. We will consider the emergence of certain subfields in modern economics, and end with a discussion of the relevance of these ideas for economics in the 21st century.",
+        "prereq_text": "Prerequisites: ECON 1110, 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1200",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 1210",
+        "term": "Fall 2023",
+        "title": "Intermediate Macroeconomics",
+        "description": "The economy as a whole: Level and growth of national income, inflation, unemployment, role of government policy.",
+        "prereq_text": "Prerequisites: (ECON 0110 or (minimum score of 4 in 'AP Microeconomics' and minimum score of 4 in 'AP Macroeconomics') or minimum score of 6 in 'IB HL Economics') and (MATH 0060, 0070, 0090, minimum score of 6 in 'IB SL Mathematics', MATH 0100, 0170, 0180, 0190, ECON 0170, MATH 0200, 0350, minimum score of 4 in 'AP Calculus AB', minimum score of 3 in 'AP Calculus BC', minimum score of 6 in 'IB HL Math Appl. & Interpreta.' or minimum score of 6 in 'IB HL Math Analysis & Approach') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 0110",
+            "minimum score of 4 in AP Microeconomics",
+            "minimum score of 4 in AP Macroeconomics",
+            "minimum score of 6 in IB HL Economics",
+            "MATH 0060",
+            "MATH 0070",
+            "MATH 0090",
+            "minimum score of 6 in IB SL Mathematics",
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "ECON 0170",
+            "MATH 0200",
+            "MATH 0350",
+            "minimum score of 4 in AP Calculus AB",
+            "minimum score of 3 in AP Calculus BC",
+            "minimum score of 6 in IB HL Math Appl & Interpreta",
+            "minimum score of 6 in IB HL Math Analysis & Approach"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1210",
+        "critical_review_data": {
+            "average_hours": "5.44",
+            "max_hours": "13.88",
+            "course_rating": "48%\n4.14",
+            "professor_rating": "67%\n4.53"
+        }
+    },
+    {
+        "code": "ECON 1225",
+        "term": "Fall 2023",
+        "title": "Advanced Macroeconomics: Monetary, Fiscal, and Stabilization Policies",
+        "description": "The course is concerned with macroeconomic policy in the US, with special focus on the recent economic crisis. The main objective of the course is to introduce students to the type of models and methods used in current research in macroeconomics both in the scholarly literature but also in the practice of central banks and major policy institutions. Events of the financial crisis and the economic recession of 2007-2009 will serve to illustrate the challenges confronted by macroeconomic analysis.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1210, minimum score of 4 in 'AP Calculus AB', minimum score of 3 in 'AP Calculus BC', minimum score of 6 in 'IB HL Economics', minimum score of 5 in 'IB HL Math Analysis & Approach', minimum score of 6 in 'IB SL Math Analysis & Approach' or minimum score of 6 in 'IB HL Math Appl. & Interpreta.') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1210",
+            "minimum score of 4 in AP Calculus AB",
+            "minimum score of 3 in AP Calculus BC",
+            "minimum score of 6 in IB HL Economics",
+            "minimum score of 5 in IB HL Math Analysis & Approach",
+            "minimum score of 6 in IB SL Math Analysis & Approach",
+            "minimum score of 6 in IB HL Math Appl & Interpreta"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1225",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 1310",
+        "term": "Spring 2024",
+        "title": "Labor Economics",
+        "description": "Labor supply, human capital, income inequality, discrimination, immigration, unemployment.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (APMA 1650, 1655, CSCI 1450, 0450, ECON 1620 or MATH 1620) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "APMA 1650",
+            "APMA 1655",
+            "CSCI 1450",
+            "CSCI 0450",
+            "ECON 1620",
+            "MATH 1620"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1310",
+        "critical_review_data": {
+            "average_hours": "4.60",
+            "max_hours": "13.60",
+            "course_rating": "64%\n4.33",
+            "professor_rating": "73%\n4.30"
+        }
+    },
+    {
+        "code": "ECON 1340",
+        "term": "Fall 2023",
+        "title": "Economics of Global Warming",
+        "description": "The problem of global warming can be usefully be described with the following simple economic model. We face a tradeoff between current consumption, future consumption, and future climate, have preferences over consumption and future climate and would like to choose our optimal climate/consumption bundle. This course is organized around filling in the details required to make this model useful, characterizing the optimal climate/consumption path suggested by the model, and finally, investigating policies to achieve the optimal path.",
+        "prereq_text": "Prerequisites: ECON 1110, 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1340",
+        "critical_review_data": {
+            "average_hours": "5.00",
+            "max_hours": "11.50",
+            "course_rating": "36%\n3.84",
+            "professor_rating": "55%\n4.17"
+        }
+    },
+    {
+        "code": "ECON 1350",
+        "term": "Fall 2023",
+        "title": "Environmental Economics and Policy",
+        "description": "This course considers environmental issues through an economic lens. It is loosely arranged around four questions: why are markets so powerful? Why do markets frequently fail to deliver environmental goods? Can markets be harnessed to deliver environmental goods? If so, why don\u2019t we do that?",
+        "prereq_text": "Prerequisites: ECON 1110, 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1350",
+        "critical_review_data": {
+            "average_hours": "2.86",
+            "max_hours": "8.14",
+            "course_rating": "55%\n3.68",
+            "professor_rating": "72%\n4.20"
+        }
+    },
+    {
+        "code": "ECON 1360",
+        "term": "Spring 2024",
+        "title": "Health Economics",
+        "description": "This course introduces students to the issues, theory and practice of health economics in the US. Topics include the economic determinants of health, the market for medical care, the market for health insurance and the role of the government in health care. Course work includes data analyses using the program STATA.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1620, MATH 1620, CSCI 1450, 0450, APMA 1655 or 1650) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1620",
+            "MATH 1620",
+            "CSCI 1450",
+            "CSCI 0450",
+            "APMA 1655",
+            "APMA 1650"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1360",
+        "critical_review_data": {
+            "average_hours": "5.00",
+            "max_hours": "9.14",
+            "course_rating": "48%\n4.19",
+            "professor_rating": "56%\n3.82"
+        }
+    },
+    {
+        "code": "ECON 1385",
+        "term": "Fall 2023",
+        "title": "Intergenerational Poverty in America",
+        "description": "In the US, the children of poor parents are eight times more likely to grow up to be poor than the children of high-income parents. What accounts for this? In this course we try to answer this question by examining how poverty influences child development and, ultimately, their income and wellbeing in adulthood. We will begin the course with an overview of poverty and intergenerational mobility in America, looking at historical trends and placing the US in international context. To understand why poverty is persistent across generations in the US, we begin with the economic model of skill formation in childhood. We then consider the existing research exploring how a number of factors explain the intergenerational persistence of poverty, including parental time, pollution, infant and child health, the justice system, neighborhoods, stress, and preschool/education systems. This course will involve reading and discussion of economic research and a final independent research project that will require data analysis and the application of empirical methods students have learned in econ 1629/1630.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1629 or 1630) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1629",
+            "ECON 1630"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1385",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 1390",
+        "term": "Fall 2023",
+        "title": "Inequality of Income, Wealth, and Health in the United States",
+        "description": "Inequality of income, wealth, and health, with a focus on the United States. Topics include measurement of inequality, mobility, and poverty; the mapping from individual characteristics to income and wealth; transmission of economic status between generations; the division of national income between capital and labor; factors causing the rise in inequality in the United States since 1980, including technological change and globalization; differential trends in life expectancy, morbidity, and health behaviors among income groups; government policies that impact inequality, including progressive taxation, the minimum wage, support of unionization, public education, and immigration policy; and the political economy of redistributive policies.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (APMA 1650, 1655, CSCI 1450, 0450, ECON 1620 or MATH 1620) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "APMA 1650",
+            "APMA 1655",
+            "CSCI 1450",
+            "CSCI 0450",
+            "ECON 1620",
+            "MATH 1620"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1390",
+        "critical_review_data": {
+            "average_hours": "3.43",
+            "max_hours": "8.17",
+            "course_rating": "38%\n4.05",
+            "professor_rating": "62%\n4.64"
+        }
+    },
+    {
+        "code": "ECON 1410",
+        "term": "Spring 2024",
+        "title": "Urban Economics",
+        "description": "The first part of the course covers the set of conceptual and mathematical models widely used to understand economic activity both between and within cities. The second part of the course examines various urban policy issues including urban transportation, housing, urban poverty, segregation and crime. The course makes extensive use of empirical evidence taken primarily from the United States.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (APMA 1650, 1655, CSCI 1450, 0450, ECON 1620 or MATH 1620) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "APMA 1650",
+            "APMA 1655",
+            "CSCI 1450",
+            "CSCI 0450",
+            "ECON 1620",
+            "MATH 1620"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1410",
+        "critical_review_data": {
+            "average_hours": "3.33",
+            "max_hours": "6.73",
+            "course_rating": "67%\n4.48",
+            "professor_rating": "80%\n4.68"
+        }
+    },
+    {
+        "code": "ECON 1420",
+        "term": "Fall 2023",
+        "title": "Industrial Organization",
+        "description": "A study of industry structure and firm conduct and its economic/antitrust implications. Theoretical and empirical examinations of strategic firm interactions in oligopolistic markets, dominant firm behaviors, and entry deterrence by incumbents. Economics of innovation: research and development activities and government patent policies. Network effects, and why market share critical mass matters for firm survival in certain markets.",
+        "prereq_text": "Prerequisites: ECON 1110, 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1420",
+        "critical_review_data": {
+            "average_hours": "2.33",
+            "max_hours": "6.00",
+            "course_rating": "37%\n2.75",
+            "professor_rating": "47%\n3.54"
+        }
+    },
+    {
+        "code": "ECON 1450",
+        "term": "Fall 2023",
+        "title": "Economic Organizations and Economic Systems",
+        "description": "Positive and normative study of the organizations that comprise and the institutional structures that characterize a modern mixed market economy. Theoretical efficiency and potential limitations of private enterprises and markets including (a) why some market actors are organizations (e.g., companies), (b) effort elicitation problems in organizations, (c) the problem of cooperation in traditional versus behavioral economics, and (d) alternative kinds of organization (including proprietorships, corporations, nonprofits, government agencies). Roles of government, and problems of government failure, including the collective action problem of democracy. State-market balance and contemporary controversies over the economic system in light of the 2008 financial crisis.",
+        "prereq_text": "Prerequisites: ECON 1110, 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1450",
+        "critical_review_data": {
+            "average_hours": "4.20",
+            "max_hours": "8.20",
+            "course_rating": "66%\n4.45",
+            "professor_rating": "81%\n4.73"
+        }
+    },
+    {
+        "code": "ECON 1470",
+        "term": "Spring 2024",
+        "title": "Bargaining Theory and Applications",
+        "description": "Bargaining theory is emerging as an important area within the general rubric of game theory. Emphasis is on providing a relatively elementary version of the theory in order to make it accessible to a large number of students. Covers introductory concepts in game theory, strategic and axiomatic theories of bargaining and their connections, applications to competitive markets, strikes, etc.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1090 or 1870) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1090",
+            "ECON 1870"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1470",
+        "critical_review_data": {
+            "average_hours": "2.24",
+            "max_hours": "9.82",
+            "course_rating": "42%\n3.67",
+            "professor_rating": "57%\n3.83"
+        }
+    },
+    {
+        "code": "ECON 1480",
+        "term": "Spring 2024",
+        "title": "Public Economics",
+        "description": "What is the appropriate role for government in a market economy? How can public policy help or hinder economic outcomes? How do governments choose what policies to pursue? These are the sorts of questions addressed in Public Economics, which uses the tools of economic theory to analyze a wide range of topics, including taxation, public goods, healthcare policy, zoning, voting behavior, and more.",
+        "prereq_text": "Prerequisites: ECON 1110, 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1480",
+        "critical_review_data": {
+            "average_hours": "4.81",
+            "max_hours": "9.69",
+            "course_rating": "62%\n4.16",
+            "professor_rating": "76%\n4.47"
+        }
+    },
+    {
+        "code": "ECON 1487",
+        "term": "Fall 2023",
+        "title": "Translating Evidence into Economic Policy",
+        "description": "The objective of this course is, precisely, to offer those insights to students interested in a career in policymaking by providing case studies of the most important and challenging policy questions of our lifetimes. By the end of the course students will have deepened their understanding of the most important policy challenges from an array of different contexts and the evidence around them, with a special focus on quantitative methods useful to analyze those questions. This class is particularly designed for students that have already studied some of the basic econometric methods, but feel they could get a better understanding of them when looking at them in the context of actual, real-life, policy challenges.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1629 or 1630) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1629",
+            "ECON 1630"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1487",
+        "critical_review_data": {
+            "average_hours": "3.20",
+            "max_hours": "8.60",
+            "course_rating": "54%\n4.10",
+            "professor_rating": "72%\n4.83"
+        }
+    },
+    {
+        "code": "ECON 1490",
+        "term": "Spring 2024",
+        "title": "Theory of Market Design",
+        "description": "How can we use economic theory to better design economic markets? This course studies various theoretical models that help understand important design features in many real-world markets. Topics include market entry, pricing, search, auctions, matching, reputation, and peer-to-peer platform design. We will develop theoretical \u201ccase studies\u201d of several real-world markets (egs. eBay, Airbnb, Google advertising, Uber, Tinder, TaskRabbit). Prerequisites: ECON 1110 or ECON 1130. While ECON 1870 is not a prerequisite, you may benefit from familiarity with this course material.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1490",
+        "critical_review_data": {
+            "average_hours": "3.23",
+            "max_hours": "6.62",
+            "course_rating": "34%\n3.60",
+            "professor_rating": "59%\n4.38"
+        }
+    },
+    {
+        "code": "ECON 1500",
+        "term": "Spring 2024",
+        "title": "Current Global Macroeconomic Challenges",
+        "description": "We will study some of the most important macroeconomic challenges that the world faces today including secular stagnation, inequality, COVID-19, climate change, fiscal sustainability. This course aspires to make you a better economist and a better citizen of the world. We will talk about the `big stuff` that really matters, the economic forces that shape the lives of billions of people \u2013 including your own. By the end of the course, you will feel more comfortable evaluating economic policy aimed at tackling complex real-world economic issues that are riddled with tradeoffs and uncertainty.",
+        "prereq_text": "Prerequisites: ECON 1210 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1210"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1500",
+        "critical_review_data": {
+            "average_hours": "4.00",
+            "max_hours": "9.60",
+            "course_rating": "48%\n4.17",
+            "professor_rating": "70%\n4.77"
+        }
+    },
+    {
+        "code": "ECON 1520",
+        "term": "Fall 2023",
+        "title": "Culture, History and Comparative Development",
+        "description": "Why are some societies rich and others poor? While typical answers emphasize proximate causes like factor accumulation, technological progress, and demographic change, weighing the shadow of history on contemporary economic performance occupies an increasing part of the agenda among growth and development economists. This course will critically survey the recent empirical literature highlighting the role of historical events and geographic endowments in shaping social, political, and cultural factors and the process of development.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1629 or 1630) and (ECON 0170, MATH 0170, 0100, 0090, 0060, 0070, 0180, 0190, 0200, 0350, minimum score of 4 in 'AP Calculus BC', minimum score of 5 in 'IB HL Math Analysis & Approach', minimum score of 6 in 'IB SL Math Analysis & Approach' or minimum score of 6 in 'IB HL Math Appl. & Interpreta.') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1629",
+            "ECON 1630",
+            "ECON 0170",
+            "MATH 0170",
+            "MATH 0100",
+            "MATH 0090",
+            "MATH 0060",
+            "MATH 0070",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 5 in IB HL Math Analysis & Approach",
+            "minimum score of 6 in IB SL Math Analysis & Approach",
+            "minimum score of 6 in IB HL Math Appl & Interpreta"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1520",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 1540",
+        "term": "Spring 2024",
+        "title": "International Trade",
+        "description": "Theory of comparative advantage, trade, and income distribution. Welfare analysis of trade: gains from trade, evaluation of the effects of trade policy instruments-tariffs, quotas, and subsidies. Trade under imperfect competition. Strategic trade policy. Trade, labor markets, preferential trade agreements, and the world trading systems.",
+        "prereq_text": "Prerequisites: ECON 1110, 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1540",
+        "critical_review_data": {
+            "average_hours": "4.31",
+            "max_hours": "9.47",
+            "course_rating": "39%\n4.14",
+            "professor_rating": "60%\n4.48"
+        }
+    },
+    {
+        "code": "ECON 1550",
+        "term": "Fall 2023",
+        "title": "International Finance",
+        "description": "The balance of payments; identification and measurement of surpluses and deficits; international monetary standards; the role of gold and paper money; government policies; free versus fixed exchange rates; international capital movements; war and inflation; the International Monetary Fund.",
+        "prereq_text": "Prerequisites: ECON 1210 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1210"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1550",
+        "critical_review_data": {
+            "average_hours": "2.67",
+            "max_hours": "7.00",
+            "course_rating": "62%\n4.67",
+            "professor_rating": "67%\n5.00"
+        }
+    },
+    {
+        "code": "ECON 1560",
+        "term": "Spring 2024",
+        "title": "Economic Growth",
+        "description": "A theoretical and empirical examination of economic growth and income differences among countries. Focuses on both the historical experience of countries that are currently rich and the process of catch-up among poor countries. Topics include population growth, accumulation of physical and human capital, technological change, natural resources, income distribution, geography, government, and culture.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1560",
+        "critical_review_data": {
+            "average_hours": "6.75",
+            "max_hours": "14.00",
+            "course_rating": "55%\n3.72",
+            "professor_rating": "67%\n3.96"
+        }
+    },
+    {
+        "code": "ECON 1570",
+        "term": "Fall 2023",
+        "title": "The Economics of Latin Americans",
+        "description": "This course introduces students to the economic study of Latin Americans (both in the US and abroad). Topics include the determinants of economic development, institutions and growth, imperialism, conflict, immigration and discrimination.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1620, APMA 1655, 1650, CSCI 1450, 0450 or MATH 1620) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1620",
+            "APMA 1655",
+            "APMA 1650",
+            "CSCI 1450",
+            "CSCI 0450",
+            "MATH 1620"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1570",
+        "critical_review_data": {
+            "average_hours": "4.50",
+            "max_hours": "8.83",
+            "course_rating": "53%\n3.94",
+            "professor_rating": "74%\n4.58"
+        }
+    },
+    {
+        "code": "ECON 1620",
+        "term": "Fall 2023",
+        "title": "Introduction to Econometrics",
+        "description": "Probability and statistical inference. Estimation and hypothesis testing. Simple and multiple regression analysis. Applications emphasized. Weekly one-hour computer conference required.",
+        "prereq_text": "Prerequisites: (ECON 0110, 1110 or 1130) and (MATH 0060, 0070, 0090, 0100, 0170, 0190, 0180, 0200, 0350, ECON 0170, minimum score of 4 in 'AP Calculus AB', minimum score of 3 in 'AP Calculus BC', minimum score of 5 in 'IB HL Math Analysis & Approach', minimum score of 6 in 'IB HL Math Appl. & Interpreta.' or minimum score of 6 in 'IB SL Math Analysis & Approach') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 0110",
+            "ECON 1110",
+            "ECON 1130",
+            "MATH 0060",
+            "MATH 0070",
+            "MATH 0090",
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0190",
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350",
+            "ECON 0170",
+            "minimum score of 4 in AP Calculus AB",
+            "minimum score of 3 in AP Calculus BC",
+            "minimum score of 5 in IB HL Math Analysis & Approach",
+            "minimum score of 6 in IB HL Math Appl & Interpreta",
+            "minimum score of 6 in IB SL Math Analysis & Approach"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1620",
+        "critical_review_data": {
+            "average_hours": "4.09",
+            "max_hours": "7.82",
+            "course_rating": "57%\n3.83",
+            "professor_rating": "61%\n4.17"
+        }
+    },
+    {
+        "code": "ECON 1629",
+        "term": "Fall 2023",
+        "title": "Applied Research Methods for Economists",
+        "description": "This class will cover the basics of applied research in economics. We will cover how we use economic theory to formulate a hypothesis to test and how we use data to test our hypothesis. As part of the coursework, students will be exposed to topics across multiple fields of applied economic research (eg, health, labor, political economy, urban economics, development, etc.) that can be explored in greater detail in more advanced classes. Students will read and discuss papers published in professional journals and perform data analysis.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1620, MATH 1620, APMA 1650 or 1655) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1620",
+            "MATH 1620",
+            "APMA 1650",
+            "APMA 1655"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1629",
+        "critical_review_data": {
+            "average_hours": "4.00",
+            "max_hours": "7.50",
+            "course_rating": "53%\n4.00",
+            "professor_rating": "77%\n4.79"
+        }
+    },
+    {
+        "code": "ECON 1630",
+        "term": "Fall 2023",
+        "title": "Mathematical Econometrics I",
+        "description": "Advanced introduction to econometrics with applications in finance and economics. How to formulate and test economic questions of interest. The multivariate linear regression model is treated in detail, including tests of the model's underlying assumptions. Other topics include: asymptotic analysis, instrumental variable estimation, and likelihood analysis. Convergence concepts and matrix algebra are used extensively.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (APMA 1650, CSCI 1450, 0450, MATH 1620, ECON 1620 or APMA 1655) and (MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "APMA 1650",
+            "CSCI 1450",
+            "CSCI 0450",
+            "MATH 1620",
+            "ECON 1620",
+            "APMA 1655",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1630",
+        "critical_review_data": {
+            "average_hours": "8.00",
+            "max_hours": "15.75",
+            "course_rating": "40%\n3.46",
+            "professor_rating": "75%\n4.41"
+        }
+    },
+    {
+        "code": "ECON 1670",
+        "term": "Spring 2024",
+        "title": "Advanced Topics in Econometrics",
+        "description": "This class will present advanced topics in Econometrics. The focus will be on cross-sectional methods; the class will start with some basic results needed for any advanced econometrics work, before giving an introduction to asymptotic and identification techniques and concepts, with some applications.",
+        "prereq_text": "Prerequisites: ECON 1630 and (MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1630",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1670",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 1680",
+        "term": "Spring 2024",
+        "title": "Machine Learning, Text Analysis, and Economics",
+        "description": "Economists need advanced methods to study data that is complex, high-dimensional, and unstructured. The goal of this course is to highlight the key challenges of working with such data in economics and what machine learning and text analysis methods can be used to address them. Private sector companies, government agencies, and economics graduate programs are all looking for individuals with an understanding of these advanced methods and experience in applying them to real-world problems. This course is designed to help to meet that demand. This course will meet once a week. Lectures will introduce students to new material and include discussions of current economics research using machine learning and text analysis methods. They will also include applied exercises demonstrating methods covered in class and will focus on developing writing assignments and providing peer feedback.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 1629 or 1630) and (CSCI 0040, 0112, 0111, 0150, 0170 or 0190) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1629",
+            "ECON 1630",
+            "CSCI 0040",
+            "CSCI 0112",
+            "CSCI 0111",
+            "CSCI 0150",
+            "CSCI 0170",
+            "CSCI 0190"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1680",
+        "critical_review_data": {
+            "average_hours": "N/A",
+            "max_hours": "N/A",
+            "course_rating": "56%\n4.20",
+            "professor_rating": "69%\n4.03"
+        }
+    },
+    {
+        "code": "ECON 1710",
+        "term": "Fall 2023",
+        "title": "Investments I",
+        "description": "The function and operation of asset markets; the determinants of the prices of stocks, bonds, options, and futures; the relations between risk, return, and investment management; the capital asset pricing model, normative portfolio management, and market efficiency.",
+        "prereq_text": "Prerequisites: (CSCI 1450, 0450, APMA 1650, 1655, ECON 1620 or MATH 1620) and (ECON 1110 or 1130) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 1450",
+            "CSCI 0450",
+            "APMA 1650",
+            "APMA 1655",
+            "ECON 1620",
+            "MATH 1620",
+            "ECON 1110",
+            "ECON 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1710",
+        "critical_review_data": {
+            "average_hours": "2.50",
+            "max_hours": "6.00",
+            "course_rating": "55%\n3.72",
+            "professor_rating": "71%\n4.13"
+        }
+    },
+    {
+        "code": "ECON 1720",
+        "term": "Fall 2023",
+        "title": "Corporate Finance",
+        "description": "A study of theories of decision-making within corporations, with empirical evidence as background. Topics include capital budgeting, risk, securities issuance, capital structure, dividend policy, compensation policy, mergers and acquisitions, leveraged buyouts and corporate restructuring.",
+        "prereq_text": "Prerequisites: ECON 1710 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1710"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1720",
+        "critical_review_data": {
+            "average_hours": "4.00",
+            "max_hours": "10.64",
+            "course_rating": "49%\n4.25",
+            "professor_rating": "82%\n4.81"
+        }
+    },
+    {
+        "code": "ECON 1730",
+        "term": "Fall 2023",
+        "title": "Venture Capital, Private Equity, and Entrepreneurship",
+        "description": "This course will use a combination of lectures and case discussions to prepare students to make decisions, both as entrepreneurs and venture capitalists, regarding the financing of rapidly growing firms. The course will focus on the following five areas:\n1. Business valuation\n2. Financing\n3. Venture Capital Industry\n4. Employment\n5. Exit",
+        "prereq_text": "Prerequisites: ECON 1720 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1720"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1730",
+        "critical_review_data": {
+            "average_hours": "6.58",
+            "max_hours": "12.70",
+            "course_rating": "58%\n3.88",
+            "professor_rating": "70%\n4.09"
+        }
+    },
+    {
+        "code": "ECON 1750",
+        "term": "Spring 2024",
+        "title": "Investments II",
+        "description": "Individual securities: forwards, futures, options and basic derivatives, pricing conditions. Financial markets: main empirical features, equity premium and risk-free rate puzzles, consumption based asset pricing models, stock market participation, international diversification, and topics in behavioral finance.",
+        "prereq_text": "Prerequisites: ECON 1710 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1710"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1750",
+        "critical_review_data": {
+            "average_hours": "3.72",
+            "max_hours": "9.13",
+            "course_rating": "61%\n4.12",
+            "professor_rating": "78%\n4.55"
+        }
+    },
+    {
+        "code": "ECON 1760",
+        "term": "Fall 2023",
+        "title": "Financial Institutions",
+        "description": "This course analyzes the role of financial institutions in allocating resources, managing risk, and exerting corporate governance over firms. After studying interest rate determination, the risk and term structure of interest rates, derivatives, and the role of central banks, it takes an international perspective in examining the emergence, operation, and regulation of financial institutions, especially banks.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and ECON 1210 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 1210"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1760",
+        "critical_review_data": {
+            "average_hours": "3.31",
+            "max_hours": "8.15",
+            "course_rating": "72%\n4.06",
+            "professor_rating": "92%\n4.73"
+        }
+    },
+    {
+        "code": "ECON 1770",
+        "term": "Spring 2024",
+        "title": "Crisis Economics",
+        "description": "This course analyzes the economics of financial crises, starting from the preceding run-up and credit market froth, to how crises are initially triggered, amplified, and propagated to the broader macroeconomy. We will devote considerable time to the workings of the financial system, especially financial intermediation and the role of the central bank. The course aims to ground this in economic theory and empirical analyses: as such, many of the readings will be recent journal articles and working papers. By the end of this course, students will be familiar with the systematic forces that drive financial fragility, and the tradeoffs that policy makers face before, during, and after the crises. They will be able to apply the framework to analyze real world scenarios and current events.",
+        "prereq_text": "Prerequisites: ECON 1710, 1720 and 1760 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1710",
+            "ECON 1720",
+            "ECON 1760"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1770",
+        "critical_review_data": {
+            "average_hours": "3.10",
+            "max_hours": "6.29",
+            "course_rating": "39%\n4.13",
+            "professor_rating": "52%\n3.91"
+        }
+    },
+    {
+        "code": "ECON 1820",
+        "term": "Fall 2023",
+        "title": "Theory of Behavioral Economics",
+        "description": "This course provides a formal introduction to behavioral economics, focusing mostly on individual decision making. For different choice domains, we start by analyzing the behavior implied by benchmark models used by economists (e.g. rational choice, expected utility, exponential discounting). Experimental and empirical evidence is then used to highlight some limitations of these models, and to motivate new models that have been introduced to account for these violations. We will cover, for instance, models of limited attention, non-expected utility, and hyperbolic discounting.",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (MATH 0100, ECON 0170, MATH 0170, 0180, 0190, 0200, 0350, minimum score of 4 in 'AP Calculus BC' or minimum score of 5 in 'IB HL Mathematics') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "MATH 0100",
+            "ECON 0170",
+            "MATH 0170",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 5 in IB HL Mathematics"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1820",
+        "critical_review_data": {
+            "average_hours": "4.41",
+            "max_hours": "7.32",
+            "course_rating": "60%\n4.05",
+            "professor_rating": "78%\n4.59"
+        }
+    },
+    {
+        "code": "ECON 1830",
+        "term": "Spring 2024",
+        "title": "Behavioral Finance",
+        "description": "Over the past several decades, the field of finance has developed a successful paradigm based on the notions that investors and managers are generally rational and that the prices of securities are generally \u201cefficient.\u201d In recent years, however, theoretical and empirical research has shown this paradigm to be insufficient in describing the various features of actual financial markets. In this course we will examine how the insights of behavioral finance complement the traditional paradigm and shed light on the behavior of asset prices, corporate finance, financial crises, and other phenomena.",
+        "prereq_text": "Prerequisites: ECON 1710 and (ECON 1629 or 1630) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1710",
+            "ECON 1629",
+            "ECON 1630"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1830",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 1850",
+        "term": "Spring 2024",
+        "title": "Theory of Economic Growth",
+        "description": "This course explores the origins of wealth and inequality across the globe. It examines: (i) the determinants of the growth process since the emergence of Homo sapiens, (ii) the roots of the dramatic transformation in living standards in the past two centuries, and (iii) the role of deeply rooted geographical, institutional, and cultural characteristics as well as human diversity in the uneven development across the countries and regions. The analysis proposes a resolution for some of the most fundamental mysteries of the journey of humanity: What trapped humankind in poverty for most of human existence? What sparked the massive metamorphosis in living standards over the past two centuries? And what led to the emergence of immense inequality across nations?",
+        "prereq_text": "Prerequisites: (ECON 1110 or 1130) and (ECON 0170, MATH 0100, 0170, 0090, 0060, 0070, 0180, 0190, 0200, 0350, minimum score of 4 in 'AP Calculus BC' or minimum score of 5 in 'IB HL Mathematics') or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "ECON 1110",
+            "ECON 1130",
+            "ECON 0170",
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0090",
+            "MATH 0060",
+            "MATH 0070",
+            "MATH 0180",
+            "MATH 0190",
+            "MATH 0200",
+            "MATH 0350",
+            "minimum score of 4 in AP Calculus BC",
+            "minimum score of 5 in IB HL Mathematics"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1850",
+        "critical_review_data": {
+            "average_hours": "2.30",
+            "max_hours": "5.53",
+            "course_rating": "58%\n3.88",
+            "professor_rating": "72%\n4.24"
+        }
+    },
+    {
+        "code": "ECON 1960",
+        "term": "Fall 2023",
+        "title": "Honors Tutorial for Economics Majors",
+        "description": "Students intending to write an honors thesis in economics must register for this class. The goal is to help students with the process of developing and writing their thesis. Particular focus will be on data analysis, identifying appropriate literature and testing hypotheses. Each student must find a thesis advisor with interests related to their topic. Students will plan to enroll in this course in both semesters.\n\nNote this course does not count toward Economics concentration credit.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/1960",
+        "critical_review_data": {
+            "average_hours": "1.35",
+            "max_hours": "5.41",
+            "course_rating": "37%\n2.77",
+            "professor_rating": "43%\n2.56"
+        }
+    },
+    {
+        "code": "ECON 2010",
+        "term": "Fall 2023",
+        "title": "Mathematics for Economists",
+        "description": "Techniques of mathematical analysis useful in economic theory and econometrics. Linear algebra, constrained maximization, difference and differential equations, calculus of variations.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2010",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2020",
+        "term": "Spring 2024",
+        "title": "Applied Economics Analysis",
+        "description": "This course introduces students to basic concepts in software engineering and scientific computing as preparation for conducting frontier research in all fields of economics. Topics in software engineering will include version control, automation, abstraction, parallel processing, and object-oriented programming. Topics in scientific computing and numerical methods will include programming basics, floating-point arithmetic, numerical differentiation and integration, equation-solving, and numerical optimization. Coding will be in Python and applications will focus on topics likely to arise in economics research. Key concepts will be introduced in interactive lectures and reinforced in in-class group work and at-home assignments.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2020",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2030",
+        "term": "Fall 2023",
+        "title": "Introduction to Econometrics I",
+        "description": "The probabilistic and statistical basis of inference in econometrics.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2030",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2040",
+        "term": "Spring 2024",
+        "title": "Econometric Methods",
+        "description": "Applications of mathematical statistics in economics. The nature of economic observations, cross-section and time series analysis, the analysis of variance and regression analysis, problems of estimation.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2040",
+        "critical_review_data": {
+            "average_hours": "8.00",
+            "max_hours": "17.60",
+            "course_rating": "38%\n4.03",
+            "professor_rating": "60%\n4.50"
+        }
+    },
+    {
+        "code": "ECON 2050",
+        "term": "Fall 2023",
+        "title": "Microeconomics I",
+        "description": "Decision theory: consumer's and producer's theory; general competitive equilibrium and welfare economics: the Arrow-Debreu-McKenzie model; social choice and implementation.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2050",
+        "critical_review_data": {
+            "average_hours": "11.00",
+            "max_hours": "14.33",
+            "course_rating": "68%\n4.62",
+            "professor_rating": "84%\n4.94"
+        }
+    },
+    {
+        "code": "ECON 2060",
+        "term": "Spring 2024",
+        "title": "Microeconomics II",
+        "description": "Economics of imperfect information: expected utility, risk and risk aversion, optimization under uncertainty, moral hazard, and self-selection problems. Economics of imperfect competition: monopoly; price discrimination; monopolistic competition; market structure in single shot, repeated and stage games; and vertical differentiation.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2060",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2070",
+        "term": "Fall 2023",
+        "title": "Macroeconomics I",
+        "description": "Consumption and saving, under both certainty and uncertainty; theory of economic growth; real business cycles; investment; and asset pricing.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2070",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2080",
+        "term": "Spring 2024",
+        "title": "Macroeconomics II",
+        "description": "Money, inflation, economic fluctuations and nominal rigidities, monetary and fiscal policy, investment, unemployment, and search and coordination failure.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2080",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2140",
+        "term": "Spring 2024",
+        "title": "Economic Modeling for Applied Economists",
+        "description": "The purpose of this course is to develop formal tools for building formal, theoretical economic models to support empirical research. This class is aimed at graduate students conducting applied research who have begun conducting independent research. The class will first introduce and review important topics from game theory used in constructing models, but with an applied focus, taking into account common data restrictions and limitations. Emphasis will be placed on tools which can be used to complement existing research goals. Students will be expected to participate in class discussions, weekly assignments, and presentations/reviews of existing papers. Class time will be split between lectures and group discussions/presentations. The main deliverable for the course is to add a formal modeling section to an existing/ongoing independent research project.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2140",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2180",
+        "term": "Fall 2023",
+        "title": "Game Theory",
+        "description": "Non-cooperative games, dominance, Nash equilibrium, refinements. Cooperative games, core, bargaining set, equilibrium in normal form games. Implementation. Repeated games.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2180",
+        "critical_review_data": {
+            "average_hours": "5.80",
+            "max_hours": "8.50",
+            "course_rating": "56%\n4.21",
+            "professor_rating": "71%\n4.43"
+        }
+    },
+    {
+        "code": "ECON 2340",
+        "term": "Fall 2023",
+        "title": "Labor Economics II",
+        "description": "This is the second course in a two-course, graduate-level sequence in labor economics. The course will focus on covering theory and evidence on wage structures, skill demands, inequality, employment and job loss. Particular areas of focus are: (1) wage determination, equalizing wage differentials, and models of discrimination; and (2) the roles played by supply, demand, labor market institutions, and technology in the evolving distribution of earnings.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2340",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2390",
+        "term": "Fall 2023",
+        "title": "Applied Econometrics I",
+        "description": "The main focus of this course is on econometrics methods for causal inference, program evaluations, and evidence-based policy design, which has become essential tools for empirical work in economics. This course covers a variety of empirical study designs, and for each design, introduces suitable econometric methods. They include randomized control trials, observational studies with unconfoundedness, instrumental variable methods, regression discontinuity designs, panel data designs and difference-in-differences, empirical welfare maximization methods, etc. The course assumes knowledge of statistics and econometrics at the level of first-year Ph.D econometrics courses such as ECON 2030 and ECON 2040.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2390",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2400",
+        "term": "Spring 2024",
+        "title": "Applied Econometrics II",
+        "description": "This is the second half of a two-semester graduate-level course on applied econometrics, which builds on core material from econometric theory as well as second-year applied microeconomics field courses. We will focus on the \u201csensible\u201d application of various econometric methods to empirical problems in economics and policy research, primarily in non-experimental data. By the end of the course, students should have a firm grasp of the research designs and methods that are commonly used to address selection/endogeneity problems in empirical economics and be comfortable working with large-scale data sets. The primary assignment in the course is the production of an original research paper, with an in-class presentation. Other assignments will include a replication exercise and a referee report.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2400",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2410",
+        "term": "Spring 2024",
+        "title": "Urbanization",
+        "description": "The first part of the course covers social interactions, productivity spillovers, systems of cities models, urban growth, and rural-urban migration. The second part of the course covers topics such as durable housing, land market regulation and exclusion, and local political economy. Besides covering basic theoretical models, emphasis is placed on working through recent empirical papers on both the USA and developing countries. Prerequisites: ECON 2050 and 2060.",
+        "prereq_text": "Prerequisites: ECON 2050 and 2060.",
+        "prereqs": [
+            "ECON 2050",
+            "ECON 2060"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2410",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2510",
+        "term": "Fall 2023",
+        "title": "Economic Development I",
+        "description": "This course covers issues related to labor, land, and natural resource markets in developing countries, in partial and general equilibrium settings. Topics covered include: The agricultural household model, under complete and incomplete market assumptions; household and individual labor supply, migration, self-employment, and the informal sector; rental market frictions and sharecropping arrangements; and environmental externalities (e.g., pollution, water usage, etc.), and sustainable development. The two development courses (2510 and 2520) may be taken in any order. Students doing development as a major field are expected to complete both.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2510",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2520",
+        "term": "Spring 2024",
+        "title": "Economic Development II",
+        "description": "This course explores questions around history, learning, industry, infrastructure, credit, savings, and behavioral economics in developing societies. It also considers how large, new datasets ('big data') can be used to understand and improve the lives of the poor. The two development courses (2510 and 2520) may be taken in any order. Students doing development as a major field are expected to complete both.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2520",
+        "critical_review_data": {
+            "average_hours": "3.75",
+            "max_hours": "11.00",
+            "course_rating": "59%\n3.97",
+            "professor_rating": "68%\n4.58"
+        }
+    },
+    {
+        "code": "ECON 2600",
+        "term": "Fall 2023",
+        "title": "Bayesian and Structural Econometrics",
+        "description": "This course will cover a number of topics in Bayesian econometrics and estimation of structural dynamic discrete choice models. The Bayesian econometrics part of the course will start with introductory textbook material (Geweke, 2005, Contemporary Bayesian Econometrics and Statistics, denoted by G). A list of 11 topics with corresponding readings is given below. Topics 1-5 will be covered. If time permits, a subset of topics 6-11 determined by interests of the course participants will be covered as well. Readings marked with asterisk * are not required.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2600",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2630",
+        "term": "Spring 2024",
+        "title": "Econometric Theory",
+        "description": "Standard and generalized linear models, simultaneous equations, maximum likelihood, Bayesian inference, panel data, nonlinear models, asymptotic theory, discrete choice, and limited dependent variable models.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2630",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2800",
+        "term": "Fall 2023",
+        "title": "Macroeconomic Slack",
+        "description": "This course will cover research topics related to macroeconomic slack, both on the labor market (unemployment) and on the product market (idleness). It will address the following questions:\n\u2022 Why does slack exist at the macroeconomic level?\n\u2022 Why does slack vary over time? And how is this related to price flexibility or rigidity?\n\u2022 What is the socially optimal level of slack?\n\u2022 How should monetary policy respond to fluctuations in slack over the business cycle?\n\u2022 How should fiscal policy respond to fluctuations in slack over the business cycle?\n\u2022 What happens to slack at the zero lower bound?",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2800",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2830",
+        "term": "Spring 2024",
+        "title": "Economic Growth and Comparative Development",
+        "description": "This course explores the origins of wealth and inequality across the globe. It examines: (i) the determinants of the growth process since the emergence of Homo sapiens, (ii) the roots of the dramatic transformation in living standards in the past two centuries, and (iii) the role of deeply rooted geographical, institutional, and cultural characteristics as well as human diversity in the uneven development across the countries and regions. The analysis proposes a resolution for some of the most fundamental mysteries of the journey of humanity: What trapped humankind in poverty for most of human existence? What sparked the massive metamorphosis in living standards over the past two centuries? And what led to the emergence of immense inequality across nations?",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2830",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2840",
+        "term": "Spring 2024",
+        "title": "Empirical Analysis of Economic Growth",
+        "description": "Examines economic growth, focusing on the effects of technological change, fertility, income inequality, and government policy.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2840",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2860",
+        "term": "Fall 2023",
+        "title": "Comparative Development",
+        "description": "Weighing the shadow of history on contemporary economic performance occupies an increasing part of the agenda among growth and development economists. This course will focus on recent contributions in the literature of the historical determinants of comparative development paying particular attention on how to integrate the use of Geographic Information Systems (GIS) in the research inquiry. The goal is to get you thinking about the big historical processes that have shaped the modern world. We will go over background concepts, critically review recent works and talk about new research designs, like that of spatial regression discontinuity.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2860",
+        "critical_review_data": {}
+    },
+    {
+        "code": "ECON 2890C",
+        "term": "Spring 2024",
+        "title": "Topics in Macro and Monetary Economics",
+        "description": "This is a graduate class that covers selected topics at the intersection of macroeconomics and monetary economics, for students in the second year of the PhD and above. The leading theme of the class is the current economic crisis and how it can be modeled. The syllabus is evolving.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/ECON/2890C",
+        "critical_review_data": {}
+    }
+]
