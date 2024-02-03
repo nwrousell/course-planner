@@ -1,8 +1,58 @@
 {
   "Concentrations": {
     "APMA-CS": {
-      "AB": {},
-      "ScB": {}
+      "ScB": {
+        "Required": {
+          "Pick": 2,
+          "Courses": ["APMA 0350", "APMA 0360"]
+        },
+        "Math": {
+          "Multi": {
+            "Pick": 1,
+            "Courses": ["MATH 0180", "MATH 0200", "MATH 0350"]
+          },
+          "Linear": {
+            "Pick": 1,
+            "Courses": ["MATH 0520", "MATH 0540", "CSCI 0530", "APMA 1170"]
+          },
+          "Optimization": {
+            "Pick": 1,
+            "Courses": [
+              "APMA 1160",
+              "APMA 1170",
+              "APMA 1180",
+              "APMA 1690",
+              "APMA 1740"
+            ]
+          }
+        },
+        "Elective": {
+          "Pick": 3,
+          "Courses": "any APMA"
+        },
+        "Intro": {
+          "Pick": 1,
+          "Courses": ["CSCI 0150", "CSCI 0170", "CSCI 0111"]
+        },
+        "Adv": {
+          "Pick": 1,
+          "Courses": ["CSCI 0190"]
+        },
+        "Adv2": {
+          "Pick": 1,
+          "Courses": ["CSCI 200"]
+        },
+        "Fundations1": ["CSCI 0220", "CSCI 1010", "MATH 1530", "MATH 1001"],
+        "Fundations2": ["CSCI 1010"],
+        "Mathematics1": ["CSCI 0530", "MATH 0520", "MATH 0540"],
+        "Mathematics2": ["CSCI 1450", "APMA 1650", "APMA 1655"],
+        "Systems1": ["CSCI 0320"],
+        "Systems2": ["CSCI 0330", "CSCI 0300"],
+        "Comp Sci": {
+          "Pick": 1,
+          "Courses": "any CS"
+        }
+      }
     },
     "CS": {
       "AB": {
@@ -31,7 +81,6 @@
           "Mathematics3": ["MATH 0180", "MATH 0200", "MATH 0350"],
           "Systems1": ["CSCI 0320"],
           "Systems2": ["CSCI 0330", "CSCI 0300"]
-          // "Courses"
         },
         "Pathways": {
           "Pick": 1,
