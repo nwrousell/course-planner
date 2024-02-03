@@ -1,0 +1,104 @@
+{
+    "Concentrations": {
+        "APMA-CS": {
+            "AB": {},
+            "ScB": {}
+        },
+        "CS": {
+          "AB": {
+            "Math":{
+                
+            }
+
+          },
+          "ScB":{}
+        },
+        "Econ": {
+            "Standard":{
+                "Requirements":
+                {
+                    "Pick": 2,
+                    "Courses": ["ECON 0110", "ECON 1210"]
+                },
+                "Pre-reqs":
+                {
+                    "Pick": 1,
+                    "Courses": ["ECON 0170, MATH 0100"]
+                },
+                "Micro": {
+                    "Pick": 1,
+                    "Courses": ["ECON 1110", "ECON 1130"]
+                },
+                "Stats": {
+                    "Pick": 1,
+                    "Courses": ["ECON 1620", "MATH 1620", "APMA 1650"]
+                },
+                "Research":{
+                    "Pick": 1,
+                    "Courses": ["ECON 1629, ECON 1630"]
+                },
+                "Electives":{
+                    "Pick": 5
+                }
+                
+            }
+        },
+        "APMA":{
+            "AB": {
+              "Requirements": {
+                "Pick": 2,
+                "Courses": ["APMA 350", "APMA 360"]
+              },
+              "Linear":{
+                "Pick": 1,
+                "Courses": ["MATH 0520", "MATH 0540"]
+              },
+              "Multi":{
+                "Pick": 1,
+                "Courses": ["MATH 0180", "MATH 0350", "MATH 0200"]
+              },
+              "Computer":{
+                "Pick": 1,
+                "Courses": ["APMA 0160", "APMA 0200", "CSCI 0111", 
+                "CSCI 0150", "CSCI 0170", "CSCI 0190", "CSCI 0200", 
+                "CLPS 0950", "EEPS 0250"]
+              },
+              "Electives":{
+                "Pick": 5
+              }
+            },
+            "ScB": {
+              "Requirements": {
+                "Pick": 2,
+                "Courses": ["APMA 350", "APMA 360"]
+              },
+              "Linear": {
+                "Pick": 1,
+                "Courses": ["MATH 0520", "MATH 0540"]
+              },
+              "Multi": {
+                "Pick": 1,
+                "Courses": ["MATH 0180", "MATH 0350", "MATH 0200"]
+              },
+              "Computer": {
+                "Pick": 1,
+                "Courses": [
+                  "APMA 0160",
+                  "APMA 0200",
+                  "CSCI 0111",
+                  "CSCI 0150",
+                  "CSCI 0170",
+                  "CSCI 0190",
+                  "CSCI 0200",
+                  "CLPS 0950",
+                  "EEPS 0250"
+                ]
+              },
+              "Electives":{
+                "Pick": 11
+              }
+            }
+        }
+        
+    }
+}
