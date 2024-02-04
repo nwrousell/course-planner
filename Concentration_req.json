@@ -1,756 +1,888 @@
 {
-  "Concentrations": {
-    "APMA-CS": {
-      "ScB": {
-        "Required": {
-          "Pick": 2,
-          "Courses": ["APMA 0350", "APMA 0360"]
-        },
-        "Math": {
-          "Multi": {
-            "Pick": 1,
-            "Courses": ["MATH 0180", "MATH 0200", "MATH 0350"]
-          },
-          "Linear": {
-            "Pick": 1,
-            "Courses": ["MATH 0520", "MATH 0540", "CSCI 0530", "APMA 1170"]
-          },
-          "Optimization": {
-            "Pick": 1,
-            "Courses": [
-              "APMA 1160",
-              "APMA 1170",
-              "APMA 1180",
-              "APMA 1690",
-              "APMA 1740"
-            ]
-          }
-        },
-        "Electives": {
-          "Pick": 3,
-          "Courses": "any APMA"
-        },
-        "CS Intro Sequence": {
-          "Easy": {
-            "First": {
-              "Pick": 1,
-              "Courses": ["CSCI 0150", "CSCI 0170", "CSCI 0111"]
-            },
-            "Second": {
-              "Pick": 1,
-              "Courses": ["CSCI 0200"]
-            }
-          },
-          "Hard": {
-            "First": {
-              "Pick": 1,
-              "Courses": ["CSCI 0190"]
-            },
-            "Second": {
-              "Pick": 1,
-              "Courses": "any"
-            }
-          }
-        },
-        "Fundations1": ["CSCI 0220", "CSCI 1010", "MATH 1530", "MATH 1001"],
-        "Fundations2": ["CSCI 1010"],
-        "Mathematics1": ["CSCI 0530", "MATH 0520", "MATH 0540"],
-        "Mathematics2": ["CSCI 1450", "APMA 1650", "APMA 1655"],
-        "Systems1": ["CSCI 0320"],
-        "Systems2": ["CSCI 0330", "CSCI 0300"],
-        "Comp Sci": {
-          "Pick": 1,
-          "Courses": "any CS"
-        }
-      }
-    },
-    "CS": {
-      "AB": [
-        {
-          "name": "Math",
-          "function": "Pick",
-          "value": 1,
-          "Courses": ["MATH 0100", "MATH 0170", "MATH 0190"]
-        },
-        {
-          "name": "Intro CS Sequence",
-          "function": "OR",
-          "value": [
-            {
-              "name": "Accelerated Sequence",
-              "function": "AND",
-              "value": [
+    "Concentrations": {
+        "CS": {
+            "AB": [
                 {
-                  "function": "Pick",
-                  "value": 1,
-                  "courses": ["CSCI 0190"]
+                    "name": "Math",
+                    "function": "Pick",
+                    "value": 1,
+                    "Courses": [
+                        "MATH 0100",
+                        "MATH 0170",
+                        "MATH 0190"
+                    ]
                 },
                 {
-                  "function": "ANY",
-                  "value": 1,
-                  "courses": ["CSCI"]
-                }
-              ]
-            },
-            {
-              "name": "Normal Sequence",
-              "function": "AND",
-              "value": [
-                {
-                  "function": "Pick",
-                  "value": 1,
-                  "courses": ["CSCI 0150", "CSCI 0170"]
+                    "name": "Intro CS Sequence",
+                    "function": "OR",
+                    "value": [
+                        {
+                            "name": "Accelerated Sequence",
+                            "function": "AND",
+                            "value": [
+                                {
+                                    "function": "Pick",
+                                    "value": 1,
+                                    "courses": [
+                                        "CSCI 0190"
+                                    ]
+                                },
+                                {
+                                    "function": "ANY",
+                                    "value": 1,
+                                    "courses": [
+                                        "CSCI"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Normal Sequence",
+                            "function": "AND",
+                            "value": [
+                                {
+                                    "function": "Pick",
+                                    "value": 1,
+                                    "courses": [
+                                        "CSCI 0150",
+                                        "CSCI 0170"
+                                    ]
+                                },
+                                {
+                                    "function": "Pick",
+                                    "value": 1,
+                                    "courses": [
+                                        "CSCI 0200"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                  "function": "Pick",
-                  "value": 1,
-                  "courses": ["CSCI 0200"]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Intermediate Courses",
-          "function": "AND",
-          "values": [
-            {
-              "name": "5 course req",
-              "function": "PICK",
-              "values": 5
-            },
-            {
-              "name": "int breadth",
-              "function": "AND",
-              "values": [
-                {
-                  "name": "Mathematics",
-                  "function": "OR",
-                  "values": [
-                    {
-                      "name": "Multi",
-                      "function": "Pick",
-                      "values": 1,
-                      "Courses": ["MATH 0180", "MATH 0200", "MATH 0350"]
-                    },
-                    {
-                      "name": "Linear",
-                      "function": "Pick",
-                      "values": 1,
-                      "Courses": ["MATH 0520", "MATH 0540", "CSCI 0530"]
-                    },
-                    {
-                      "name": "Probability",
-                      "function": "Pick",
-                      "values": 1,
-                      "Courses": ["CSCI 1450", "APMA 1650", "APMA 1655"]
-                    }
-                  ]
-                },
-                {
-                  "name": "Foundations",
-                  "function": "OR",
-                  "values": [
-                    {
-                      "name": "Discrete",
-                      "function": "Pick",
-                      "values": 1,
-                      "Courses": ["CSCI 0220", "MATH 1530", "MATH 1001"]
-                    },
-                    {
-                      "name": "Computation",
-                      "function": "Pick",
-                      "values": 1,
-                      "Courses": ["CSCI 1010"]
-                    }
-                  ]
-                },
-                {
-                  "name": "Systems",
-                  "function": "OR",
-                  "values": [
-                    {
-                      "name": "Comp_Systems",
-                      "function": "Pick",
-                      "values": 1,
-                      "Courses": ["CSCI 0300", "CSCI 0330"]
-                    },
-                    {
-                      "name": "Software Engineering",
-                      "function": "Pick",
-                      "values": 1,
-                      "Courses": ["CSCI 0320"]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "function": "OR",
-          "name": "Pathways",
-          "values": [
-            {
-              "name": "Syst_complete",
-              "function": "AND",
-              "values": [
-                {
-                  "name": "Systems",
-                  "function": "AND",
-                  "values": [
-                    {
-                      "name": "Core",
-                      "function": "PICK",
-                      "values": 1,
-                      "Courses": ["CSCI 1380", "CSCI 1670", "CSCI 1680"]
-                    },
-                    {
-                      "name": "Core_AND",
-                      "function": "PICK",
-                      "values": 1,
-                      "Courses": [
-                        "CSCI 1380",
-                        "CSCI 1670",
-                        "CSCI 1680",
-                        "CSCI 1260",
-                        "CSCI 1270",
-                        "CSCI 1320",
-                        "CSCI 1600",
-                        "CSCI 1650",
-                        "CSCI 1650",
-                        "CSCI 1660",
-                        "CSCI 1710",
-                        "CSCI 1730",
-                        "CSCI 1760",
-                        "ENGN 1640"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "Intermediate Courses",
-                  "function": "PICK",
-                  "value": 3,
-                  "Courses": ["CSCI 0300", "CSCI 0330", "CSCI 0220"]
-                }
-              ]
-            },
-
-            {
-              "name": "Software Principles_complete",
-              "function": "AND",
-              "values": [
-                {
-                  "name": "Software Princ",
-                  "function": "AND",
-                  "values": [
-                    {
-                      "name": "Core",
-                      "function": "PICK",
-                      "value": 1,
-                      "Courses": [
-                        "CSCI 1260",
-                        "CSCI 1320",
-                        "CSCI 1600",
-                        "CSCI 1710",
-                        "CSCI 1730"
-                      ]
-                    },
-                    {
-                      "name": "Core_AND",
-                      "function": "PICK",
-                      "value": 1,
-                      "Courses": [
-                        "CSCI 1260",
-                        "CSCI 1320",
-                        "CSCI 1600",
-                        "CSCI 1710",
-                        "CSCI 1730",
-                        "CSCI 1270",
-                        "CSCI 1380",
-                        "CSCI 1650",
-                        "CSCI 1680",
-                        "CSCI 1951I",
-                        "CSCI 1951T",
-                        "CSCI 1951X"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "Intermediate Courses",
-                  "function": "PICK",
-                  "value": 3,
-                  "Courses": [
-                    "CSCI 0300",
-                    "CSCI 0330",
-                    "CSCI 0320",
-                    "CSCI 0220"
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Data_Complete",
-              "function": "AND",
-              "values": [
-                {
-                  "name": "Data",
-                  "function": "AND",
-                  "values": [
-                    {
-                      "name": "Core",
-                      "function": "PICK",
-                      "value": 1,
-                      "Courses": ["CSCI 1270", "CSCI 1420", "CSCI 1951A"]
-                    },
-                    {
-                      "name": "Core_AND",
-                      "function": "PICK",
-                      "value": 1,
-                      "Courses": [
-                        "CSCI 1270",
-                        "CSCI 1420",
-                        "CSCI 1951A",
-                        "CSCI 1550"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "Intermediate Courses",
-                  "function": "AND",
-                  "value": [
-                    {
-                      "name": "Syst",
-                      "function": "PICK",
-                      "value": 1,
-                      "Courses": ["CSCI 0320", "CSCI 0300", "CSCI 0330"]
-                    },
-                    {
-                      "name": "Lin",
-                      "function": "PICK",
-                      "value": 1,
-                      "Courses": ["MATH 0520", "MATH 0540", "CSCI 0530"]
-                    },
-                    {
-                      "name": "Stat",
-                      "function": "PICK",
-                      "value": 1,
-                      "Courses": ["CSCI 1450", "APMA 1650", "APMA 1655"]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "AI/ML_Complete",
-              "function": "AND",
-              "values": [
-                {
-                  "name": "AI/ML",
-                  "function": "AND",
-                  "values": [
-                    {
-                      "name": "Core",
-                      "function": "PICK",
-                      "value": 1,
-                      "courses": [
-                        "CSCI 1410",
-                        "CSCI 1420",
-                        "CSCI 1430",
-                        "CSCI 1460",
-                        "CSCI 1470",
-                        "CSCI 1850",
-                        "CSCI 1951R"
-                      ]
-                    },
-                    {
-                      "name": "Core_AND",
-                      "Function": "AND",
-                      "value": 1,
-                      "courses": [
-                        "CSCI 1410",
-                        "CSCI 1420",
-                        "CSCI 1430",
-                        "CSCI 1460",
-                        "CSCI 1470",
-                        "CSCI 1850",
-                        "CSCI 1951R",
-                        "CSCI 1440",
-                        "CSCI 1550",
-                        "CSCI 1951A",
-                        "CSCI 1951C",
-                        "APMA 1740",
-                        "ENGN 1610"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "Intermediate Courses",
-                  "function": "AND",
-                  "values": [
-                    {
-                      "name": "Stat",
-                      "function": "PICK",
-                      "value": 1,
-                      "courses": ["CSCI 1450", "APMA 1650", "1655"]
-                    },
-                    {
-                      "name": "Linalg",
-                      "function": "PICK",
-                      "value": 1,
-                      "courses": ["MATH 0520", "MATH 0540", "CSCI 0530"]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Theory_Complete",
-              "function": "AND",
-              "values": [{
-                "name": "Theory",
-                "function": "AND",
-                "values": [{
-                    "name": "CORE",
-                    "function":"PICK",
-                    "values": 1,
-                    "Courses": ["CSCI 1510",
-                "CSCI 1550",
-                "CSCI 1570",
-                "CSCI 1760",
-                "CSCI 1951W",
-                "CSCI 1951X"]
-                },{
-                    "name": "CORE",
-                    "function":"PICK",
-                    "values": 1,
-                    "Courses": ["CSCI 1510",
-                "CSCI 1550",
-                "CSCI 1570",
-                "CSCI 1760",
-                "CSCI 1951W",
-                "CSCI 1951X",
-                "CSCI 1440",
-                "CSCI 1550",
-                "CSCI 1710",
-                "CSCI 1810",
-                "CSCI 1820",
-                "CSCI 1950H",
-                "CSCI 1950G"
-            ]
-                }]
-              },{
-                "name": "Intermediate Courses 1",
-                "function": "AND",
-                "values": [{
                     "name": "Intermediate Courses",
                     "function": "AND",
-                    "values": [{
-                        "name": "stat and lin",
-                        "function": "AND",
-                        "value": [{
-                            "name": "stat",
+                    "values": [
+                        {
+                            "name": "5 course req",
                             "function": "PICK",
-                            "value": 1,
-                            "Courses": ["CSCI 1450", "APMA 1650", "APMA 1655"]
-                        },{
-                            "name": "lin",
-                            "function": "PICK",
-                            "value": 1,
-                            "Courses": ["MATH 0520", "MATH 0540", "CSCI 0530"]
-                        }]
-                    },
-                    {
-                        "name": "theory",
-                        "function": "PICK",
-                        "value": 1,
-                        "Courses": ["CSCI 1010"]
-                    }
+                            "values": 5
+                        },
+                        {
+                            "name": "int breadth",
+                            "function": "AND",
+                            "values": [
+                                {
+                                    "name": "Mathematics",
+                                    "function": "OR",
+                                    "values": [
+                                        {
+                                            "name": "Multi",
+                                            "function": "Pick",
+                                            "values": 1,
+                                            "Courses": [
+                                                "MATH 0180",
+                                                "MATH 0200",
+                                                "MATH 0350"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Linear",
+                                            "function": "Pick",
+                                            "values": 1,
+                                            "Courses": [
+                                                "MATH 0520",
+                                                "MATH 0540",
+                                                "CSCI 0530"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Probability",
+                                            "function": "Pick",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 1450",
+                                                "APMA 1650",
+                                                "APMA 1655"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Foundations",
+                                    "function": "OR",
+                                    "values": [
+                                        {
+                                            "name": "Discrete",
+                                            "function": "Pick",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 0220",
+                                                "MATH 1530",
+                                                "MATH 1001"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Computation",
+                                            "function": "Pick",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 1010"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Systems",
+                                    "function": "OR",
+                                    "values": [
+                                        {
+                                            "name": "Comp_Systems",
+                                            "function": "Pick",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 0300",
+                                                "CSCI 0330"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Software Engineering",
+                                            "function": "Pick",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 0320"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "function": "OR",
+                    "name": "Pathways",
+                    "values": [
+                        {
+                            "name": "Syst_complete",
+                            "function": "AND",
+                            "values": [
+                                {
+                                    "name": "Systems",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Core",
+                                            "function": "PICK",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 1380",
+                                                "CSCI 1670",
+                                                "CSCI 1680"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Core_AND",
+                                            "function": "PICK",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 1380",
+                                                "CSCI 1670",
+                                                "CSCI 1680",
+                                                "CSCI 1260",
+                                                "CSCI 1270",
+                                                "CSCI 1320",
+                                                "CSCI 1600",
+                                                "CSCI 1650",
+                                                "CSCI 1650",
+                                                "CSCI 1660",
+                                                "CSCI 1710",
+                                                "CSCI 1730",
+                                                "CSCI 1760",
+                                                "ENGN 1640"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Intermediate Courses",
+                                    "function": "PICK",
+                                    "value": 3,
+                                    "Courses": [
+                                        "CSCI 0300",
+                                        "CSCI 0330",
+                                        "CSCI 0220"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Software Principles_complete",
+                            "function": "AND",
+                            "values": [
+                                {
+                                    "name": "Software Princ",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Core",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "Courses": [
+                                                "CSCI 1260",
+                                                "CSCI 1320",
+                                                "CSCI 1600",
+                                                "CSCI 1710",
+                                                "CSCI 1730"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Core_AND",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "Courses": [
+                                                "CSCI 1260",
+                                                "CSCI 1320",
+                                                "CSCI 1600",
+                                                "CSCI 1710",
+                                                "CSCI 1730",
+                                                "CSCI 1270",
+                                                "CSCI 1380",
+                                                "CSCI 1650",
+                                                "CSCI 1680",
+                                                "CSCI 1951I",
+                                                "CSCI 1951T",
+                                                "CSCI 1951X"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Intermediate Courses",
+                                    "function": "PICK",
+                                    "value": 3,
+                                    "Courses": [
+                                        "CSCI 0300",
+                                        "CSCI 0330",
+                                        "CSCI 0320",
+                                        "CSCI 0220"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Data_Complete",
+                            "function": "AND",
+                            "values": [
+                                {
+                                    "name": "Data",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Core",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "Courses": [
+                                                "CSCI 1270",
+                                                "CSCI 1420",
+                                                "CSCI 1951A"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Core_AND",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "Courses": [
+                                                "CSCI 1270",
+                                                "CSCI 1420",
+                                                "CSCI 1951A",
+                                                "CSCI 1550"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Intermediate Courses",
+                                    "function": "AND",
+                                    "value": [
+                                        {
+                                            "name": "Syst",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "Courses": [
+                                                "CSCI 0320",
+                                                "CSCI 0300",
+                                                "CSCI 0330"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Lin",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "Courses": [
+                                                "MATH 0520",
+                                                "MATH 0540",
+                                                "CSCI 0530"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Stat",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "Courses": [
+                                                "CSCI 1450",
+                                                "APMA 1650",
+                                                "APMA 1655"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "AI/ML_Complete",
+                            "function": "AND",
+                            "values": [
+                                {
+                                    "name": "AI/ML",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Core",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
+                                                "CSCI 1410",
+                                                "CSCI 1420",
+                                                "CSCI 1430",
+                                                "CSCI 1460",
+                                                "CSCI 1470",
+                                                "CSCI 1850",
+                                                "CSCI 1951R"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Core_AND",
+                                            "Function": "AND",
+                                            "value": 1,
+                                            "courses": [
+                                                "CSCI 1410",
+                                                "CSCI 1420",
+                                                "CSCI 1430",
+                                                "CSCI 1460",
+                                                "CSCI 1470",
+                                                "CSCI 1850",
+                                                "CSCI 1951R",
+                                                "CSCI 1440",
+                                                "CSCI 1550",
+                                                "CSCI 1951A",
+                                                "CSCI 1951C",
+                                                "APMA 1740",
+                                                "ENGN 1610"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Intermediate Courses",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Stat",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
+                                                "CSCI 1450",
+                                                "APMA 1650",
+                                                "1655"
+                                            ]
+                                        },
+                                        {
+                                            "name": "Linalg",
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
+                                                "MATH 0520",
+                                                "MATH 0540",
+                                                "CSCI 0530"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Theory_Complete",
+                            "function": "AND",
+                            "values": [
+                                {
+                                    "name": "Theory",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "CORE",
+                                            "function": "PICK",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 1510",
+                                                "CSCI 1550",
+                                                "CSCI 1570",
+                                                "CSCI 1760",
+                                                "CSCI 1951W",
+                                                "CSCI 1951X"
+                                            ]
+                                        },
+                                        {
+                                            "name": "CORE",
+                                            "function": "PICK",
+                                            "values": 1,
+                                            "Courses": [
+                                                "CSCI 1510",
+                                                "CSCI 1550",
+                                                "CSCI 1570",
+                                                "CSCI 1760",
+                                                "CSCI 1951W",
+                                                "CSCI 1951X",
+                                                "CSCI 1440",
+                                                "CSCI 1550",
+                                                "CSCI 1710",
+                                                "CSCI 1810",
+                                                "CSCI 1820",
+                                                "CSCI 1950H",
+                                                "CSCI 1950G"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Intermediate Courses 1",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Intermediate Courses",
+                                            "function": "AND",
+                                            "values": [
+                                                {
+                                                    "name": "stat and lin",
+                                                    "function": "AND",
+                                                    "value": [
+                                                        {
+                                                            "name": "stat",
+                                                            "function": "PICK",
+                                                            "value": 1,
+                                                            "Courses": [
+                                                                "CSCI 1450",
+                                                                "APMA 1650",
+                                                                "APMA 1655"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "lin",
+                                                            "function": "PICK",
+                                                            "value": 1,
+                                                            "Courses": [
+                                                                "MATH 0520",
+                                                                "MATH 0540",
+                                                                "CSCI 0530"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "theory",
+                                                    "function": "PICK",
+                                                    "value": 1,
+                                                    "Courses": [
+                                                        "CSCI 1010"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Security_Complete",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Security",
+                                            "function": "AND",
+                                            "values": [
+                                                {
+                                                    "name": "Core",
+                                                    "function": "PICK",
+                                                    "value": 1,
+                                                    "Courses": [
+                                                        "CSCI 1510",
+                                                        "CSCI 1650",
+                                                        "CSCI 1660"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Core_AND",
+                                                    "function": "PICK",
+                                                    "value": 1,
+                                                    "Courses": [
+                                                        "CSCI 1510",
+                                                        "CSCI 1650",
+                                                        "CSCI 1660",
+                                                        "CSCI 1320",
+                                                        "CSCI 1380",
+                                                        "CSCI 1670",
+                                                        "CSCI 1680",
+                                                        "CSCI 1710",
+                                                        "CSCI 1730",
+                                                        "CSCI 1800",
+                                                        "CSCI 1805",
+                                                        "CSCI 1951L"
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Intermediate 1",
+                                            "function": "AND",
+                                            "values": [
+                                                {
+                                                    "name": "stats+syst",
+                                                    "function": "AND",
+                                                    "value": [
+                                                        {
+                                                            "name": "stats",
+                                                            "function": "PICK",
+                                                            "value": 1,
+                                                            "Courses": [
+                                                                "CSCI 1450",
+                                                                "APMA 1650",
+                                                                "APMA 1655"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "systm",
+                                                            "function": "PICK",
+                                                            "value": 1,
+                                                            "Courses": [
+                                                                "CSCI 0330",
+                                                                "CSCI 0300"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Discrete",
+                                                    "function": "PICK",
+                                                    "value": 1,
+                                                    "Courses": [
+                                                        "CSCI 0220"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Visual Computing_Complete",
+                                    "function": "AND",
+                                    "values": [
+                                        {
+                                            "name": "Visual Computing",
+                                            "function": "AND",
+                                            "value": [
+                                                {
+                                                    "name": "Core",
+                                                    "value": 1,
+                                                    "function": "PICK",
+                                                    "Courses": [
+                                                        "CSCI 1230",
+                                                        "CSCI 1250",
+                                                        "CSCI 1280",
+                                                        "CSCI 1290",
+                                                        "CSCI 1300",
+                                                        "CSCI 1370",
+                                                        "CSCI 1430",
+                                                        "CSCI 1950T",
+                                                        "CSCI 1951T"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Core_AND",
+                                                    "function": "PICK",
+                                                    "value": 1,
+                                                    "Courses": [
+                                                        "CSCI 1230",
+                                                        "CSCI 1250",
+                                                        "CSCI 1280",
+                                                        "CSCI 1290",
+                                                        "CSCI 1300",
+                                                        "CSCI 1370",
+                                                        "CSCI 1430",
+                                                        "CSCI 1950T",
+                                                        "CSCI 1951T",
+                                                        "CSCI 1950N",
+                                                        "CSCI 1470",
+                                                        "CSCI 1950N",
+                                                        "CSCI 1950U",
+                                                        "CSCI 1951V",
+                                                        "CLPS 1520"
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Intermediate Courses 1",
+                                            "function": "AND",
+                                            "value": [
+                                                {
+                                                    "name": "linear",
+                                                    "function": "PICK",
+                                                    "value": 1,
+                                                    "Courses": [
+                                                        "MATH 0520",
+                                                        "MATH 0540",
+                                                        "CSCI 0530"
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "System",
+                                                    "function": "PICK",
+                                                    "value": 1,
+                                                    "Courses": [
+                                                        "CSCI 0320",
+                                                        "CSCI 0330"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Computer Architecture",
+                                    "Pick": 2,
+                                    "Core Courses": [
+                                        "ENGN 1630",
+                                        "ENGN 1640",
+                                        "ENGN 1650"
+                                    ],
+                                    "Related Courses": [
+                                        "CSCI 1660",
+                                        "CSCI 1760",
+                                        "ENGN 1600"
+                                    ],
+                                    "Intermediate Courses": [
+                                        "CSCI 0330",
+                                        "CSCI 0330"
+                                    ]
+                                },
+                                {
+                                    "name": "Computational Biology",
+                                    "Pick": 2,
+                                    "Core Courses": [
+                                        "CSCI 1810",
+                                        "CSCI 1820",
+                                        "CSCI 1850"
+                                    ],
+                                    "Related Courses": [
+                                        "CSCI 1420",
+                                        "CSCI 1430",
+                                        "CSCI 1470",
+                                        "CSCI 1951A",
+                                        "CLPS 1520"
+                                    ],
+                                    "Intermediate Courses": [
+                                        "CSCI 0220",
+                                        "CSCI 1010",
+                                        "CSCI 1450",
+                                        "APMA 1650",
+                                        "APMA 1655"
+                                    ]
+                                },
+                                {
+                                    "name": "Design",
+                                    "Pick": 2,
+                                    "Core Courses": [
+                                        "CSCI 1300",
+                                        "CSCI 1370",
+                                        "CSCI 1951C"
+                                    ],
+                                    "Related Courses": [
+                                        "CSCI 1230",
+                                        "CSCI 1320",
+                                        "CSCI 1360",
+                                        "CSCI 1600",
+                                        "CSCI 1951A",
+                                        "CSCI 1951I",
+                                        "CSCI 1951T",
+                                        "CSCI 1951V",
+                                        "CSCI 1952B",
+                                        "ENGN 1931I",
+                                        "VISA 1720"
+                                    ],
+                                    "Intermediate Courses": [
+                                        "CSCI 0300",
+                                        "CSCI 0320",
+                                        "CSCI 0330",
+                                        "CSCI 1450",
+                                        "APMA 1650",
+                                        "APMA 1655"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "Econ": [
+            {
+                "name": "Requirements",
+                "value": 2,
+                "function": "PICK",
+                "Courses": [
+                    "ECON 0110",
+                    "ECON 1210"
                 ]
-              }]
-              
             },
             {
-              "name": "Security_Complete",
-              "function": "AND",
-              "values": [{
-                "name": "Security",
-                "function": "AND",
-                "values": [{
-                    "name": "Core",
-                    "function": "PICK",
-                    "value": 1,
-                    "Courses": ["CSCI 1510", "CSCI 1650", "CSCI 1660"]
-                },{
-                    "name": "Core_AND",
-                    "function": "PICK",
-                    "value": 1,
-                    "Courses": ["CSCI 1510", "CSCI 1650", "CSCI 1660","CSCI 1320",
-                "CSCI 1380",
-                "CSCI 1670",
-                "CSCI 1680",
-                "CSCI 1710",
-                "CSCI 1730",
-                "CSCI 1800",
-                "CSCI 1805",
-                "CSCI 1951L"]
-                }]
-              },{
-                "name": "Intermediate 1",
-                "function": "AND",
-                "values": [{
-                    "name": "stats+syst",
-                    "function": "AND",
-                    "value": [{
-                        "name": "stats",
-                        "function": "PICK",
-                        "value": 1,
-                        "Courses": ["CSCI 1450","APMA 1650","APMA 1655"]
-                    },{
-                        "name": "systm",
-                        "function": "PICK",
-                        "value": 1,
-                        "Courses": ["CSCI 0330","CSCI 0300"]
-                    }
+                "name": "Pre-reqs",
+                "value": 1,
+                "function": "PICK",
+                "Courses": [
+                    "ECON 0170, MATH 0100"
                 ]
-                    
-                },{
-                    "name": "Discrete",
-                    "function": "PICK",
-                    "value": 1,
-                    "Courses": ["CSCI 0220"]
-                }]
-              }]
             },
             {
-              "name": "Visual Computing_Complete",
-              "function": "AND",
-              "values": [{
-                "name": "Visual Computing",
-                "function": "AND",
-                "value": [{
-                    "name": "Core",
-                    "value": 1,
-                    "function": "PICK",
-                    "Courses": ["CSCI 1230","CSCI 1250","CSCI 1280",
-                "CSCI 1290",
-                "CSCI 1300",
-                "CSCI 1370",
-                "CSCI 1430",
-                "CSCI 1950T",
-                "CSCI 1951T"]
-                },{
-                    "name": "Core_AND",
-                    "function": "PICK",
-                    "value": 1,
-                    "Courses": ["CSCI 1230",
-                "CSCI 1250",
-                "CSCI 1280",
-                "CSCI 1290",
-                "CSCI 1300",
-                "CSCI 1370",
-                "CSCI 1430",
-                "CSCI 1950T",
-                "CSCI 1951T","CSCI 1950N",
-                "CSCI 1470",
-                "CSCI 1950N",
-                "CSCI 1950U",
-                "CSCI 1951V",
-                "CLPS 1520"]}
+                "name": "Micro",
+                "value": 1,
+                "function": "PICK",
+                "Courses": [
+                    "ECON 1110",
+                    "ECON 1130"
                 ]
-
-                
-                }, {
-                    "name": "Intermediate Courses 1",
-                    "function": "AND",
-                    "value": [{
-                        "name": "linear",
-                        "function": "PICK",
-                        "value": 1,
-                        "Courses": ["MATH 0520",
-                "MATH 0540",
-                "CSCI 0530"]
-                    },{
-                        "name": "System",
-                        "function": "PICK",
-                        "value": 1,
-                        "Courses": ["CSCI 0320",
-                "CSCI 0330"]
-                    }]
-                }]
             },
             {
-              "name": "Computer Architecture",
-              "Pick": 2,
-              "Core Courses": ["ENGN 1630", "ENGN 1640", "ENGN 1650"],
-              "Related Courses": ["CSCI 1660", "CSCI 1760", "ENGN 1600"],
-              "Intermediate Courses": ["CSCI 0330", "CSCI 0330"]
+                "name": "Stats",
+                "value": 1,
+                "function": "PICK",
+                "Courses": [
+                    "ECON 1620",
+                    "MATH 1620",
+                    "APMA 1650"
+                ]
             },
             {
-              "name": "Computational Biology",
-              "Pick": 2,
-              "Core Courses": ["CSCI 1810", "CSCI 1820", "CSCI 1850"],
-              "Related Courses": [
-                "CSCI 1420",
-                "CSCI 1430",
-                "CSCI 1470",
-                "CSCI 1951A",
-                "CLPS 1520"
-              ],
-              "Intermediate Courses": [
-                "CSCI 0220",
-                "CSCI 1010",
-                "CSCI 1450",
-                "APMA 1650",
-                "APMA 1655"
-              ]
+                "name": "Research",
+                "value": 1,
+                "function": "PICK",
+                "Courses": [
+                    "ECON 1629, ECON 1630"
+                ]
             },
             {
-              "name": "Design",
-              "Pick": 2,
-              "Core Courses": ["CSCI 1300", "CSCI 1370", "CSCI 1951C"],
-              "Related Courses": [
-                "CSCI 1230",
-                "CSCI 1320",
-                "CSCI 1360",
-                "CSCI 1600",
-                "CSCI 1951A",
-                "CSCI 1951I",
-                "CSCI 1951T",
-                "CSCI 1951V",
-                "CSCI 1952B",
-                "ENGN 1931I",
-                "VISA 1720"
-              ],
-              "Intermediate Courses": [
-                "CSCI 0300",
-                "CSCI 0320",
-                "CSCI 0330",
-                "CSCI 1450",
-                "APMA 1650",
-                "APMA 1655"
-              ]
+                "name": "Electives",
+                "Pick": 5
             }
-          ]
+        ],
+        "APMA": {
+            "AB": [
+                {
+                    "name": "Requirements",
+                    "value": 2,
+                    "function": "PICK",
+                    "Courses": [
+                        "APMA 350",
+                        "APMA 360"
+                    ]
+                },
+                {
+                    "name": "Linear",
+                    "value": 1,
+                    "function": "PICK",
+                    "Courses": [
+                        "MATH 0520",
+                        "MATH 0540"
+                    ]
+                },
+                {
+                    "name": "Multi",
+                    "value": 1,
+                    "function": "PICK",
+                    "Courses": [
+                        "MATH 0180",
+                        "MATH 0350",
+                        "MATH 0200"
+                    ]
+                },
+                {
+                    "name": "Computer",
+                    "value": 1,
+                    "function": "PICK",
+                    "Courses": [
+                        "APMA 0160",
+                        "APMA 0200",
+                        "CSCI 0111",
+                        "CSCI 0150",
+                        "CSCI 0170",
+                        "CSCI 0190",
+                        "CSCI 0200",
+                        "CLPS 0950",
+                        "EEPS 0250"
+                    ]
+                },
+                {
+                    "name": "Electives",
+                    "Pick": 5
+                }
+            ],
+            "ScB": [
+                {
+                    "name": "Requirements",
+                    "value": 2,
+                    "function": "PICK",
+                    "Courses": [
+                        "APMA 350",
+                        "APMA 360"
+                    ]
+                },
+                {
+                    "name": "Linear",
+                    "value": 1,
+                    "function": "PICK",
+                    "Courses": [
+                        "MATH 0520",
+                        "MATH 0540"
+                    ]
+                },
+                {
+                    "name": "Multi",
+                    "value": 1,
+                    "function": "PICK",
+                    "Courses": [
+                        "MATH 0180",
+                        "MATH 0350",
+                        "MATH 0200"
+                    ]
+                },
+                {
+                    "name": "Computer",
+                    "value": 1,
+                    "function": "PICK",
+                    "Courses": [
+                        "APMA 0160",
+                        "APMA 0200",
+                        "CSCI 0111",
+                        "CSCI 0150",
+                        "CSCI 0170",
+                        "CSCI 0190",
+                        "CSCI 0200",
+                        "CLPS 0950",
+                        "EEPS 0250"
+                    ]
+                },
+                {
+                    "name": "Electives",
+                    "Pick": 11
+                }
+            ]
         }
-    ]
     }
-    ]
-  },
-  "Econ": [
-    {
-      "name": "Requirements",
-      "value": 2,
-      "function": "PICK",
-      "Courses": ["ECON 0110", "ECON 1210"]
-    },
-    {
-      "name": "Pre-reqs",
-      "value": 1,
-      "function": "PICK",
-      "Courses": ["ECON 0170, MATH 0100"]
-    },
-    {
-      "name": "Micro",
-      "value": 1,
-      "function": "PICK",
-      "Courses": ["ECON 1110", "ECON 1130"]
-    },
-    {
-      "name": "Stats",
-      "value": 1,
-      "function": "PICK",
-      "Courses": ["ECON 1620", "MATH 1620", "APMA 1650"]
-    },
-    {
-      "name": "Research",
-      "value": 1,
-      "function": "PICK",
-      "Courses": ["ECON 1629, ECON 1630"]
-    },
-    { "name": "Electives", "Pick": 5 }
-  ],
-  "APMA": {
-    "AB": [
-      {
-        "name": "Requirements",
-        "value": 2,
-        "function": "PICK",
-        "Courses": ["APMA 350", "APMA 360"]
-      },
-      {
-        "name": "Linear",
-        "value": 1,
-        "function": "PICK",
-        "Courses": ["MATH 0520", "MATH 0540"]
-      },
-      {
-        "name": "Multi",
-        "value": 1,
-        "function": "PICK",
-        "Courses": ["MATH 0180", "MATH 0350", "MATH 0200"]
-      },
-      {
-        "name": "Computer",
-        "value": 1,
-        "function": "PICK",
-        "Courses": [
-          "APMA 0160",
-          "APMA 0200",
-          "CSCI 0111",
-          "CSCI 0150",
-          "CSCI 0170",
-          "CSCI 0190",
-          "CSCI 0200",
-          "CLPS 0950",
-          "EEPS 0250"
-        ]
-      },
-      {
-        "name": "Electives",
-        "Pick": 5
-      }
-    ],
-    "ScB": [
-      {
-        "name": "Requirements",
-        "value": 2,
-        "function": "PICK",
-        "Courses": ["APMA 350", "APMA 360"]
-      },
-      {
-        "name": "Linear",
-        "value": 1,
-        "function": "PICK",
-        "Courses": ["MATH 0520", "MATH 0540"]
-      },
-      {
-        "name": "Multi",
-        "value": 1,
-        "function": "PICK",
-        "Courses": ["MATH 0180", "MATH 0350", "MATH 0200"]
-      },
-      {
-        "name": "Computer",
-        "value": 1,
-        "function": "PICK",
-        "Courses": [
-          "APMA 0160",
-          "APMA 0200",
-          "CSCI 0111",
-          "CSCI 0150",
-          "CSCI 0170",
-          "CSCI 0190",
-          "CSCI 0200",
-          "CLPS 0950",
-          "EEPS 0250"
-        ]
-      },
-      { "name": "Electives", "Pick": 11 }
-    ]
-  }
 }
