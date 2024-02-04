@@ -108,7 +108,6 @@
                 {
                   "name": "Foundations_Systems",
                   "function": "AND",
-                  "overlapAllowed": true,
                   "value": [
                     {
                       "name": "Foundations",
@@ -745,7 +744,9 @@
         },
         {
           "name": "Electives",
-          "PICK": 5
+          "function": "ANY-ABOVE-1000",
+          "value": 5,
+          "courses": ["APMA"]
         }
       ],
       "ScB": [
@@ -785,9 +786,98 @@
         },
         {
           "name": "Electives",
-          "PICK": 11
+          "function": "ANY-ABOVE-1000",
+          "courses": ["APMA"],
+          "value": 11
         }
       ]
-    }
+    },
+    "N_CS": [
+      {
+        "name": "Math",
+        "function": "PICK",
+        "value": 1,
+        "courses": ["MATH 0100", "MATH 0170", "MATH 0190"]
+      },
+      {
+        "name": "Intro CS Sequence",
+        "function": "OR",
+        "value": [
+          {
+            "name": "Accelerated Sequence",
+            "function": "AND",
+            "overlapAllowed": true,
+            "value": [
+              {
+                "function": "PICK",
+                "value": 1,
+                "courses": ["CSCI 0190"]
+              },
+              {
+                "function": "ANY-ABOVE-1000",
+                "value": 1,
+                "courses": ["CSCI"]
+              }
+            ]
+          },
+          {
+            "name": "Normal Sequence",
+            "function": "AND",
+            "overlapAllowed": true,
+            "value": [
+              {
+                "function": "PICK",
+                "value": 1,
+                "courses": ["CSCI 0150", "CSCI 0170"]
+              },
+              {
+                "function": "PICK",
+                "value": 1,
+                "courses": ["CSCI 0200"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Algos",
+        "function": "PICK",
+        "value": 1,
+        "courses": ["CSCI 0500", "CSCI 1010", "CSCI 1550", "CSCI 1570"]
+      },
+      {
+        "name": "Basic_Math",
+        "function": "PICK",
+        "value": 1,
+        "courses": ["CSCI 0220", "CSCI 1450", "APMA 1650", "APMA 1655"]
+      },
+      {
+        "name": "Systems of Software",
+        "function": "PICK",
+        "value": 1,
+        "courses": ["CSCI 0300", "CSCI 0330", "CSCI 0320"]
+      },
+      {
+        "name": "AIML",
+        "function": "PICK",
+        "value": 1,
+        "courses": [
+          "CSCI 1410",
+          "CSCI 1420",
+          "CSCI 1470",
+          "CSCI 1430",
+          "CSCI 1460",
+          "CSCI 1850",
+          "CSCI 1951A",
+          "CSCI 1952Q"
+        ]
+      },
+      {
+        "name": "Electives",
+        "function": "ANY-ABOVE-1000",
+        "value": 4,
+        "courses": ["CSCI"]
+      }
+    ]
   }
 }
