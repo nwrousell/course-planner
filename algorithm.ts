@@ -7,13 +7,13 @@ type Semester = {
   courses: string[];
 };
 
-function getPicks(req: Requirement, courses_taken: string[]){
+function getPicks(req: Requirement, courses_taken: string[], department: string){
     let leftSide: Requirement, rightSide: Requirement;
     let remainingCourses: string[] = [];
     let remainingNum: number;
     switch (req.function) {
       case "PICK":
-        let remainingNum = req.value as number;
+        remainingNum = req.value as number;
         let reqCopies = req.courses!;
         const prevIndices: number[] = [];
 
@@ -36,9 +36,6 @@ function getPicks(req: Requirement, courses_taken: string[]){
           prevIndices.push(num);
           remainingCourses.push(reqCopies[num]);
         }
-
-        console.log("test");
-        console.log(remainingCourses);
         break;
       //   case "PICK":
       //     remainingNum = req.value as number;
@@ -66,10 +63,10 @@ function getPicks(req: Requirement, courses_taken: string[]){
       //     break;
       case "OR":
         leftSide = req.value[0];
-        const listVal1 = getPicks(leftSide, courses_taken);
+        const listVal1 = getPicks(leftSide, courses_taken, department);
 
         rightSide = req.value[1];
-        const listVal2 = getPicks(rightSide, courses_taken);
+        const listVal2 = getPicks(rightSide, courses_taken, department);
 
         if (listVal1.length < listVal2.length) {
           return listVal1;
@@ -79,28 +76,43 @@ function getPicks(req: Requirement, courses_taken: string[]){
         break;
       case "AND":
         leftSide = req.value[0];
-        const listVal3 = getPicks(leftSide, courses_taken);
+        const listVal3 = getPicks(leftSide, courses_taken, department);
 
         rightSide = req.value[1];
-        const listVal4 = getPicks(rightSide, courses_taken);
+        const listVal4 = getPicks(rightSide, courses_taken, department);
 
         return listVal3.concat(listVal4);
         break;
       case "ANY-ABOVE-1000":
-        for (let j = 0; j < courses_taken.length; j++) {
-          let department = courses_taken[j].split(" ")[0];
-          let number = parseInt(courses_taken[j].split(" ")[1]);
-          // @ts-ignore
-          if (department == req.courses[0] && number >= 1000) {
-            coursesUsed.push(courses_taken[j]);
-            courses_taken.splice(j, 1);
-            break;
+        let remainingCourses: string[] = [];
+        remainingNum = req.value as number;
+        let course_list: string[] = [];
+
+        const above1000 = Object.keys(allCourses).filter((v, i) => (v.split(" ")[0] == department) && (parseInt(v.split(" ")[1]) >= 1000))
+        
+        reqCopies = above1000.filter((course) => {
+          if (courses_taken.includes(course)) {
+            remainingNum--; // Decrement remainingNum for each course taken
+            return false; // Exclude the course from the filtered array
           }
+          return true; // Include the course in the filtered array
+        });
+
+        const prevIndices2: number[] = [];
+        for (let k = 0; k < remainingNum; k++) {
+          let num: number = Math.floor(Math.random() * reqCopies.length);
+
+          while (prevIndices2.includes(num)) {
+            num = Math.floor(Math.random() * reqCopies.length);
+          }
+          prevIndices2.push(num);
+          remainingCourses.push(reqCopies[num]);
         }
         // if we got here, we have no more courses that can satisfy the requirement
         // @ts-ignore
         break;
     }
+    console.log("test2");
     console.log(remainingCourses);
     return remainingCourses;
 }
@@ -108,9 +120,7 @@ function getPicks(req: Requirement, courses_taken: string[]){
 export function getRemainingSemesters(
   coursesTaken: string[],
   semestersTaken: number,
-  interestedSubjects: string[],
   concentration: string,
-  type: string
 ): Semester[] {
 
   const semesterCourses: Semester[] = [];
@@ -120,6 +130,7 @@ export function getRemainingSemesters(
   //     //coursesLeft.push(...[isRequirementSatisfied(courses_taken, requirement)[1]])
 
   //   }
+  
   let requirements = Concentration_req["Concentrations"][concentration] as Requirement[];
   let coursesRemaining: string[] = [""];
 
@@ -134,9 +145,22 @@ export function getRemainingSemesters(
 
 //   console.log(missingList);
 
+    let department = "";
+    if(concentration === "ECON"){
+        department = "ECON"
+    }
+
+    if(concentration === "N_CS"){
+        department = "CSCI"
+    }
+
+    if(concentration === "APMA"){
+        department = "APMA"
+    }
+
   let n = 0;
   for(const req of requirements){
-    coursesRemaining.concat(getPicks(req, coursesTaken));
+    coursesRemaining.concat(getPicks(req, coursesTaken, department));
   }
 
   console.log("required courses:");
@@ -215,4 +239,4 @@ const semestersTaken = 0;
 const coursesTaken = [];
 
 console.log("test")
-console.log(getRemainingSemesters(coursesTaken, 0, [], "N_CS", "AB"))
+console.log(getRemainingSemesters(coursesTaken, 0, "N_CS"))
