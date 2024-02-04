@@ -9,11 +9,11 @@ const NAV_LINKS = [
 
 export default function Nav({ }){
     return (
-        <Flex mx={8} my={4} alignItems={"center"} justifyContent={"space-between"}>
+        <Flex mx={8} my={16} alignItems={"center"} justifyContent={"center"}>
             <Logo />
-            <Flex alignItems={"center"}>
+            {/* <Flex alignItems={"center"}>
                 { NAV_LINKS.map((props, i) => <NavLink {...props} key={i} />) }
-            </Flex>
+            </Flex> */}
         </Flex>
     )
 }

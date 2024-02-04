@@ -1,8 +1,8 @@
 export type Requirement = {
-    name: String
+    name: string
     function: 'PICK' | 'AND' | 'OR' | 'ANY-ABOVE-1000'
     value: number | Requirement[]
-    courses?: String[]
+    courses?: string[]
     overlapAllowed?: boolean // AND-specific: can courses be used for both branches?
 }
 

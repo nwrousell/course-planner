@@ -113,7 +113,7 @@
     },
     "CSCI 0200": {
         "code": "CSCI 0200",
-        "term": "Fall 2023",
+        "term": "Spring 2024",
         "title": "Program Design with Data Structures and Algorithms",
         "description": "Students extend their program-design skills while learning multiple data structures, common graph algorithms, different forms of societal impacts from programs, how to analyze programs for performance, and how to work effectively with multiple styles of programming languages. Examples and course projects draw from several areas of computer science to help students identify their broader interests within the field. There will be a required weekly lab session involving hands-on work with course material.\nPrerequisite: CSCI 0112, CSCI 0150, 0170, or CSCI 0190. In addition, CSCI 0111 can be used with both additional work and the instructor's permission. The first two weeks of the course will be taught as at least two parallel tracks based on which prerequisite course a student has taken.\nCSCI 0200 will be offered every semester (fall and spring).",
         "prereq_text": "Prerequisites: CSCI 0112, 0150, 0170 or 0190.",
