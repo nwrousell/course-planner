@@ -3,19 +3,20 @@ import Nav from "@/components/Nav";
 import { Box, Heading, Center, Grid, SimpleGrid, Button, Select, Text, Checkbox, Stack } from "@chakra-ui/react";
 import Class, { ClassData } from "@/components/Class";
 import all_courses from '../../public/data/all_courses.json'
-import ClassSearch from "@/components/ClassSearch";
 import Semester from "@/components/Semester";
 import { useState } from "react";
 import { AddIcon } from "@chakra-ui/icons";
 import RequirementsBox, { RequirementProgress } from "@/components/RequirementsBox";
 import Concentration_req from "../../public/data/Concentration_req.json"
 import { Requirement, isRequirementSatisfied } from "@/utilities/validator";
+import { getRemainingSemesters } from "@/utilities/algorithm";
 
 export default function Home() {
-    const [coursesBySemester, setCoursesBySemester] = useState<ClassData[][]>([[], []])
+    const [coursesBySemester, setCoursesBySemester] = useState<ClassData[][]>([[]])
     // const [concentration, setConcentration] = useState("ECON")
     const [econChecked, setEconChecked] = useState(true)
     const [csChecked, setCSChecked] = useState(false)
+    const [apmaChecked, setAPMAChecked] = useState(false)
 
 
     const onAddCourse = (code: string, i: number) => {
@@ -32,6 +33,18 @@ export default function Home() {
         setCoursesBySemester([...coursesBySemester, []])
     }
 
+    const generateCoursePath = () => {
+        const numSemesters = coursesBySemester.length
+        const remainingSemesters = 8 - numSemesters
+        const coursesTaken = combineListOfLists(coursesBySemester)
+        const concentration = econChecked ? "ECON" : "N_CS"
+        const newSemesters = getRemainingSemesters(coursesTaken, numSemesters, concentration)
+        const newCourseCodes = newSemesters.map(({ courses }, i) => courses)
+        const newCourses = newCourseCodes.map(( courses, i) => courses.map((code, j) => all_courses[code]))
+        console.log("New Courses: ", newCourseCodes)
+        setCoursesBySemester([...coursesBySemester, ...newCourses])
+    }
+
     // const course = all_courses["CSCI 0081"] as unknown as ClassData
     const codesOfCoursesTaken = combineListOfLists(coursesBySemester).map(({ code }, i) => code)
     const coursesNotTaken = Object.keys(all_courses).filter((code, i) => !codesOfCoursesTaken.includes(code))
@@ -44,6 +57,7 @@ export default function Home() {
     
     const requirementProgressEcon: RequirementProgress[] = []
     for(const req of Concentration_req["Concentrations"]["ECON"]){
+        //@ts-ignore
         const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(codesOfCoursesTaken, req)
         // console.log(`Requirement: ${req.name}, satisfied: ${satisfied}, coursesUsed: ${coursesUsed.join(", ")}, # coursesLeft: ${coursesLeft}`)
         requirementProgressEcon.push({
@@ -56,6 +70,15 @@ export default function Home() {
         const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(codesOfCoursesTaken, req)
         // console.log(`Requirement: ${req.name}, satisfied: ${satisfied}, coursesUsed: ${coursesUsed.join(", ")}, # coursesLeft: ${coursesLeft}`)
         requirementProgressCS.push({
+            satisfied, coursesLeft, name: req.name, coursesUsed
+        })
+    }
+    const requirementProgressAPMA: RequirementProgress[] = []
+    for(const req of Concentration_req["Concentrations"]["APMA"]["AB"]){
+        //@ts-ignore
+        const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(codesOfCoursesTaken, req)
+        // console.log(`Requirement: ${req.name}, satisfied: ${satisfied}, coursesUsed: ${coursesUsed.join(", ")}, # coursesLeft: ${coursesLeft}`)
+        requirementProgressAPMA.push({
             satisfied, coursesLeft, name: req.name, coursesUsed
         })
     }
@@ -94,9 +117,11 @@ export default function Home() {
                 <Box position={"fixed"} right="8em" top="50%" transform={"translateY(-50%)"}>
                     { econChecked && <RequirementsBox concentration={"ECON"} requirements={requirementProgressEcon}/>}
                     { csChecked && <RequirementsBox concentration={"CS"} requirements={requirementProgressCS}/>}
+                    { apmaChecked && <RequirementsBox concentration={"APMA"} requirements={requirementProgressAPMA}/>}
                 </Box>
             </Box>
             <Text position={"absolute"} bottom="1em" transform={"translateX(-50%)"} color="gray.700" left={"50%"}>Made for Hack@Brown 2024 by Ryan Eng, Julian Beaudry, and Noah Rousell</Text>
+            <Button onClick={generateCoursePath} colorScheme={"green"} position="fixed" right={'3em'} bottom={'3em'}>Generate possible course path</Button>
         </Box>
     )
 }

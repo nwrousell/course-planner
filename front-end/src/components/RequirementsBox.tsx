@@ -16,7 +16,7 @@ export default function RequirementsBox({ requirements, concentration }: { requi
         <Box minW="sm" my={2} borderRadius={'md'} borderWidth={1} p={4} borderColor={'blue.100'} bg={'white'}>
             <Heading fontSize={'2xl'}>{concentration}</Heading>
             { requirements.map(({ name, coursesLeft, satisfied, coursesUsed }, i) => (
-                <Flex p={1} mb={1} borderRadius={"md"} bg={satisfied ? 'green.50' : 'red.50'} justifyContent={'space-between'} alignItems={'center'}>
+                <Flex key={i} p={1} mb={1} borderRadius={"md"} bg={satisfied ? 'green.50' : 'red.50'} justifyContent={'space-between'} alignItems={'center'}>
                     <Text fontSize={'xl'}>{name}</Text>
                     <Text fontSize={'lg'}>{ satisfied ? `${coursesUsed.length}/${coursesUsed.length}` : `${coursesLeft} left` }</Text>
                 </Flex>

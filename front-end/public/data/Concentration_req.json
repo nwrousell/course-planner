@@ -680,7 +680,7 @@
         "name": "Pre-reqs",
         "value": 1,
         "function": "PICK",
-        "courses": ["ECON 0170, MATH 0100"]
+        "courses": ["ECON 0170", "MATH 0100"]
       },
       {
         "name": "Micro",
@@ -698,7 +698,7 @@
         "name": "Research",
         "value": 1,
         "function": "PICK",
-        "courses": ["ECON 1629, ECON 1630"]
+        "courses": ["ECON 1629", "ECON 1630"]
       },
       {
         "name": "Electives",

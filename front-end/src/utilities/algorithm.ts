@@ -1,6 +1,6 @@
-import Concentration_req from "./Concentration_req.json";
-import allCourses from "./data/all_courses.json"
-import {Requirement, isRequirementSatisfied} from "./front-end/src/utilities/validator"
+import Concentration_req from "../../public/data/Concentration_req.json";
+import all_courses from "../../public/data/all_courses.json"
+import {Requirement, isRequirementSatisfied} from "./validator"
 
 type Semester = {
   semesterNum: number;
@@ -11,10 +11,12 @@ function getPicks(req: Requirement, courses_taken: string[], department: string)
     let leftSide: Requirement, rightSide: Requirement;
     let remainingCourses: string[] = [];
     let remainingNum: number;
+    let reqCopies
     switch (req.function) {
       case "PICK":
         remainingNum = req.value as number;
-        let reqCopies = req.courses!;
+        reqCopies = req.courses;
+        // console.log("Glehg:",reqCopies)
         const prevIndices: number[] = [];
 
         // Filtering out courses that have been taken already
@@ -34,33 +36,11 @@ function getPicks(req: Requirement, courses_taken: string[], department: string)
             num = Math.floor(Math.random() * reqCopies.length);
           }
           prevIndices.push(num);
+        //   console.log("NOW HERE", reqCopies[num])
+          //@ts-ignore
           remainingCourses.push(reqCopies[num]);
         }
         break;
-      //   case "PICK":
-      //     remainingNum = req.value as number;
-      //     const prevIndices: number[] = [];
-      //     let reqCopies = req.courses!;
-      //     //filtering out courses that have been taken already
-      //     for(const course in reqCopies){
-      //         if(courses_taken.includes(course)){
-      //             reqCopies = reqCopies.filter((v) => !courses_taken.includes(course));
-      //             remainingNum--;
-      //         }
-      //     }
-
-      //     //picking from filtered list
-      //     for (let k = 0; k < remainingNum; k++) {
-      //       let num: number = Math.random() * reqCopies?.length!;
-      //       while (prevIndices.includes(num)) {
-      //         num = Math.random() * reqCopies?.length!;
-      //       }
-      //       prevIndices.push(num);
-      //         remainingCourses.push(reqCopies[num]);
-      //     }
-      //     console.log("test");
-      //     console.log(remainingCourses);
-      //     break;
       case "OR":
         leftSide = req.value[0];
         const listVal1 = getPicks(leftSide, courses_taken, department);
@@ -88,7 +68,7 @@ function getPicks(req: Requirement, courses_taken: string[], department: string)
         remainingNum = req.value as number;
         let course_list: string[] = [];
 
-        const above1000 = Object.keys(allCourses).filter((v, i) => (v.split(" ")[0] == department) && (parseInt(v.split(" ")[1]) >= 1000))
+        const above1000 = Object.keys(all_courses).filter((v, i) => (v.split(" ")[0] == department) && (parseInt(v.split(" ")[1]) >= 1000))
         
         reqCopies = above1000.filter((course) => {
           if (courses_taken.includes(course)) {
@@ -112,8 +92,8 @@ function getPicks(req: Requirement, courses_taken: string[], department: string)
         // @ts-ignore
         break;
     }
-    console.log("test2");
-    console.log(remainingCourses);
+    // console.log("test2");
+    // console.log(remainingCourses);
     return remainingCourses;
 }
 
@@ -124,28 +104,11 @@ export function getRemainingSemesters(
 ): Semester[] {
 
   const semesterCourses: Semester[] = [];
-  //   for (const key in concentrationReq) {
-  //     //TODO: Making total coursesLeft list
-
-  //     //coursesLeft.push(...[isRequirementSatisfied(courses_taken, requirement)[1]])
-
-  //   }
-  
   let requirements = Concentration_req["Concentrations"][concentration] as Requirement[];
-  let coursesRemaining: string[] = [""];
+  if(concentration == "APMA") requirements = requirements["AB"]
+  let coursesRemaining: string[] = [];
 
-//   let missingList : number[] = [];
-//   for (const req of requirements) {
-//     const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(
-//       coursesTaken,
-//       req
-//     );
-//     missingList.push(coursesLeft)
-//   }
-
-//   console.log(missingList);
-
-    let department = "";
+    let department;
     if(concentration === "ECON"){
         department = "ECON"
     }
@@ -160,11 +123,13 @@ export function getRemainingSemesters(
 
   let n = 0;
   for(const req of requirements){
-    coursesRemaining.concat(getPicks(req, coursesTaken, department));
+    const result = getPicks(req, coursesTaken, department)
+    // console.log("HERE", result)
+    coursesRemaining = coursesRemaining.concat(result);
   }
 
-  console.log("required courses:");
-  console.log(coursesRemaining);
+//   console.log("required courses:");
+//   console.log(coursesRemaining);
 
   const sortedCourses = coursesRemaining.sort((a, b) => {
     const [aPrefix, aNumber] = a.split(" ");
@@ -182,12 +147,14 @@ export function getRemainingSemesters(
     }
   });
 
-  console.log("sorted courses:");
-  console.log(sortedCourses);
+//   console.log("sorted courses:");
+//   console.log(sortedCourses);
 
   let pos = 0;
   const averageConcentrationCourses: number =
     sortedCourses.length / (8 - semestersTaken);
+
+//   console.log(sortedCourses)
 
   while (coursesRemaining.length > 0) {
     const isSpring: Boolean = (semestersTaken + pos) % 2 === 1;
@@ -203,16 +170,19 @@ export function getRemainingSemesters(
       while (true) {
         let n = 0;
         if (isSpring) {
-          if (allCourses[sortedCourses[n]]["term"].split(" ")[0] === "Spring") {
+          if (all_courses[sortedCourses[n]]["term"].split(" ")[0] === "Spring") {
             semester["courses"].push(coursesRemaining[n]);
             coursesRemaining.splice(n, 1);
+            break
           } else {
             n++;
           }
         } else {
-          if (allCourses[sortedCourses[n]]["term"].split(" ")[0] === "Fall") {
+            console.log(sortedCourses[n], all_courses[sortedCourses[n]])
+          if (all_courses[sortedCourses[n]]["term"].split(" ")[0] === "Fall") {
             semester["courses"].push(coursesRemaining[n]);
             coursesRemaining.splice(n, 1);
+            break
           } else {
             n++;
           }
@@ -230,13 +200,13 @@ export function getRemainingSemesters(
     semesterCourses.unshift(semester);
     pos++;
   }
-  return semesterCourses;
+  return semesterCourses
 }
 
-const concentration = "CS";
-const type = "AB";
-const semestersTaken = 0;
-const coursesTaken = [];
+// const concentration = "CS";
+// const type = "AB";
+// const semestersTaken = 0;
+// const coursesTaken = [];
 
-console.log("test")
-console.log(getRemainingSemesters(coursesTaken, 0, "N_CS"))
+// console.log("test")
+// console.log(getRemainingSemesters(coursesTaken, 0, "N_CS"))
