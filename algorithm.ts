@@ -7,37 +7,90 @@ type Semester = {
   courses: string[];
 };
 
-function getPicks(req: Requirement, missingVal: number){
+function getPicks(req: Requirement, courses_taken: string[]){
     let leftSide: Requirement, rightSide: Requirement;
+    let remainingCourses: string[] = [];
+    let remainingNum: number;
     switch (req.function) {
       case "PICK":
+        let remainingNum = req.value as number;
+        let reqCopies = req.courses!;
         const prevIndices: number[] = [];
-        for (let k = 0; k < missingVal; k++) {
-          let num: number = Math.random() * req.courses?.length!;
+
+        // Filtering out courses that have been taken already
+        reqCopies = reqCopies.filter((course) => {
+          if (courses_taken.includes(course)) {
+            remainingNum--; // Decrement remainingNum for each course taken
+            return false; // Exclude the course from the filtered array
+          }
+          return true; // Include the course in the filtered array
+        });
+
+        // Picking from the filtered list
+        for (let k = 0; k < remainingNum; k++) {
+          let num: number = Math.floor(Math.random() * reqCopies.length);
+
           while (prevIndices.includes(num)) {
-            num = Math.random() * req.courses?.length!;
+            num = Math.floor(Math.random() * reqCopies.length);
           }
           prevIndices.push(num);
+          remainingCourses.push(reqCopies[num]);
         }
+
+        console.log("test");
+        console.log(remainingCourses);
         break;
+      //   case "PICK":
+      //     remainingNum = req.value as number;
+      //     const prevIndices: number[] = [];
+      //     let reqCopies = req.courses!;
+      //     //filtering out courses that have been taken already
+      //     for(const course in reqCopies){
+      //         if(courses_taken.includes(course)){
+      //             reqCopies = reqCopies.filter((v) => !courses_taken.includes(course));
+      //             remainingNum--;
+      //         }
+      //     }
+
+      //     //picking from filtered list
+      //     for (let k = 0; k < remainingNum; k++) {
+      //       let num: number = Math.random() * reqCopies?.length!;
+      //       while (prevIndices.includes(num)) {
+      //         num = Math.random() * reqCopies?.length!;
+      //       }
+      //       prevIndices.push(num);
+      //         remainingCourses.push(reqCopies[num]);
+      //     }
+      //     console.log("test");
+      //     console.log(remainingCourses);
+      //     break;
       case "OR":
         leftSide = req.value[0];
-        const listVal1 = getPicks(leftSide, missingList[n]);
+        const listVal1 = getPicks(leftSide, courses_taken);
 
         rightSide = req.value[1];
-        const listVal2 = getPicks(rightSide, missingList[n]);
+        const listVal2 = getPicks(rightSide, courses_taken);
+
+        if (listVal1.length < listVal2.length) {
+          return listVal1;
+        } else {
+          return listVal2;
+        }
         break;
       case "AND":
         leftSide = req.value[0];
-        const listVal3 = getPicks(leftSide, missingList[n]);
+        const listVal3 = getPicks(leftSide, courses_taken);
 
         rightSide = req.value[1];
-        const listVal4 = getPicks(rightSide, missingList[n]);
+        const listVal4 = getPicks(rightSide, courses_taken);
+
+        return listVal3.concat(listVal4);
         break;
       case "ANY-ABOVE-1000":
-        getPicks(req.value[0], missingList[n]);
+        //getPicks(req.value[0], missingList[n]);
         break;
     }
+    return remainingCourses;
 }
 
 export function getRemainingSemesters(
@@ -61,51 +114,24 @@ export function getRemainingSemesters(
   let requirements = Concentration_req["Concentrations"][concentration] as Requirement[];
   let coursesRemaining: string[] = [""];
 
-  let missingList : number[] = [];
-  for (const req of requirements) {
-    const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(
-      coursesTaken,
-      req
-    );
-    missingList.push(coursesLeft)
-  }
+//   let missingList : number[] = [];
+//   for (const req of requirements) {
+//     const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(
+//       coursesTaken,
+//       req
+//     );
+//     missingList.push(coursesLeft)
+//   }
 
-  console.log(missingList);
+//   console.log(missingList);
 
   let n = 0;
   for(const req of requirements){
-    let leftSide: Requirement, rightSide: Requirement;
-    switch(req.function){
-        case "PICK":
-            const prevIndices: number[] = [];
-            for(let k = 0; k < missingList[n]; k++){
-                let num: number = Math.random() * req.courses?.length!;
-                while(prevIndices.includes(num)){
-                    num = Math.random() * req.courses?.length!;
-                }
-                prevIndices.push(num);
-            }
-            break;
-        case "OR":
-            leftSide = req.value[0];
-            const listVal1 = getPicks(leftSide, missingList[n]);
-
-            rightSide = req.value[1];
-            const listVal2 = getPicks(rightSide, missingList[n]);
-            break;
-        case "AND":
-            leftSide = req.value[0];
-            const listVal3 = getPicks(leftSide, missingList[n]);
-
-            rightSide = req.value[1];
-            const listVal4 = getPicks(rightSide, missingList[n]);
-            break;
-        case "ANY-ABOVE-1000":
-            getPicks(req.value[0], missingList[n]);
-            break;
-    }
-    n++;
+    coursesRemaining.concat(getPicks(req, coursesTaken));
   }
+
+  console.log("required courses:");
+  console.log(coursesRemaining);
 
   const sortedCourses = coursesRemaining.sort((a, b) => {
     const [aPrefix, aNumber] = a.split(" ");
@@ -122,6 +148,9 @@ export function getRemainingSemesters(
       return aPrefix.localeCompare(bPrefix);
     }
   });
+
+  console.log("sorted courses:");
+  console.log(sortedCourses);
 
   let pos = 0;
   const averageConcentrationCourses: number =

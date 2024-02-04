@@ -6,7 +6,83 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getRemainingSemesters = void 0;
 const Concentration_req_json_1 = __importDefault(require("./Concentration_req.json"));
 const all_courses_json_1 = __importDefault(require("./data/all_courses.json"));
-const validator_1 = require("./front-end/src/utilities/validator");
+function getPicks(req, courses_taken) {
+    let leftSide, rightSide;
+    let remainingCourses = [];
+    let remainingNum;
+    switch (req.function) {
+        case "PICK":
+            let remainingNum = req.value;
+            let reqCopies = req.courses;
+            const prevIndices = [];
+            // Filtering out courses that have been taken already
+            reqCopies = reqCopies.filter((course) => {
+                if (courses_taken.includes(course)) {
+                    remainingNum--; // Decrement remainingNum for each course taken
+                    return false; // Exclude the course from the filtered array
+                }
+                return true; // Include the course in the filtered array
+            });
+            // Picking from the filtered list
+            for (let k = 0; k < remainingNum; k++) {
+                let num = Math.floor(Math.random() * reqCopies.length);
+                while (prevIndices.includes(num)) {
+                    num = Math.floor(Math.random() * reqCopies.length);
+                }
+                prevIndices.push(num);
+                remainingCourses.push(reqCopies[num]);
+            }
+            console.log("test");
+            console.log(remainingCourses);
+            break;
+        //   case "PICK":
+        //     remainingNum = req.value as number;
+        //     const prevIndices: number[] = [];
+        //     let reqCopies = req.courses!;
+        //     //filtering out courses that have been taken already
+        //     for(const course in reqCopies){
+        //         if(courses_taken.includes(course)){
+        //             reqCopies = reqCopies.filter((v) => !courses_taken.includes(course));
+        //             remainingNum--;
+        //         }
+        //     }
+        //     //picking from filtered list
+        //     for (let k = 0; k < remainingNum; k++) {
+        //       let num: number = Math.random() * reqCopies?.length!;
+        //       while (prevIndices.includes(num)) {
+        //         num = Math.random() * reqCopies?.length!;
+        //       }
+        //       prevIndices.push(num);
+        //         remainingCourses.push(reqCopies[num]);
+        //     }
+        //     console.log("test");
+        //     console.log(remainingCourses);
+        //     break;
+        case "OR":
+            leftSide = req.value[0];
+            const listVal1 = getPicks(leftSide, courses_taken);
+            rightSide = req.value[1];
+            const listVal2 = getPicks(rightSide, courses_taken);
+            if (listVal1.length < listVal2.length) {
+                return listVal1;
+            }
+            else {
+                return listVal2;
+            }
+            break;
+        case "AND":
+            leftSide = req.value[0];
+            const listVal3 = getPicks(leftSide, courses_taken);
+            rightSide = req.value[1];
+            const listVal4 = getPicks(rightSide, courses_taken);
+            return listVal3.concat(listVal4);
+            break;
+        case "ANY-ABOVE-1000":
+            //getPicks(req.value[0], missingList[n]);
+            break;
+    }
+    return remainingCourses;
+}
 function getRemainingSemesters(coursesTaken, semestersTaken, interestedSubjects, concentration, type) {
     const semesterCourses = [];
     const concentrationReq = () => JSON.parse(JSON.stringify(Concentration_req_json_1.default))[concentration][type];
@@ -16,24 +92,21 @@ function getRemainingSemesters(coursesTaken, semestersTaken, interestedSubjects,
     //   }
     let requirements = Concentration_req_json_1.default["Concentrations"][concentration];
     let coursesRemaining = [""];
-    let stuff = [];
-    for (const req of requirements) {
-        const [satisfied, coursesUsed, coursesLeft] = (0, validator_1.isRequirementSatisfied)(coursesTaken, req);
-        stuff.push(coursesLeft);
-    }
-    console.log("contents:");
-    console.log(stuff);
-    //   let n = 0;
-    //   for(const req of requirements){
-    //     switch(req.function){
-    //         case "PICK":
-    //             break;
-    //         case "OR":
-    //         case "AND":
-    //         case "ANY-ABOVE-1000":
-    //     }
-    //     n++;
+    //   let missingList : number[] = [];
+    //   for (const req of requirements) {
+    //     const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(
+    //       coursesTaken,
+    //       req
+    //     );
+    //     missingList.push(coursesLeft)
     //   }
+    //   console.log(missingList);
+    let n = 0;
+    for (const req of requirements) {
+        coursesRemaining.concat(getPicks(req, coursesTaken));
+    }
+    console.log("required courses:");
+    console.log(coursesRemaining);
     const sortedCourses = coursesRemaining.sort((a, b) => {
         const [aPrefix, aNumber] = a.split(" ");
         const [bPrefix, bNumber] = b.split(" ");
@@ -49,6 +122,8 @@ function getRemainingSemesters(coursesTaken, semestersTaken, interestedSubjects,
             return aPrefix.localeCompare(bPrefix);
         }
     });
+    console.log("sorted courses:");
+    console.log(sortedCourses);
     let pos = 0;
     const averageConcentrationCourses = sortedCourses.length / (8 - semestersTaken);
     while (coursesRemaining.length > 0) {
