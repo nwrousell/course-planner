@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": "next/core-web-vitals",
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": [
+        "off",
+        {
+            "ignoreTypeValueShadow": true,
+            "ignoreFunctionTypeParameterNameValueShadow": true
+        }
+    ]
 }

@@ -1,0 +1,1596 @@
+[
+    {
+        "code": "CSCI 0020",
+        "term": "Fall 2023",
+        "title": "The Digital World",
+        "description": "Removes the mystery surrounding computers and the ever-growing digital world. Introduces a range of topics and many aspects of multimedia, along with explanations of the underlying digital technology and its relevance to our society. Other topics include artificial intelligence, IT security, ethics and the economics of computing as well as the effects of its pervasiveness in today's world. Introductory programming and analytic skills are developed through Excel, HTML, CSS, Javascript, and Python assignments. CSCI0020 is a good introduction to a wide range of CS topics that have broad relevance in our society. No prerequisites. Cannot be taken to fulfill CS Concentration.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0020",
+        "critical_review_data": {
+            "average_hours": "3.35",
+            "max_hours": "5.53",
+            "course_rating": "72%\n4.20",
+            "professor_rating": "85%\n4.61"
+        }
+    },
+    {
+        "code": "CSCI 0081",
+        "term": "Fall 2023",
+        "title": "TA Apprenticeship: Full Credit",
+        "description": "Being an undergraduate TA is a learning experience: one not only gets a deeper understanding of the course material, but gains management and social skills that are invaluable for one's future. Students taking this course must first be selected as an undergraduate TA for a Computer Science course, a course the student has taken and done well in. Students will work with the course's instructor on a variety of course-related topics, including preparation of material and development of assignments. Whether CSCI 0081 or its half-credit version (CSCI 0082) is taken is up to the professor of the course being TA'd. Instructor permission required.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0081",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 0082",
+        "term": "Fall 2023",
+        "title": "TA Apprenticeship: Half Credit",
+        "description": "Being an undergraduate TA is a learning experience: one not only gets a deeper understanding of the course material, but gains management and social skills that are invaluable for one's future. Students taking this course must first be selected as an undergraduate TA for a Computer Science course, a course the student has taken and done well in. Students will work with the course's instructor on a variety of course-related topics, including preparation of material and development of assignments. Whether CSCI 0082 or its full-credit version (CSCI 0081) is taken is up to the professor of the course being TA'd. Instructor permission required.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0082",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 0111",
+        "term": "Fall 2023",
+        "title": "Computing Foundations: Data",
+        "description": "An introduction to computing and programming that focuses on understanding and manipulating data. Students will learn to write programs to process both tabular and structured data, to assess programs both experimentally and theoretically, to apply basic data science concepts, and to discuss big ideas around the communication, use, and social impacts of digital information. Designed for both concentrators and non-concentrators, this is the first course in either a two- or three-course introductory sequence leading into advanced CS courses. Programming assignments will be smaller scale than in CSCI 0150/0170, thus allowing students time to practice programming and discuss computational ideas in a broader context.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0111",
+        "critical_review_data": {
+            "average_hours": "7.33",
+            "max_hours": "13.82",
+            "course_rating": "64%\n3.43",
+            "professor_rating": "85%\n4.32"
+        }
+    },
+    {
+        "code": "CSCI 0112",
+        "term": "Fall 2023",
+        "title": "Computing Foundations: Program Organization",
+        "description": "Explores how organization of programs, data, and algorithms affects metrics such as time performance, space usage, social impacts, and data privacy. Students will learn how to choose between candidate data structures for a problem, how to write programs over several standard data structures, how to assess the quality of programs (from theoretical, practical, and social perspectives), and how to apply their skills to computational problems that could arise in a variety of fields. The course will teach object-oriented programming, in combination with basic functional and imperative programming concepts. The course is designed for both concentrators and non-concentrators. Prerequisite: CSCI 0111",
+        "prereq_text": "Prerequisite: CSCI 0111.",
+        "prereqs": [
+            "CSCI 0111"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0112",
+        "critical_review_data": {
+            "average_hours": "5.63",
+            "max_hours": "12.00",
+            "course_rating": "48%\n4.19",
+            "professor_rating": "72%\n4.83"
+        }
+    },
+    {
+        "code": "CSCI 0150",
+        "term": "Fall 2023",
+        "title": "Introduction to Object-Oriented Programming and Computer Science",
+        "description": "Introduces programming in Java (a modern, widely-used programming language), interactive 2D computer graphics, and some fundamental data structures and algorithms. Students learn by programming a sequence of interactive graphics programs which gradually increase in complexity, including Doodle Jump, Tetris (http://bastilleweb.techhouse.org/), and a significant final project. Lectures are supplemented by skits performed by the UTAs (Undergraduate Teaching Assistants) to teach course concepts and for a bit of added entertainment! This course is intended for both potential concentrators and those who may take only a single course. There are NO prerequisites, and no prior knowledge of programming is required, though students who do have prior programming experience are also encouraged to take the course!",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0150",
+        "critical_review_data": {
+            "average_hours": "11.64",
+            "max_hours": "28.65",
+            "course_rating": "67%\n4.19",
+            "professor_rating": "73%\n4.11"
+        }
+    },
+    {
+        "code": "CSCI 0170",
+        "term": "Fall 2023",
+        "title": "Computer Science: An Integrated Introduction",
+        "description": "CSCI0170/0180 is an introductory sequence that helps students begin to develop the skills, knowledge, and confidence to solve computational problems elegantly, correctly, efficiently, and with ease. The sequence is unique in teaching both the functional and imperative programming paradigms---the first through the languages Scheme and ML in CSCI0170; the second through Java in CSCI0180. The sequence requires no previous programming experience. Indeed, few high school students are exposed to functional programming; hence even students with previous programming experience often find this sequence an invaluable part of their education.\n\nAlthough students are taught to use programming languages as tools, the goal of CSCI0170/0180 is not merely to teach programming. On the contrary, the goal is to convey to students that computer science is much more than programming! All of the following fundamental computer science techniques are integrated into the course material: algorithms, data structures, analysis, problem solving, abstract reasoning, and collaboration. Concrete examples are drawn from different subareas of computer science: in 0170, from arbitrary-precision arithmetic, natural language processing, databases, and strategic games; in 0180, from discrete-event simulation, data compression, and client/server architectures.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0170",
+        "critical_review_data": {
+            "average_hours": "10.30",
+            "max_hours": "26.43",
+            "course_rating": "58%\n3.91",
+            "professor_rating": "76%\n4.10"
+        }
+    },
+    {
+        "code": "CSCI 0190",
+        "term": "Fall 2023",
+        "title": "Accelerated Introduction to Computer Science",
+        "description": "A one-semester introduction to CS covering programming integrated with core data structures, algorithms, and analysis techniques, similar to the two-course introductory sequences (CSCI 0150-0200 and CSCI 0170-0200).\nAll students wishing to take CSCI 0190, irrespective of prior preparation, must pass a sequence of online placement assignments during the summer. Though the placement process is most appropriate for students who have had some prior programming experience, it is self-contained so all are welcome to try learning the provided material and attempting placement. Placement information will be available by June 1st at http://cs.brown.edu/courses/csci0190/.\nPlease do not request override codes. The only way to get into the class is through placement. Students who do not successfully pass the placement process won't be allowed to register.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0190",
+        "critical_review_data": {
+            "average_hours": "17.07",
+            "max_hours": "28.57",
+            "course_rating": "55%\n3.71",
+            "professor_rating": "78%\n4.57"
+        }
+    },
+    {
+        "code": "CSCI 0200",
+        "term": "Fall 2023",
+        "title": "Program Design with Data Structures and Algorithms",
+        "description": "Students extend their program-design skills while learning multiple data structures, common graph algorithms, different forms of societal impacts from programs, how to analyze programs for performance, and how to work effectively with multiple styles of programming languages. Examples and course projects draw from several areas of computer science to help students identify their broader interests within the field. There will be a required weekly lab session involving hands-on work with course material.\nPrerequisite: CSCI 0112, CSCI 0150, 0170, or CSCI 0190. In addition, CSCI 0111 can be used with both additional work and the instructor's permission. The first two weeks of the course will be taught as at least two parallel tracks based on which prerequisite course a student has taken.\nCSCI 0200 will be offered every semester (fall and spring).",
+        "prereq_text": "Prerequisites: CSCI 0112, 0150, 0170 or 0190.",
+        "prereqs": [
+            "CSCI 0112",
+            "CSCI 0150",
+            "CSCI 0170",
+            "CSCI 0190"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0200",
+        "critical_review_data": {
+            "average_hours": "8.74",
+            "max_hours": "15.47",
+            "course_rating": "51%\n3.44",
+            "professor_rating": "74%\n4.17"
+        }
+    },
+    {
+        "code": "CSCI 0220",
+        "term": "Spring 2024",
+        "title": "Introduction to Discrete Structures and Probability",
+        "description": "Seeks to place on solid foundations the most common structures of computer science, to illustrate proof techniques, to provide the background for an introductory course in computational theory, and to introduce basic concepts of probability theory. Introduces Boolean algebras, logic, set theory, elements of algebraic structures, graph theory, combinatorics, and probability. No prerequisites.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0220",
+        "critical_review_data": {
+            "average_hours": "4.35",
+            "max_hours": "7.61",
+            "course_rating": "56%\n3.76",
+            "professor_rating": "72%\n4.26"
+        }
+    },
+    {
+        "code": "CSCI 0300",
+        "term": "Spring 2024",
+        "title": "Fundamentals of Computer Systems",
+        "description": "Covers fundamental concepts, principles, and abstractions that underlie the design and engineering of computer systems. Students will learn how a computer works, how to write safe and performant systems software, and what systems abstractions support today\u2019s complex, high-performance systems developed in industry. Specific topics include machine organization, systems programming and performance, key concepts of operating systems, isolation, security, virtualization, concurrent programming, and the basics of distributed systems. Combined lectures, labs, and several hands-on projects involving programming exercises in C/C++. Prerequisites: CSCI 0160, 0180, 0190, or 0200; or permission of the instructor.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190 or 0200.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0300",
+        "critical_review_data": {
+            "average_hours": "12.11",
+            "max_hours": "21.95",
+            "course_rating": "66%\n4.45",
+            "professor_rating": "91%\n4.90"
+        }
+    },
+    {
+        "code": "CSCI 0320",
+        "term": "Fall 2023",
+        "title": "Introduction to Software Engineering",
+        "description": "Focuses on designing, building, testing, and maintaining systems collaboratively. It covers programming techniques (using Java and TypeScript with various frameworks), object-oriented design, advanced testing (e.g., fuzz testing), debugging approaches, and tools such as source control systems. The course concludes with a major group project that students gather requirements for, then design and implement themselves. Prerequisite: CSCI 0160, 0180, CSCI 0190 or CSCI 0200; CSCI 0220 is recommended.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190 or 0200.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0320",
+        "critical_review_data": {
+            "average_hours": "10.65",
+            "max_hours": "19.43",
+            "course_rating": "44%\n3.80",
+            "professor_rating": "66%\n4.46"
+        }
+    },
+    {
+        "code": "CSCI 0330",
+        "term": "Fall 2023",
+        "title": "Introduction to Computer Systems",
+        "description": "High-level computer architecture and systems programming. The course covers the organization of computer systems (in terms of storage units, caches, processors, and I/O controllers) and teaches students assembly-language programming and C-language programming. Extensive programming exercises introduce students to systems-level programming on Unix systems, as well as to multi-threaded programming with POSIX threads. Students will be introduced to the functions of operating systems. Prerequisite: CSCI 0160, 0180, 0190, or 0200.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190 or 0200.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0330",
+        "critical_review_data": {
+            "average_hours": "9.86",
+            "max_hours": "18.67",
+            "course_rating": "36%\n3.81",
+            "professor_rating": "62%\n4.22"
+        }
+    },
+    {
+        "code": "CSCI 0500",
+        "term": "Spring 2024",
+        "title": "Data Structures, Algorithms, and Intractability: An Introduction",
+        "description": "This course will cover the basics of how to design and analyze data structures and algorithms. We will develop algorithmic intuition through rigorous analysis of algorithmic correctness and performance. We will also study the theory of NP-completeness, which helps us understand which problems are computationally intractable.",
+        "prereq_text": "Prerequisites: CSCI 0220 and ((CSCI 0150 and 0200) or (CSCI 0170 and 0200) or (CSCI 0111, 0112 and 0200) or (CSCI 0190 and 0200)).",
+        "prereqs": [
+            "CSCI 0220",
+            "CSCI 0150",
+            "CSCI 0200",
+            "CSCI 0170",
+            "CSCI 0200",
+            "CSCI 0111",
+            "CSCI 0112",
+            "CSCI 0200",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/0500",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1010",
+        "term": "Fall 2023",
+        "title": "Theory of Computation",
+        "description": "The course introduces basic models of computation including languages, finite-state automata and Turing machines. Proves fundamental limits on computation (incomputability, the halting problem). Provides the tools to compare the hardness of computational problems (reductions). Introduces computational complexity classes (P, NP, PSPACE and others). Prerequisite: CSCI0220 or CSCI1450 or CSCI1550 or APMA1650/1655 or CSCI1570",
+        "prereq_text": "Prerequisites: CSCI 0220, 1450, 0450, 1550, APMA 1650, 1655, CSCI 1570 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0220",
+            "CSCI 1450",
+            "CSCI 0450",
+            "CSCI 1550",
+            "APMA 1650",
+            "APMA 1655",
+            "CSCI 1570"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1010",
+        "critical_review_data": {
+            "average_hours": "7.95",
+            "max_hours": "12.95",
+            "course_rating": "77%\n3.83",
+            "professor_rating": "40%\n4.25"
+        }
+    },
+    {
+        "code": "CSCI 1040",
+        "term": "Spring 2024",
+        "title": "The Basics of Cryptographic Systems",
+        "description": "This course will cover cryptographic concepts such as data privacy, encryption, authentication, digital signatures, differential privacy, privacy-enhancing technologies, secure computation, and electronic money. The emphasis will be on how to use cryptographic systems correctly in a larger context, rather than on the mathematical details of how they work; although we will cover some of those details too, on a high level. This course will be aimed at practicing and aspiring poets, economists, software engineers, law and policy wonks, and business tycoons. No prerequisites.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1040",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1230",
+        "term": "Fall 2023",
+        "title": "Introduction to Computer Graphics",
+        "description": "Fundamental concepts in 2D and 3D computer graphics, e.g., 2D raster graphics techniques and simple image processing. Focuses on geometric transformations, and 3D modeling, viewing and rendering. A sequence of assignments in C++ culminates in a simple geometric modeler and ray tracer. Prerequisite: CSCI 0160, CSCI 0180, CSCI 0190, or CSCI 0200. Some knowledge of basic linear algebra is helpful but not required. Strong object-oriented programming ability (e.g., in C++, Java or Python) is required.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190, 0200 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1230",
+        "critical_review_data": {
+            "average_hours": "15.00",
+            "max_hours": "25.79",
+            "course_rating": "46%\n3.98",
+            "professor_rating": "70%\n4.75"
+        }
+    },
+    {
+        "code": "CSCI 1234",
+        "term": "Fall 2023",
+        "title": "Computer Graphics Lab",
+        "description": "CSCI 1234 is a half-credit course intended to be taken concurrently with CSCI 1230 and provides students with a greater understanding of the material by having them extend each of 1230's assignments to greater depth.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1234",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1260",
+        "term": "Fall 2023",
+        "title": "Compilers and Program Analysis",
+        "description": "Lexical analysis, syntactic analysis, semantic analysis, code generation, code optimization, translator writing systems. Prerequisites: CSCI 0220, or CSCI 0320, or CSCI 0300, or CSCI 0330, or CSCI 1310, or CSCI 1330.",
+        "prereq_text": "Prerequisites: CSCI 0220, 0320, 1340, 0300, 0330, 1310, 1950S, 1330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0220",
+            "CSCI 0320",
+            "CSCI 1340",
+            "CSCI 0300",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1260",
+        "critical_review_data": {
+            "average_hours": "6.31",
+            "max_hours": "10.46",
+            "course_rating": "76%\n3.78",
+            "professor_rating": "53%\n4.58"
+        }
+    },
+    {
+        "code": "CSCI 1270",
+        "term": "Fall 2023",
+        "title": "Database Management Systems",
+        "description": "Introduction to database systems internals, design and implementation. Includes data models and structures, languages, query processing and optimization, concurrency control and recovery algorithms. Coverage of relational distributed and parallel databases as well as noSQL big data systems. Prerequisites: One of CSCI 0300, 0330 (or equivalent coursework).",
+        "prereq_text": "Prerequisites: CSCI 0330, 0300, 1310 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0330",
+            "CSCI 0300",
+            "CSCI 1310"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1270",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1290",
+        "term": "Fall 2023",
+        "title": "Computational Photography",
+        "description": "Describes the convergence of computer graphics and computer vision with photography. Its goal is to overcome the limitations of traditional photography using computational techniques to enhance the way we capture, manipulate, and interact with visual media. Topics covered: cameras, human visual perception, image processing and manipulation, image based lighting and rendering, high dynamic range, single view reconstruction, photo quality assessment, non photorealistic rendering, the use of Internet-scale data, and more. Students are encouraged to capture and process their own data. Prerequisites: previous programming experience, calculus, and probability; previous knowledge of computer graphics or computer vision. Any full intro sequence and linear algebra are required. Strongly recommended: CSCI 1230, CSCI 1430, CSCI 1470, ENGN 1610.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1290",
+        "critical_review_data": {
+            "average_hours": "7.27",
+            "max_hours": "13.45",
+            "course_rating": "49%\n4.25",
+            "professor_rating": "73%\n4.88"
+        }
+    },
+    {
+        "code": "CSCI 1300",
+        "term": "Spring 2024",
+        "title": "User Interfaces and User Experience",
+        "description": "Have you ever walked into a door thinking that you were supposed to pull instead of push? Have you ever been stuck on a website, not sure how to proceed next? Learn when to use different interfaces, how to model and represent user interaction, how to elicit requirements and feedback from users, as well as the principles of user experience design, methods for designing and prototyping interfaces, and user interface evaluation. Students interested in both learning the process behind building an effective interface and gaining hands-on experience designing a user interface should take this course. There will be assignments, readings, and studios, where students will have the opportunity to work alongside TAs and interact with industry guests as they learn critical tools for interface and web design.\nWebsite: http://cs.brown.edu/courses/csci1300/",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190, 0200, 0320, 1340 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 0320",
+            "CSCI 1340"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1300",
+        "critical_review_data": {
+            "average_hours": "5.43",
+            "max_hours": "11.39",
+            "course_rating": "49%\n3.71",
+            "professor_rating": "61%\n4.58"
+        }
+    },
+    {
+        "code": "CSCI 1310",
+        "term": "Spring 2024",
+        "title": "Fundamentals of Computer Systems",
+        "description": "Covers fundamental concepts, principles, and abstractions that underlie the design and engineering of computer systems, with reference to applications of these concepts in industry. Topics include machine organization, systems programming and performance, key concepts of operating systems, isolation, security, virtualization, concurrent programming, and the basics of distributed systems. Combined lectures, case studies, labs, and several hands-on projects involving programming exercises. This course is intended for Computer Science Master's students only. Anyone else wanting to take the course should contact the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1310",
+        "critical_review_data": {
+            "average_hours": "19.00",
+            "max_hours": "30.00",
+            "course_rating": "43%\n4.67",
+            "professor_rating": "74%\n5.00"
+        }
+    },
+    {
+        "code": "CSCI 1330",
+        "term": "Fall 2023",
+        "title": "Computer Systems",
+        "description": "High-level computer architecture and systems programming. The course covers the organization of computer systems (in terms of storage units, caches, processors, and I/O controllers) and teaches students assembly-language programming and C-language programming. Extensive programming exercises introduce students to systems-level programming on Linux systems, as well as to multi-threaded programming with POSIX threads. Students will be introduced to the functions of operating systems.\nEnrollment limited to Master's students only.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1330",
+        "critical_review_data": {
+            "average_hours": "10.25",
+            "max_hours": "17.00",
+            "course_rating": "39%\n4.22",
+            "professor_rating": "44%\n4.75"
+        }
+    },
+    {
+        "code": "CSCI 1340",
+        "term": "Fall 2023",
+        "title": "Introduction to Software Engineering",
+        "description": "CSCI 1340 focuses on designing, building, testing, and maintaining systems collaboratively. It covers programming techniques (using Java and TypeScript with various frameworks), object-oriented design, advanced testing (e.g., fuzz testing), debugging approaches, and tools such as source control systems. The course concludes with a major group project that students gather requirements for, then design and implement themselves.\nNote: CSCI 1340 is for Master\u2019s students only (they may not register for CSCI 0320). It is identical to 0320 but with the addition of supplemental work for each sprint. Prerequisite: CSCI 0160, CSCI 0180, CSCI 0190 or CSCI 0200; CSCI 0220 is recommended.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1340",
+        "critical_review_data": {
+            "average_hours": "N/A",
+            "max_hours": "N/A",
+            "course_rating": "39%\n3.39",
+            "professor_rating": "52%\n3.51"
+        }
+    },
+    {
+        "code": "CSCI 1360",
+        "term": "Fall 2023",
+        "title": "Human Factors in Cybersecurity",
+        "description": "This course is designed to push you to think about cybersecurity as an idea with both physical and virtual elements. Throughout the course, we will examine the value of information, the importance of users, and the difficult balance between security and usability. The ultimate goal of this course is to give you the intellectual and scientific framework you need to create systems that are both secure and efficient to use. The course focuses on usable security practices, but also looks deeply at the way our society influences security.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1360",
+        "critical_review_data": {
+            "average_hours": "8.83",
+            "max_hours": "12.50",
+            "course_rating": "80%\n3.98",
+            "professor_rating": "55%\n4.81"
+        }
+    },
+    {
+        "code": "CSCI 1380",
+        "term": "Spring 2024",
+        "title": "Distributed Computer Systems",
+        "description": "Explores the fundamental principles and practice underlying networked information systems, first we cover basic distributed computing mechanisms (e.g., naming, replication, security, etc.) and enabling middleware technologies. We then discuss how these mechanisms and technologies fit together to realize distributed databases and file systems, web-based and mobile information systems. Prerequisite: CSCI 0300, CSCI 0320, CSCI 0330, CSCI 1310 or CSCI 1330.",
+        "prereq_text": "Prerequisites: CSCI 0320, 1340, 0330, 0300, 1310, 1950S, 1330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0320",
+            "CSCI 1340",
+            "CSCI 0330",
+            "CSCI 0300",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1380",
+        "critical_review_data": {
+            "average_hours": "13.40",
+            "max_hours": "25.05",
+            "course_rating": "64%\n3.58",
+            "professor_rating": "75%\n3.84"
+        }
+    },
+    {
+        "code": "CSCI 1410",
+        "term": "Fall 2023",
+        "title": "Artificial Intelligence",
+        "description": "Algorithms and representations used in artificial intelligence. Introduction and implementation of algorithms for search, planning, perception, knowledge representation, logic, probabilistic representation and reasoning, robotics and machine learning.",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and (CSCI 0220, 1450, 0450, APMA 1650 or 1655) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 0220",
+            "CSCI 1450",
+            "CSCI 0450",
+            "APMA 1650",
+            "APMA 1655"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1410",
+        "critical_review_data": {
+            "average_hours": "7.63",
+            "max_hours": "14.50",
+            "course_rating": "38%\n3.31",
+            "professor_rating": "58%\n3.90"
+        }
+    },
+    {
+        "code": "CSCI 1420",
+        "term": "Spring 2024",
+        "title": "Machine Learning",
+        "description": "How can artificial systems learn from examples and discover information buried in data? We explore the theory and practice of statistical machine learning, focusing on computational methods for supervised and unsupervised learning. Specific topics include empirical risk minimization, probably approximately correct learning, kernel methods, neural networks, maximum likelihood estimation, the expectation maximization algorithm, and principal component analysis. This course also aims to expose students to relevant ethical and societal considerations related to machine learning that may arise in practice. Please contact the instructor for information about the waitlist.",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and (CSCI 1450, 0450, APMA 1650 or 1655) and (CSCI 0530, MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 1450",
+            "CSCI 0450",
+            "APMA 1650",
+            "APMA 1655",
+            "CSCI 0530",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1420",
+        "critical_review_data": {
+            "average_hours": "6.00",
+            "max_hours": "10.43",
+            "course_rating": "39%\n4.14",
+            "professor_rating": "63%\n4.72"
+        }
+    },
+    {
+        "code": "CSCI 1430",
+        "term": "Spring 2024",
+        "title": "Computer Vision",
+        "description": "How can we program computers to understand the visual world? This course treats vision as inference from noisy and uncertain data and emphasizes probabilistic and statistical approaches. Topics may include perception of 3D scene structure from stereo, motion, and shading; segmentation and grouping; texture analysis; learning, object recognition; tracking and motion estimation. Strongly recommended: basic linear algebra, calculus, and probability.",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and (MATH 0520, 0540, 0530 or CSCI 0530) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "MATH 0520",
+            "MATH 0540",
+            "MATH 0530",
+            "CSCI 0530"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1430",
+        "critical_review_data": {
+            "average_hours": "7.63",
+            "max_hours": "17.13",
+            "course_rating": "39%\n4.16",
+            "professor_rating": "77%\n4.79"
+        }
+    },
+    {
+        "code": "CSCI 1440",
+        "term": "Spring 2024",
+        "title": "Algorithmic Game Theory",
+        "description": "This course examines topics in game theory and mechanism design from a computer scientist's perspective. Through the lens of computation, the focus is the design and analysis of systems utilized by self-interested agents. Students will investigate how the potential for strategic agent behavior can/should influence system design, and the ramifications of conflicts of interest between system designers and participating agents. Emphasis on computational tractability is paramount, so that simple designs are often preferred to optimal. Students will learn to analyze competing designs using the tools of theoretical computer science, and empirical tools, such as empirical game-theoretic analysis. Application areas include computational advertising, wireless spectrum, and prediction markets.",
+        "prereq_text": "Prerequisites: (MATH 0180, 0200, 0350, APMA 0350 or 0360) and (CSCI 1450, 0450, APMA 1650, 1655 or MATH 1620) and (CSCI 0220, 1010, 0510 or 1550) and (CSCI 0040, 0111, 0150, 0170 or 0190) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350",
+            "APMA 0350",
+            "APMA 0360",
+            "CSCI 1450",
+            "CSCI 0450",
+            "APMA 1650",
+            "APMA 1655",
+            "MATH 1620",
+            "CSCI 0220",
+            "CSCI 1010",
+            "CSCI 0510",
+            "CSCI 1550",
+            "CSCI 0040",
+            "CSCI 0111",
+            "CSCI 0150",
+            "CSCI 0170",
+            "CSCI 0190"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1440",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1450",
+        "term": "Fall 2023",
+        "title": "Advanced Introduction to Probability for Computing and Data Science",
+        "description": "Probability and statistics have become indispensable tools in computer science. Probabilistic methods and statistical reasoning play major roles in machine learning, cryptography, network security, communication protocols, web search engines, robotics, program verification, and more. This course introduces the basic concepts of probability and statistics, focusing on topics that are most useful in computer science applications. Topics include: modeling and solution in sample space, random variables, simple random processes and their probability distributions, Markov processes, limit theorems, and basic elements of Bayesian and frequentist statistical inference. Basic programming experience required for optional homework assignments.\nStudents cannot get concentration credit for both CSCI 1450 and APMA 1650/ APMA 1655",
+        "prereq_text": "Prerequisites: MATH 0100*, 0170*, 0190* or minimum score of WAIVE in 'Graduate Student PreReq'.\n* May be taken concurrently.",
+        "prereqs": [
+            "MATH 0100",
+            "MATH 0170",
+            "MATH 0190"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1450",
+        "critical_review_data": {
+            "average_hours": "9.33",
+            "max_hours": "13.00",
+            "course_rating": "43%\n3.71",
+            "professor_rating": "64%\n4.33"
+        }
+    },
+    {
+        "code": "CSCI 1460",
+        "term": "Fall 2023",
+        "title": "Computational Linguistics",
+        "description": "The application of computational methods to problems in natural-language processing. In particular we examine techniques due to recent advances in deep learning: word embeddings, recurrent neural networks (e.g., LSTMs), sequence-to-sequence models, and generative adversarial networks (GANs). Programming projects include parsing, machine translation, question answering, and chat-bots.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1460",
+        "critical_review_data": {
+            "average_hours": "8.20",
+            "max_hours": "16.80",
+            "course_rating": "78%\n3.91",
+            "professor_rating": "50%\n4.36"
+        }
+    },
+    {
+        "code": "CSCI 1470",
+        "term": "Spring 2024",
+        "title": "Deep Learning",
+        "description": "What is deep learning? How is it related to machine learning? How is it applied to perform tasks like classifying images or translating languages? Deep Learning belongs to a broader family of machine learning methods. Deep learning-based methods (e.g., convolutional neural networks, recurrent neural networks, autoencoders) have led to rapid improvements in applications like computer vision, natural language processing, robotics, and even genomics and health. In this course, you will get an overview of the prominent techniques of deep learning and their applications. This course is designed to help you understand the underlying concepts as well as the promise and pitfalls of deep learning. It also aims at providing hands-on practice of implementing and applying deep learning methods in Python.",
+        "prereq_text": "Prerequisites: (CSCI 0150, 0170, 0190 or 0200) and (CSCI 0530, MATH 0520 or 0540) and (CSCI 0220, 1450, 0450, MATH 1610, APMA 1650 or 1655) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0150",
+            "CSCI 0170",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 0530",
+            "MATH 0520",
+            "MATH 0540",
+            "CSCI 0220",
+            "CSCI 1450",
+            "CSCI 0450",
+            "MATH 1610",
+            "APMA 1650",
+            "APMA 1655"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1470",
+        "critical_review_data": {
+            "average_hours": "15.90",
+            "max_hours": "29.00",
+            "course_rating": "53%\n3.57",
+            "professor_rating": "67%\n3.94"
+        }
+    },
+    {
+        "code": "CSCI 1510",
+        "term": "Fall 2023",
+        "title": "Introduction to Cryptography and Computer Security",
+        "description": "This course studies the tools for guaranteeing safe communication and computation in an adversarial setting. We develop notions of security and give provably secure constructions for such cryptographic objects as cryptosystems, signature schemes and pseudorandom generators. We also review the principles for secure system design. Prerequisites: CSCI 0220, and either CSCI 0510 or CSCI 1010.",
+        "prereq_text": "Prerequisites: CSCI 0220 and (CSCI 0510 or 1010) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0220",
+            "CSCI 0510",
+            "CSCI 1010"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1510",
+        "critical_review_data": {
+            "average_hours": "7.50",
+            "max_hours": "13.67",
+            "course_rating": "52%\n4.57",
+            "professor_rating": "52%\n4.55"
+        }
+    },
+    {
+        "code": "CSCI 1515",
+        "term": "Spring 2024",
+        "title": "Applied Cryptography",
+        "description": "This course teaches cryptography from a practical perspective and provides hands-on experience of building secure systems in C/C++. Students will implement secure authentication and communication systems using foundational cryptographic algorithms such as encryption schemes, authentication codes, digital signatures, key exchange, and hash functions. The course also covers advanced topics including zero-knowledge proofs, secure multi-party computation, fully homomorphic encryption, and post-quantum cryptography. Students will use these tools to develop applications such as secure online anonymous voting, privacy-preserving data analysis, and private information retrieval.",
+        "prereq_text": "Prerequisites: (CSCI 0200 or 0220) and (CSCI 0300, 0330, 1310, 1950S or 1330) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0200",
+            "CSCI 0220",
+            "CSCI 0300",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1515",
+        "critical_review_data": {
+            "average_hours": "6.22",
+            "max_hours": "11.67",
+            "course_rating": "77%\n4.51",
+            "professor_rating": "92%\n4.96"
+        }
+    },
+    {
+        "code": "CSCI 1550",
+        "term": "Spring 2024",
+        "title": "Probabilistic Methods in Computer Science",
+        "description": "Randomization and probabilistic techniques play an important role in modern computer science, with applications ranging from combinatorial optimization and machine learning to communications networks and secure protocols. This course introduces the most fundamental probabilistic techniques used in computer science applications, in particular in randomized algorithms, probabilistic analysis of algorithms and machine learning.\n\nPrerequisite: Basic background in probability theory course such as CSCI 1450.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1550",
+        "critical_review_data": {
+            "average_hours": "8.43",
+            "max_hours": "13.71",
+            "course_rating": "47%\n4.05",
+            "professor_rating": "49%\n4.28"
+        }
+    },
+    {
+        "code": "CSCI 1570",
+        "term": "Fall 2023",
+        "title": "Design and Analysis of Algorithms",
+        "description": "A single algorithmic improvement can have a greater impact on our ability to solve a problem than ten years of incremental improvements in CPU speed. We study techniques for designing and analyzing algorithms. Typical problem areas addressed include hashing, searching, dynamic programming, graph algorithms, network flow, and optimization algorithms including linear programming. Prerequisites: CSCI 0160, CSCI 0180, or CSCI 0190, and one of CSCI 0220, CSCI 1010, CSCI 1450, MATH 0750, MATH 1010, MATH 1530.",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and (CSCI 0220, 1450, 0450, MATH 0540, 0520, 1530, 0750, 1010, CSCI 1010 or 0510) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 0220",
+            "CSCI 1450",
+            "CSCI 0450",
+            "MATH 0540",
+            "MATH 0520",
+            "MATH 1530",
+            "MATH 0750",
+            "MATH 1010",
+            "CSCI 1010",
+            "CSCI 0510"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1570",
+        "critical_review_data": {
+            "average_hours": "16.18",
+            "max_hours": "22.85",
+            "course_rating": "63%\n4.23",
+            "professor_rating": "85%\n4.58"
+        }
+    },
+    {
+        "code": "CSCI 1600",
+        "term": "Fall 2023",
+        "title": "Real-Time and Embedded Software",
+        "description": "Comprehensive introduction to the design and implementation of software for programmable embedded computing systems, in applications such as Internet of Things, transportation, and mobile. Includes the overall embedded real-time software design and development processes, with a focus on engineering for reliability. Major project component. Prerequisites: one of CSCI 0300, CSCI 0320, CSCI 0330, CSCI 1310, or CSCI 1330",
+        "prereq_text": "Prerequisites: CSCI 0320, 1340, 0300, 0330, 1310, 1950S, 1330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0320",
+            "CSCI 1340",
+            "CSCI 0300",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1600",
+        "critical_review_data": {
+            "average_hours": "8.45",
+            "max_hours": "15.36",
+            "course_rating": "67%\n3.94",
+            "professor_rating": "86%\n4.64"
+        }
+    },
+    {
+        "code": "CSCI 1620",
+        "term": "Spring 2024",
+        "title": "Computer Systems Security Lab",
+        "description": "This course is a half-credit lab intended to be taken concurrently with CS1660 and provides students with a deeper understanding of the material by doing advanced versions of the cs1660\u2019s projects. These advanced versions focus on real-world skills: performing attacks that are more difficult and rely on less serious vulnerabilities, performing attacks against systems with more real-world constraints, and creating attacks that achieve a higher standard of quality than a mere \u201cproof of concept.\u201d\nInstructor permission required.",
+        "prereq_text": "Prerequisites: CSCI 1660*, 1951E or minimum score of WAIVE in 'Graduate Student PreReq'.\n* May be taken concurrently.",
+        "prereqs": [
+            "CSCI 1660",
+            "1951E"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1620",
+        "critical_review_data": {
+            "average_hours": "10.40",
+            "max_hours": "23.00",
+            "course_rating": "59%\n3.63",
+            "professor_rating": "85%\n4.45"
+        }
+    },
+    {
+        "code": "CSCI 1650",
+        "term": "Fall 2023",
+        "title": "Software Security and Exploitation",
+        "description": "CSCI 1650 covers software exploitation techniques and state-of-the-art mechanisms for hardening software. The course begins with a summary of prevalent software defects, typically found in applications written in memory unsafe languages, like C/C++, and proceeds with studying traditional and modern exploitation techniques, ranging from classical code injection and code reuse up to the latest goodies (e.g., JIT-ROP). For the most part, it focuses on defenses against certain vulnerability classes and the way(s) to bypass them. Students will be introduced to advanced software exploitation techniques and countermeasures, and study (in depth) the boundaries and effectiveness of standard hardening mechanisms, such as address space randomization and stack and heap protections.",
+        "prereq_text": "Prerequisites: CSCI 0330, 1670, 0300, 1310 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0330",
+            "CSCI 1670",
+            "CSCI 0300",
+            "CSCI 1310"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1650",
+        "critical_review_data": {
+            "average_hours": "5.47",
+            "max_hours": "11.28",
+            "course_rating": "82%\n4.16",
+            "professor_rating": "96%\n4.81"
+        }
+    },
+    {
+        "code": "CSCI 1660",
+        "term": "Spring 2024",
+        "title": "Introduction to Computer Systems Security",
+        "description": "This course teaches principles of computer security from an applied viewpoint and provides hands-on experience on security threats and countermeasures. Topics include code execution vulnerabilities (buffer overflow, sandboxing, mobile code), malware (trojans, viruses, and worms), access control (users, roles, policies), cryptosystems (hashing, signatures, certificates), network security (firewalls, TLS, intrusion detection, VPN), and human and social issues. Prerequisites: one of (CSCI 0160, 0180, or 0190) and (CSCI 0300, 0330, 1310, or 1330). To be added to the course waitlist, please fill out this form: https://forms.gle/pHPAy9ntQkAQ7xLD9",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and (CSCI 0300, 0330, 1310, 1950S or 1330) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 0300",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1660",
+        "critical_review_data": {
+            "average_hours": "11.92",
+            "max_hours": "20.25",
+            "course_rating": "80%\n4.18",
+            "professor_rating": "91%\n4.54"
+        }
+    },
+    {
+        "code": "CSCI 1670",
+        "term": "Spring 2024",
+        "title": "Operating Systems",
+        "description": "Covers not just the principles of operating systems but the intricacies of how they work. Topics include multithreaded programming, managing threads and interrupts, managing storage, processor scheduling, operating-system structure, virtualization, security, and the design of file systems (both local and distributed). Extensive examples are taken from actual systems, including Linux and Windows. Students are expected to complete both problem sets and programming assignments (in C). Prerequisite: CSCI 0300, 0330, 1310, or 1330.",
+        "prereq_text": "Prerequisites: CSCI 0300, 0330, 1310, 1950S, 1330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0300",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1670",
+        "critical_review_data": {
+            "average_hours": "10.80",
+            "max_hours": "21.50",
+            "course_rating": "43%\n3.75",
+            "professor_rating": "50%\n4.34"
+        }
+    },
+    {
+        "code": "CSCI 1680",
+        "term": "Fall 2023",
+        "title": "Computer Networks",
+        "description": "Covers the technologies supporting the Internet, from Ethernet and WiFi through the routing protocols that govern the flow of traffic and the web technologies that are generating most of it. A major concern is understanding the protocols used on the Internet: what the issues are, how they work, their shortcomings, and what improvements are on the horizon. Prerequisite: CSCI 0300, 0330,1310,1330 or consent of instructor.",
+        "prereq_text": "Prerequisites: CSCI 0300, 0330, 1310, 1950S, 1330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0300",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1680",
+        "critical_review_data": {
+            "average_hours": "14.80",
+            "max_hours": "26.00",
+            "course_rating": "36%\n3.78",
+            "professor_rating": "67%\n4.50"
+        }
+    },
+    {
+        "code": "CSCI 1690",
+        "term": "Spring 2024",
+        "title": "Operating Systems Laboratory",
+        "description": "Half-credit course intended to be taken with CSCI 1670. Students individually write a simple operating system in C. Serves to reinforce the concepts learned in 1670 and provides valuable experience in systems programming. Corequisite: CSCI 1670.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1690",
+        "critical_review_data": {
+            "average_hours": "13.36",
+            "max_hours": "26.45",
+            "course_rating": "38%\n4.03",
+            "professor_rating": "72%\n4.51"
+        }
+    },
+    {
+        "code": "CSCI 1710",
+        "term": "Spring 2024",
+        "title": "Logic for Systems",
+        "description": "The course will focus on proving properties about systems and programs. We will study the distinction between programs and specifications, and check for whether the former obey the latter. We will work with tools that have extensive automation such as model constructors, model checkers, and proof assistants. Problems and projects will apply to real-world systems. Prerequisite: CSCI 0160, CSCI 0180, CSCI 0190, or CSCI 0200. Preferred but not required: CSCI 0220",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190, 0200 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1710",
+        "critical_review_data": {
+            "average_hours": "5.88",
+            "max_hours": "11.88",
+            "course_rating": "55%\n4.10",
+            "professor_rating": "87%\n4.90"
+        }
+    },
+    {
+        "code": "CSCI 1730",
+        "term": "Fall 2023",
+        "title": "Design and Implementation of Programming Languages",
+        "description": "Explores the design principles of modern programming languages through implementation, comparison, and reflection. Examines a variety of linguistic features that impact both control and data. Topics vary by year; more information on the course home page. Prerequisite: CSCI 0160, CSCI 0180 or CSCI 0190.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190, 0200 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1730",
+        "critical_review_data": {
+            "average_hours": "7.00",
+            "max_hours": "13.38",
+            "course_rating": "47%\n4.06",
+            "professor_rating": "82%\n4.80"
+        }
+    },
+    {
+        "code": "CSCI 1760",
+        "term": "Fall 2023",
+        "title": "Multiprocessor Synchronization",
+        "description": "This course examines the theory and practice of multiprocessor synchronization. Subjects covered include multiprocessor architecture, mutual exclusion, wait-free and lock-free synchronization, spin locks, monitors, load balancing, concurrent data structures, and transactional synchronization. Prerequisites: CSCI 0330",
+        "prereq_text": "Prerequisites: CSCI 0330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1760",
+        "critical_review_data": {
+            "average_hours": "4.75",
+            "max_hours": "8.25",
+            "course_rating": "77%\n3.87",
+            "professor_rating": "57%\n4.23"
+        }
+    },
+    {
+        "code": "CSCI 1800",
+        "term": "Spring 2024",
+        "title": "Cybersecurity and International Relations",
+        "description": "The global Internet shortens distances, makes businesses more efficient and facilitates greater social interaction. At the same time, it exposes vital national resources to exploitation and makes it easier for the international criminal element to prey on innocent Internet users. Cybersecurity is concerned with making the Internet a more secure and trustworthy environment. In this course we study this topic from the technological and policy points of view. The goal is to facilitate communication across the divide that normally characterizes the technological and policy communities.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1800",
+        "critical_review_data": {
+            "average_hours": "3.10",
+            "max_hours": "9.76",
+            "course_rating": "35%\n3.68",
+            "professor_rating": "39%\n4.18"
+        }
+    },
+    {
+        "code": "CSCI 1805",
+        "term": "Fall 2023",
+        "title": "Computers, Freedom and Privacy",
+        "description": "Who is the Big Brother that we most fear? Is it the NSA -- or is it Google and Facebook? Rapidly changing social mores and the growing problem of cybersecurity have all contributed to a sense that privacy is dead. Laws protecting privacy and civil liberties are stuck in the analog age, while the capabilities for mass digital surveillance continue to advance rapidly. This course will examine a variety of informational privacy and technology issues. A major theme: the historical and contemporary struggle to bring surveillance under democratic control to protect against abuses of privacy, civil liberties and human rights.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1805",
+        "critical_review_data": {
+            "average_hours": "5.08",
+            "max_hours": "11.25",
+            "course_rating": "71%\n3.76",
+            "professor_rating": "83%\n4.13"
+        }
+    },
+    {
+        "code": "CSCI 1810",
+        "term": "Fall 2023",
+        "title": "Computational Molecular Biology",
+        "description": "High-throughput experimental approaches now allow molecular biologists to make large-scale measurements of DNA, RNA, and protein, the three fundamental molecules of the cell. The resulting datasets are often too large for manual analysis and demand computational techniques. This course introduces algorithms for sequence comparison and alignment; molecular evolution and phylogenetics; DNA/RNA sequencing and assembly; recognition of genes and regulatory elements; and RNA and protein structure. The course demonstrates how to model biological problems in terms of computer science.\n\nPrerequisites: CSCI 0160, CSCI 0180 or CSCI 0190, or consent of instructor.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190, 0200 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1810",
+        "critical_review_data": {
+            "average_hours": "8.25",
+            "max_hours": "14.70",
+            "course_rating": "69%\n3.46",
+            "professor_rating": "74%\n3.71"
+        }
+    },
+    {
+        "code": "CSCI 1820",
+        "term": "Spring 2024",
+        "title": "Algorithmic Foundations of Computational Biology",
+        "description": "The course is devoted to computational and statistical methods as well as software tools for DNA, RNA, and protein sequence analysis. The focus is on understanding the algorithmic and mathematical foundations of the methods, the design of associated genomics software tools, as well as on their applications. Topics include: sequence alignment, genome assembly, gene prediction, regulatory genomics, and SNP's variation. The course is open to computer and mathematical sciences students as well as biological and medical students.",
+        "prereq_text": "Prerequisites: CSCI 1810 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 1810"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1820",
+        "critical_review_data": {
+            "average_hours": "8.00",
+            "max_hours": "31.00",
+            "course_rating": "67%\n3.94",
+            "professor_rating": "84%\n4.53"
+        }
+    },
+    {
+        "code": "CSCI 1860",
+        "term": "Fall 2023",
+        "title": "Cybersecurity Law and Policy",
+        "description": "Course description: Cybersecurity and cyber conflict pose unique legal and policy challenges for governments, companies and citizens. The way those problems are resolved will shape the future of the internet. This course will examine cybersecurity as a legal and policy problem. How can government and society address network and computer insecurity while upholding privacy, civil liberties and other fundamental values?",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1860",
+        "critical_review_data": {
+            "average_hours": "6.83",
+            "max_hours": "11.58",
+            "course_rating": "47%\n4.12",
+            "professor_rating": "67%\n4.51"
+        }
+    },
+    {
+        "code": "CSCI 1870",
+        "term": "Fall 2023",
+        "title": "Cybersecurity Ethics",
+        "description": "This timely, topical course offers a comprehensive examination of ethical questions in cybersecurity. These issues pervade numerous, diverse aspects of the economy and society in the Information Age, from human rights to international trade. Students will learn about these topics, beginning first with acquaintance with the dominant ethical frameworks of the 20th and 21st centuries, then employing these frameworks to understand, analyze, and develop solutions for leading ethical problems in cybersecurity. The things that you learn in this course will stay with you and inform your personal and professional lives.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1870",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1880",
+        "term": "Spring 2024",
+        "title": "Introduction to Computer Security",
+        "description": "This course examines the basic principles of computer security for an organization, recognizing which system components relate to which principles. Additionally, the course covers methodologies and skills for making informed security decisions and understanding how to apply security principles to design security mechanisms while considering tradeoffs. Topics include general security principles, cryptography, authentication authorization, identity, and access management, operating systems security, network security, web security, and applications security. Throughout the course, you will develop a preliminary cybersecurity plan for an organization",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1880",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1950N",
+        "term": "Fall 2023",
+        "title": "2D Game Engines",
+        "description": "2D Game Engines covers core techniques used in the development of the software that drives computer games and other interactive software. Projects involve building different varieties of 2D game engines as well as games that require use of the features implemented in the engines. Topics include high-level engine design, vector and raster graphics, animation, collision detection, physics, content management, and game AI. Prerequisite: CSCI 0160, 0180, or 0190. This course has also been offered as DISP CSCI1971. Students interested in an override should request on through Courses@Brown. Priority will be given to both seniors and juniors.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190, 0200 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1950N",
+        "critical_review_data": {
+            "average_hours": "14.00",
+            "max_hours": "23.75",
+            "course_rating": "43%\n3.75",
+            "professor_rating": "49%\n4.28"
+        }
+    },
+    {
+        "code": "CSCI 1950T",
+        "term": "Fall 2023",
+        "title": "Advanced Animation Production",
+        "description": "Students will apply knowledge and skills gained in previous animation courses to produce a high quality short animated film as a group. Production will follow the industry standard pipeline that includes modeling, texturing, lighting, animating, rendering, and post production. Interested students will perform preproduction story and concept design prior to beginning of course. Prerequisite: CSCI 1250. Enrollment limited to 15. Instructor permission required.",
+        "prereq_text": "Prerequisites: CSCI 1250 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 1250"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1950T",
+        "critical_review_data": {
+            "average_hours": "11.56",
+            "max_hours": "29.38",
+            "course_rating": "56%\n4.92",
+            "professor_rating": "74%\n4.99"
+        }
+    },
+    {
+        "code": "CSCI 1950U",
+        "term": "Spring 2024",
+        "title": "Topics in 3D Game Engine Development",
+        "description": "Covers core techniques in 3D game development with an emphasis on engine architecture. Students independently develop their own engines using C++, OpenGL, and the Qt framework, then work in groups to create a polished game. Topics include: spatial subdivision, player representation, collision detection and response, game networking, GPUs, and OpenGL. Prerequisites: CSCI 1230 or knowledge of C++ and one of CSCI0300, CSCI0320, or CSCI0330 or equivalent experience. Enrollment limited to 25.",
+        "prereq_text": "Prerequisites: (CSCI 0320, 1340, 0300, 1310 or 0330) and CSCI 1230 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0320",
+            "CSCI 1340",
+            "CSCI 0300",
+            "CSCI 1310",
+            "CSCI 0330",
+            "CSCI 1230"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1950U",
+        "critical_review_data": {
+            "average_hours": "19.60",
+            "max_hours": "28.00",
+            "course_rating": "39%\n3.40",
+            "professor_rating": "69%\n4.07"
+        }
+    },
+    {
+        "code": "CSCI 1951A",
+        "term": "Spring 2024",
+        "title": "Data Science",
+        "description": "Mastering big data requires skills spanning a variety of disciplines: distributed systems over statistics, machine learning, and a deep understanding of a complex ecosystem of tools and platforms. Data Science refers to the intersection of these skills and how to transform data into actionable knowledge. This course provides an overview of techniques and tools involved and how they work together: SQL and NoSQL solutions for massive data management, basic algorithms for data mining and machine learning, information retrieval techniques, and visualization methods.\nPrerequisites: CSCI 0160, CSCI 0180, CSCI 0190, or CSCI 0200. One of CSCI 0300, 0330, CSCI 0320, 1310 or 1330 strongly recommended.",
+        "prereq_text": "Prerequisites: CSCI 0160, 0180, 0190, 0200 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1951A",
+        "critical_review_data": {
+            "average_hours": "8.37",
+            "max_hours": "17.28",
+            "course_rating": "40%\n3.50",
+            "professor_rating": "48%\n4.19"
+        }
+    },
+    {
+        "code": "CSCI 1951C",
+        "term": "Fall 2023",
+        "title": "Designing Humanity Centered Technology",
+        "description": "This semester we will explore how emerging technologies might shape our lives in the near future, as we design and build working prototypes. We will proceed from a set of questions that will complement a deep immersion in design process and creative practice. We will explore the \u201chow\u201d and \u201cwhy\u201d of designing new technologies. The course will help students build a portfolio of design projects that are in response to various design strategies such as Human Centered Design, Speculative Design, Critical Design, and Design Fiction, as well as developing skills for iterative prototyping and participatory critique.\nStudents interested in registering should sign up here: https://docs.google.com/forms/d/e/1FAIpQLSdvo0o4ICpj55ZubZQTXdVRfBmnbCHbT8egriwPOcWcbRiy6A/viewform",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1951C",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1951L",
+        "term": "Spring 2024",
+        "title": "Blockchains and Cryptocurrencies",
+        "description": "Introduction to modern blockchain-based systems. Topics covered include consensus and distributed computing, examples cryptocurrencies, programming smart contracts, privacy and secrecy, transfer networks, atomic swaps and transactions, non-currency applications of blockchains, and legal and social implications. Students will do a programming project and a term project.",
+        "prereq_text": "Prerequisites: CSCI 0300, 0320, 1340, 0330, 1310, 1950S, 1330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0300",
+            "CSCI 0320",
+            "CSCI 1340",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1951L",
+        "critical_review_data": {
+            "average_hours": "5.17",
+            "max_hours": "11.64",
+            "course_rating": "67%\n3.59",
+            "professor_rating": "83%\n4.20"
+        }
+    },
+    {
+        "code": "CSCI 1951R",
+        "term": "Fall 2023",
+        "title": "Introduction to Robotics",
+        "description": "Each student will learn to program a small quad-rotor helicopter. We will provide each student with their own robot for the duration of the course. The course will cover PID controllers for stable flight, localization with a camera, mapping, and autonomous planning. At the end of the course, the aim is for students to understand the basic concepts of a mobile robot and aerial vehicle. Enrollment by instructor permission.",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and (CSCI 0220, 0450 or 1450) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 0220",
+            "CSCI 0450",
+            "CSCI 1450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1951R",
+        "critical_review_data": {
+            "average_hours": "10.50",
+            "max_hours": "18.25",
+            "course_rating": "40%\n3.00",
+            "professor_rating": "62%\n3.83"
+        }
+    },
+    {
+        "code": "CSCI 1951V",
+        "term": "Fall 2023",
+        "title": "Hypertext/Hypermedia: The Web Was Not the Beginning and the Web Is Not the End",
+        "description": "Hypertext/Hypermedia systems -- first designed in the 1960s -- link information and people. Developed in the late 1980s, the Web was the first global hypermedia system; 30+ years later, it represents a small part of past visions. Students will identify still-uncommon features by exploring/using systems from the 1960s onwards. They will read papers for class discussion. They will study architecture and design topics such as annotating, note taking, searching, networking, collaboration, permanence, and social impact. Web programming projects, using TypeScript/MERN stack, will culminate in group projects to create their own hypertext/hypermedia systems. Prerequisites: An introductory CS sequence or equivalent experience",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1951V",
+        "critical_review_data": {
+            "average_hours": "11.00",
+            "max_hours": "20.78",
+            "course_rating": "77%\n4.07",
+            "professor_rating": "94%\n4.70"
+        }
+    },
+    {
+        "code": "CSCI 1951X",
+        "term": "Fall 2023",
+        "title": "Formal Proof and Verification",
+        "description": "Proof assistants are tools that are used to check the correctness of programs. Unlike tools like model checkers and SAT solvers, proof assistants are highly interactive. Machine-checked formal proofs lead to trustworthy programs and fully specified reliable mathematics. This course introduces students to the theory and use of proof assistants, using the system Lean. We will use Lean to verify properties of functional programs and theorems from pure mathematics. We will learn the theory of deductive reasoning and the logic that these tools are based on.\nText: \"The Hitchhiker's Guide to Logical Verification\" by Blanchette et al.\nPrereqs: CSCI 1710 Logic for Systems or a proof-based mathematics course. Basic familiarity with functional programming (e.g. Haskell, ML) is helpful but not required.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1951X",
+        "critical_review_data": {
+            "average_hours": "7.75",
+            "max_hours": "15.00",
+            "course_rating": "40%\n4.25",
+            "professor_rating": "46%\n4.96"
+        }
+    },
+    {
+        "code": "CSCI 1951Z",
+        "term": "Spring 2024",
+        "title": "Fairness in Automated Decision Making",
+        "description": "We know we want to build more equitable technology, but how? In this course we\u2019ll review the latest developments in how to build more equitable algorithms, including definitions of (un)fairness, the challenges of explaining how ML works, making sure we can get accountability, and much more.",
+        "prereq_text": "Prerequisites: CSCI 1420, 1950F, DATA 0200 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 1420",
+            "1950F",
+            "DATA 0200"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1951Z",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1952B",
+        "term": "Spring 2024",
+        "title": "Responsible Computer Science in Practice",
+        "description": "What can ethics and social and political theory tell us about how to navigate the social impacts of computing? How do these perspectives shape technical decisions computer scientists have to make? The role of computer scientists is rapidly evolving: as the systems they build affect everyone, from individuals to society at large, computer scientists become more than just coders. They must be able to assess the social impacts of the technology they develop and engage with experts from other disciplines which offer critical insights and normative perspectives on those impacts. The goal of this course is to enable you to understand and critically reflect on key concepts and ideas in ethics and social and political theory on topics ranging from fairness to consent, digital well-being to regulation, and to apply them to concrete technical decisions in practical exercises and project-oriented work.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1952B",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1952C",
+        "term": "Fall 2023",
+        "title": "Frontiers of Graph Algorithms Seminar",
+        "description": "Graphs are one of the most powerful and flexible algorithmic tools. Likewise, graph algorithms remains a primary focus of modern algorithms research. This course will sample major results from contemporary paradigms of graph algorithms. Particular attention will be paid to techniques in graph sparsification and how these techniques have helped to recently solve open problems in algorithms. Planned topics include: metric embeddings, expander decompositions, iterative rounding, edge-degree-constrained subgraphs and graph shortcuts. This course is aimed at current and potential future graduate students considering proof-based research in algorithms. Each student will be responsible for reading and presenting a paper with the goal of better understanding how contemporary research in theoretical computer science is both done and best communicated.",
+        "prereq_text": "Prerequisites: CSCI 1550, 1570 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 1550",
+            "CSCI 1570"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1952C",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1952Q",
+        "term": "Spring 2024",
+        "title": "Algorithmic Aspects of Machine Learning",
+        "description": "In this course, we will explore the theoretical foundations of machine learning and deep learning. We will focus on designing and analyzing machine learning algorithms with provable guarantees. More specifically, in this course we will (1) introduce basic tools in linear algebra and optimization, including the power method, singular value decomposition, matrix calculus, (matrix) concentration inequalities, and (stochastic) gradient descent, (2) cover many examples where one can design algorithms with provably guarantees for fundamental problems in machine learning (under certain assumptions), including topic modeling, tensor decomposition, sparse coding, and matrix completion, and (3) discuss the emerging theory of deep learning, including landscape analysis, generalization and over-parameterization, neural tangent kernels, generalization bounds, and implicit regularization.",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and (CSCI 1450, 0450, APMA 1650 or 1655) and (CSCI 0530, MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 1450",
+            "CSCI 0450",
+            "APMA 1650",
+            "APMA 1655",
+            "CSCI 0530",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1952Q",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1952X",
+        "term": "Spring 2024",
+        "title": "Contemporary Digital Policy and Politics",
+        "description": "This course will examine the politics and processes for making policies related to the internet and digital policy issues. We will examine current issues at the national level, including the White House and federal agencies, Congress, international institutions and industry on issues such as privacy and information security, and on debates like whether and how to regulate Big Tech. Topics covered include the creation of national policies at the White House, the regulatory process, legislation, standards, global implications and the politics of technological change.\nFormat and participation: This is an asynchronous version of IAPA 1811, available only to students enrolled in a completely online master\u2019s degree program, by permission of the instructor. Students will complete weekly activities in lieu of attending synchronous class discussions.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1952X",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1952Y",
+        "term": "Spring 2024",
+        "title": "Computer Architecture",
+        "description": "How does a computer program actually turn into the electrons moving inside of your computer? What are the relevant metrics and tradeoffs for designing a computer, and what impact do these tradeoffs have on our software? In this course, we cover computer organization and design, from a software lens. Topics include instruction set architectures, processor design and pipelining, memory hierarchies, program flow optimization, I/O, and emerging applications. Homeworks and final project will use powerful architecture simulators and explore general and specialized hardware for various applications.",
+        "prereq_text": "Prerequisites: CSCI 0300, 1310, 0330 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "CSCI 0300",
+            "CSCI 1310",
+            "CSCI 0330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1952Y",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 1952Z",
+        "term": "Spring 2024",
+        "title": "Robots as a Medium: Creating Art with Teams of Robots",
+        "description": "In this course, students will work in groups to use teams of flying and ground robots to create works of art, such as paintings, composing music, choreography, etc. This course is open to all concentrations, no prior experience necessary!",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/1952Z",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2002",
+        "term": "Spring 2024",
+        "title": "Privacy and Personal Data Protection",
+        "description": "If you tried to live for one day without generating any digital personal data, how would you spend it? In the Information Age, the use of personal data has proliferated and is pervasive. This course offers a comprehensive examination of protection of privacy and personal data, which is central to autonomy, dignity, and liberty. Topics include identity, financial, health, educational, and other data. Students will learn about: Fair Information Practices; the development of modern privacy rules in the United States and around the world; Fourth Amendment privacy and the autonomy of the individual in relation to the state; key US laws (HIPAA, FERPA, GLBA, GINA, COPPA, etc.); significant international rules (European Union\u2019s General Data Protection Regulation (GDPR), etc.); important institutions (Federal Trade Commission, Data Protection Authorities, etc.); standards; Privacy by Design and Default; and emerging issues.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2002",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2230",
+        "term": "Fall 2023",
+        "title": "Computer Graphics",
+        "description": "This course offers an in-depth exploration of fundamental concepts in 2D and 3D computer graphics. It introduces 2D raster graphics techniques, including simple image processing. The bulk of the course is devoted to 3D modeling, geometric transformations, and 3D viewing and rendering. A sequence of assignments culminates in a simple geometric modeler and ray tracer. C++ and the graphics library OpenGL are used throughout the course, as is shader programming on the GPU. The final project is typically a small group project spec'd and implemented by the group using shaders or ray tracing to create special effects.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2230",
+        "critical_review_data": {
+            "average_hours": "11.00",
+            "max_hours": "17.33",
+            "course_rating": "93%\n4.63",
+            "professor_rating": "47%\n5.00"
+        }
+    },
+    {
+        "code": "CSCI 2240",
+        "term": "Spring 2024",
+        "title": "Advanced Computer Graphics",
+        "description": "CSCI 2240 explores several key areas of 3D graphics---rendering, geometry processing, optimization, and simulation---taking a sophisticated approach to each. This year, we are looking to improve the course's coverage of optimization by adding more lecture content on the topic (optimization theory, methods for solving (sparse) linear systems, etc.) and by designing a new assignment (likely 3D as-rigid-as-possible shape manipulation). Prerequisites: one of CSCI 0530, MATH 0520, MATH 0540; CSCI 1230; and familiarity with multivariable calculus by e.g. having taken one of MATH 180, MATH 200, MATH 350",
+        "prereq_text": "Prerequisites: CSCI 1230 and (CSCI 0530, MATH 0520 or 0540).",
+        "prereqs": [
+            "CSCI 1230",
+            "CSCI 0530",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2240",
+        "critical_review_data": {
+            "average_hours": "16.00",
+            "max_hours": "28.00",
+            "course_rating": "50%\n4.37",
+            "professor_rating": "56%\n4.91"
+        }
+    },
+    {
+        "code": "CSCI 2270",
+        "term": "Spring 2024",
+        "title": "Topics in Database Management",
+        "description": "In-depth treatment of advanced issues in database management systems. Topics vary from year to year and may include distributed databases, mobile data management, data stream processing and web-based data management. Prerequisite: CSCI 1270.",
+        "prereq_text": "Prerequisite: CSCI 1270.",
+        "prereqs": [
+            "CSCI 1270"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2270",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2340",
+        "term": "Spring 2024",
+        "title": "Software Engineering",
+        "description": "Topics in the design, specification, construction and validation of programs. Focus will be on tools to support each of these stages. Course will pay special attention to the concerns raised by the properties of modern software systems including distribution, security, component-based decomposition and implicit control. A basic software engineering course such as CSCI0320 or CSCI1340 or extensive industrial programming experience is required. Knowledge of system programming such as CSCI0300,CSCI0330, CSCI1310, or CSCI1330 is highly recommended.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2340",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2390",
+        "term": "Fall 2023",
+        "title": "Privacy-Conscious Computer Systems",
+        "description": "We will examine research papers on distributed system design, privacy-preserving, and secure computing techniques, and discuss how to apply these ideas in practice. The goal is to understand if, and how we can better protect the sensitive data we entrust to computer systems, both against leaks and against unauthorized or unethical use. We will look at web services, datacenter systems, distributed communication systems, and machine learning systems. During class, you will present and discuss papers, finish a set of hands-on assignments, work on a research project, and present your project at the end of the semester.",
+        "prereq_text": "Prerequisites: (CSCI 0330, 0300, 1310, 1950S or 1330) and CSCI 1380.",
+        "prereqs": [
+            "CSCI 0330",
+            "CSCI 0300",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330",
+            "CSCI 1380"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2390",
+        "critical_review_data": {
+            "average_hours": "6.58",
+            "max_hours": "13.46",
+            "course_rating": "40%\n4.29",
+            "professor_rating": "46%\n4.92"
+        }
+    },
+    {
+        "code": "CSCI 2440",
+        "term": "Spring 2024",
+        "title": "Advanced Algorithmic Game Theory",
+        "description": "This course examines topics in game theory and mechanism design from a computer scientist\u2019s perspective. Through the lens of computation, the focus is the design and analysis of systems utilized by self-interested agents. Students will investigate how the potential for strategic agent behavior can/should influence system design, and the ramifications of conflicts of interest between system designers and participating agents. Emphasis on computational tractability is paramount, so that simple designs are often preferred to optimal. Students will learn to analyze competing designs using the tools of theoretical computer science, and empirical tools, such as empirical game-theoretic analysis. Application areas include computational advertising, wireless spectrum, and prediction markets.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2440",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2470",
+        "term": "Spring 2024",
+        "title": "Deep Learning",
+        "description": "Deep Learning belongs to a broader family of machine learning methods. It is a particular version of artificial neural networks that emphasizes learning representation with multiple layers of networks. Deep Learning, plus the specialized techniques that it has inspired (e.g. convolutional neural networks, recurrent neural networks, and transformers), have led to rapid improvements in many applications, such as computer vision, machine learning, sound understanding, and robotics. This course gives students an overview of the prominent techniques of Deep Learning and its applications in computer vision, language understanding, and other areas. It also provides hands-on practice of implementing deep learning algorithms in Python. A final project will implement an advanced piece of work in one of these areas. Prerequisites: basic programming: (CSCI 0150, 0170, 0190); linear algebra: (CSCI 0530, MATH 0520, 0540); stats/probability: (CSCI 0220, 1450, 0450, MATH 1610, APMA 1650, 1655)",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2470",
+        "critical_review_data": {
+            "average_hours": "19.15",
+            "max_hours": "30.00",
+            "course_rating": "72%\n3.59",
+            "professor_rating": "49%\n4.28"
+        }
+    },
+    {
+        "code": "CSCI 2500B",
+        "term": "Spring 2024",
+        "title": "Optimization Algorithms for Planar Graphs",
+        "description": "Planar graphs arise in applications such as road map navigation and logistics, graph drawing and image processing. We will study graph algorithms and data structures that exploit planarity. Our focus will be on recent research results in optimization. Prerequisite: CSCI 1570 or the equivalent.",
+        "prereq_text": "Prerequisite: CSCI 1570.",
+        "prereqs": [
+            "CSCI 1570"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2500B",
+        "critical_review_data": {
+            "average_hours": "8.13",
+            "max_hours": "15.29",
+            "course_rating": "67%\n3.97",
+            "professor_rating": "81%\n4.19"
+        }
+    },
+    {
+        "code": "CSCI 2540",
+        "term": "Spring 2024",
+        "title": "Advanced Probabilistic Methods in Computer Science",
+        "description": "Advanced topics in applications of probabilistic methods in design and analysis of algorithms, in particular to randomized algorithms and probabilistic analysis of algorithms. Topics include the Markov chains Monte Carlo method, martingales, entropy as a measure for information and randomness, and more. Prerequisite: CSCI 1450. Recommended but not required: CSCI 1570.",
+        "prereq_text": "Prerequisites: CSCI 1450 or 0450.",
+        "prereqs": [
+            "CSCI 1450",
+            "CSCI 0450"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2540",
+        "critical_review_data": {
+            "average_hours": "8.33",
+            "max_hours": "12.67",
+            "course_rating": "82%\n4.09",
+            "professor_rating": "38%\n4.05"
+        }
+    },
+    {
+        "code": "CSCI 2590",
+        "term": "Fall 2023",
+        "title": "Advanced Topics in Cryptography",
+        "description": "Seminar-style course on advanced topics in cryptography. Example topics are zero-knowledge proofs, multi-party computation, extractors in cryptography, universal composability, anonymous credentials and ecash, interplay of cryptography and game theory. May be repeated for credit. Prerequisite: CSCI 1510 or permission of the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2590",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2660",
+        "term": "Spring 2024",
+        "title": "Computer Systems Security",
+        "description": "This course teaches computer security principles from an applied viewpoint and provides hands-on experience with security threats and countermeasures. The course additionally covers principles and skills useful for making informed security decisions and for understanding how security interacts with the world around it. The main topics covered are cryptography, authentication, access control, web security, and network security. Other topics include cybersecurity ethics and privacy. The course aims to balance theory and practice. These advanced versions focus on real-world skills: performing attacks that are more difficult and rely on less serious vulnerabilities, and creating attacks that achieve a higher standard of quality than a mere \u201dproof of concept.\u201d This course covers the same material as CSCI 1620 and 1660 and shares their assignments. Graduate students only. If you are interested in this course, request an override and fill out this form: https://forms.gle/pHPAy9ntQkAQ7xLD9",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2660",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2670",
+        "term": "Spring 2024",
+        "title": "Operating Systems",
+        "description": "Covers not just the principles of operating systems but the intricacies of how they work. Topics include multithreaded programming, managing threads and interrupts, managing storage, processor scheduling, operating-system structure, virtualization, security, and the design of file systems (both local and distributed). Extensive examples are taken from actual systems, including Linux and Windows. Students are expected to complete both problem sets and programming assignments (in C) and will individually write a simple operating system. Prerequisite: one of CSCI 0300, CSCI 0330, CSCI 1310, or CSCI 1330. Graduate students only. This course covers the same material as the combination of CSCI 1670 and 1690 and shares their assignments.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2670",
+        "critical_review_data": {
+            "average_hours": "13.57",
+            "max_hours": "35.00",
+            "course_rating": "41%\n4.33",
+            "professor_rating": "79%\n4.46"
+        }
+    },
+    {
+        "code": "CSCI 2810",
+        "term": "Fall 2023",
+        "title": "Advanced Computational Molecular Biology",
+        "description": "High-throughput experimental approaches now allow molecular biologists to make large-scale measurements of DNA, RNA, and protein, the three fundamental molecules of the cell. The resulting datasets are often too large for manual analysis and demand computational techniques. This course introduces algorithms for sequence comparison and alignment; molecular evolution and phylogenetics; DNA/RNA sequencing and assembly; recognition of genes and regulatory elements; and RNA and protein structure. The course demonstrates how to model biological problems in terms of computer science. CSCI 0160, 0180, 0190, or 0200. Recommended: CS 220, or some other course that introduces concepts from discrete math and probability. Course overrides are available at the instructor\u2019s discretion.",
+        "prereq_text": "Prerequisites: CSCI 0150, 0180 or 0190.",
+        "prereqs": [
+            "CSCI 0150",
+            "CSCI 0180",
+            "CSCI 0190"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2810",
+        "critical_review_data": {
+            "average_hours": "9.50",
+            "max_hours": "18.75",
+            "course_rating": "83%\n4.28",
+            "professor_rating": "91%\n4.58"
+        }
+    },
+    {
+        "code": "CSCI 2820",
+        "term": "Spring 2024",
+        "title": "Algorithmic Foundations of Computational Biology",
+        "description": "The aim of this course is to provide computer science and mathematical sciences foundations, as well as biological insights, for numerous seminal algorithms in the field of computational biology, i.e., algorithmic foundations for Computational Biology. Topics include: The BLAST Algorithm and Karlin-Altschul Statistics, Genome Assembly Algorithms and Haplotype Assembly Algorithms, Hidden Markov Models (HMM) Algorithms: The Learning Problem, Recombination and Ancestral Recombination Graphs Algorithms, Rigorous Clustering: Spectral Graph Theory Algorithms, Algorithms for Constructing Suffix Trees in Linear Time, Protein Folding Algorithms (An Introduction). Each chapter is devoted to a class of fundamental computational problems of genomics related to the analysis of DNA, RNA, protein sequences and protein structures and their molecular biology function.",
+        "prereq_text": "Prerequisites: (CSCI 0160, 0180, 0190 or 0200) and CSCI 1810.",
+        "prereqs": [
+            "CSCI 0160",
+            "CSCI 0180",
+            "CSCI 0190",
+            "CSCI 0200",
+            "CSCI 1810"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2820",
+        "critical_review_data": {
+            "average_hours": "6.11",
+            "max_hours": "12.22",
+            "course_rating": "45%\n3.91",
+            "professor_rating": "57%\n3.83"
+        }
+    },
+    {
+        "code": "CSCI 2890",
+        "term": "Fall 2023",
+        "title": "Comprehensive Examination Preparation",
+        "description": "For graduate students who have met the tuition requirement and are paying the registration fee to continue active enrollment while preparing for a preliminary examination.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2890",
+        "critical_review_data": {}
+    },
+    {
+        "code": "CSCI 2951F",
+        "term": "Spring 2024",
+        "title": "Learning and Sequential Decision Making",
+        "description": "The course explores automated decision making from a computer-science perspective. It examines efficient algorithms, where they exist, for single agent and multiagent planning as well as approaches to learning near-optimal decisions from experience. Topics will include Markov decision processes, stochastic and repeated games, partially observable Markov decision processes, and reinforcement learning. Of particular interest will be issues of generalization, exploration, and representation. Participants should have taken a graduate-level computer science course and should have some exposure to machine learning from a previous computer-science class or seminar; check with instructor if not sure. Recommended Prerequisites: CSCI 1950F or CSCI 1420",
+        "prereq_text": "Prerequisites: CSCI 1950F or 1420.",
+        "prereqs": [
+            "CSCI 1950F",
+            "CSCI 1420"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2951F",
+        "critical_review_data": {
+            "average_hours": "5.00",
+            "max_hours": "12.15",
+            "course_rating": "61%\n4.08",
+            "professor_rating": "80%\n4.72"
+        }
+    },
+    {
+        "code": "CSCI 2951O",
+        "term": "Spring 2024",
+        "title": "Foundations of Prescriptive Analytics",
+        "description": "We are undoubtedly in the middle of an Analytics Revolution that enabled turning huge amounts data into insights, and insights into predictions about the future. At its final frontiers, Prescriptive Analytics is aimed at identifying the best possible action to take given the constraints and the objective. To that end, this course provides students with a comprehensive overview of the theory and practice of how to apply Prescriptive Analytics through optimization technology. A wide variety of state-of-the-art techniques are studied including: Boolean Satisfiability, Constraint Programming, Linear Programming, Integer Programming, Local Search Meta-Heuristics, and Large-Scale Optimization. Pre Requisites: One of CSCI 0300, 0320, CSCI 0330, CSCI 1310, OR CSCI 1330 and recommended: one of CSCI 0530, CSCI 1570, MATH 0520 or MATH 0540.",
+        "prereq_text": "Prerequisites: CSCI 0320, 1340, 0300, 0330, 1310, 1950S or 1330.",
+        "prereqs": [
+            "CSCI 0320",
+            "CSCI 1340",
+            "CSCI 0300",
+            "CSCI 0330",
+            "CSCI 1310",
+            "1950S",
+            "1950S 1330"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2951O",
+        "critical_review_data": {
+            "average_hours": "11.00",
+            "max_hours": "23.57",
+            "course_rating": "49%\n4.32",
+            "professor_rating": "58%\n5.00"
+        }
+    },
+    {
+        "code": "CSCI 2951U",
+        "term": "Spring 2024",
+        "title": "Topics in Software Security",
+        "description": "This course investigates the state-of-the-art in software exploitation and defense. Specifically, the course is structured as a seminar where students present research papers to their peers. We will begin with a summary of prevalent software defects, typically found in applications written in memory unsafe languages, and proceed to surveying what we are up against: traditional and modern exploitation techniques, ranging from classical code injection and code reuse up to the newest goodies (JIT-ROP, Blind ROP). For the bulk part, we will focus on the latest advances in protection mechanisms, mitigation techniques, and tools against modern vulnerability classes and exploitation methods.",
+        "prereq_text": "Prerequisites: CSCI 1670, 1650 or 1951H.",
+        "prereqs": [
+            "CSCI 1670",
+            "CSCI 1650",
+            "1951H"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2951U",
+        "critical_review_data": {
+            "average_hours": "5.73",
+            "max_hours": "12.70",
+            "course_rating": "81%\n4.06",
+            "professor_rating": "54%\n4.68"
+        }
+    },
+    {
+        "code": "CSCI 2951X",
+        "term": "Spring 2024",
+        "title": "Reintegrating AI",
+        "description": "The goal of AI has been to build complete intelligent agents, yet the field has been fragmented into a collection of problem-specific areas of study. We will first spend a few weeks in lecture covering a new approach to integrating existing AI subfields into a single agent architecture, and remainder of the semester on self-directed, semester-long research projects.\nGrading based on a mid-semester project proposal, and a substantial open-ended final project. The projects will be multi-disciplinary in nature but students will have the opportunity to work in small groups, so they need not necessarily have expertise in the relevant areas. Graduate students welcome; undergraduates need instructor permission to enroll.",
+        "prereq_text": "Prerequisites: CSCI 1410, 1420, 1950F or 2951F.",
+        "prereqs": [
+            "CSCI 1410",
+            "CSCI 1420",
+            "1950F",
+            "2951F"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2951X",
+        "critical_review_data": {
+            "average_hours": "10.75",
+            "max_hours": "14.00",
+            "course_rating": "86%\n4.32",
+            "professor_rating": "46%\n4.97"
+        }
+    },
+    {
+        "code": "CSCI 2952G",
+        "term": "Fall 2023",
+        "title": "Deep Learning in Genomics",
+        "description": "Deep learning models have achieved impressive performance in fields like computer vision and NLP. Given an adequate amount of data, these models can extract meaningful representations to perform accurate predictions. The collection of vast quantities of biological data naturally leads to the question -- can deep learning help us understand genomics? In this seminar-style class, we will cover the recent research literature trying to answer this question. We will learn how state-of-the-art models like CNNs, RNNs, GCNs, GANs, etc. have been applied to solve significant problems in genomics and what unique challenges are presented by the data in this field.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/CSCI/2952G",
+        "critical_review_data": {
+            "average_hours": "6.33",
+            "max_hours": "15.67",
+            "course_rating": "53%\n4.63",
+            "professor_rating": "57%\n5.00"
+        }
+    }
+]
