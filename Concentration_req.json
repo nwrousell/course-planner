@@ -4,9 +4,9 @@
             "AB": [
                 {
                     "name": "Math",
-                    "function": "Pick",
+                    "function": "PICK",
                     "value": 1,
-                    "Courses": [
+                    "courses": [
                         "MATH 0100",
                         "MATH 0170",
                         "MATH 0190"
@@ -21,7 +21,7 @@
                             "function": "AND",
                             "value": [
                                 {
-                                    "function": "Pick",
+                                    "function": "PICK",
                                     "value": 1,
                                     "courses": [
                                         "CSCI 0190"
@@ -41,7 +41,7 @@
                             "function": "AND",
                             "value": [
                                 {
-                                    "function": "Pick",
+                                    "function": "PICK",
                                     "value": 1,
                                     "courses": [
                                         "CSCI 0150",
@@ -49,7 +49,7 @@
                                     ]
                                 },
                                 {
-                                    "function": "Pick",
+                                    "function": "PICK",
                                     "value": 1,
                                     "courses": [
                                         "CSCI 0200"
@@ -60,27 +60,27 @@
                     ]
                 },
                 {
-                    "name": "Intermediate Courses",
+                    "name": "Intermediate courses",
                     "function": "AND",
-                    "values": [
+                    "value": [
                         {
                             "name": "5 course req",
                             "function": "PICK",
-                            "values": 5
+                            "value": 5
                         },
                         {
                             "name": "int breadth",
                             "function": "AND",
-                            "values": [
+                            "value": [
                                 {
                                     "name": "Mathematics",
                                     "function": "OR",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Multi",
-                                            "function": "Pick",
-                                            "values": 1,
-                                            "Courses": [
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
                                                 "MATH 0180",
                                                 "MATH 0200",
                                                 "MATH 0350"
@@ -88,9 +88,9 @@
                                         },
                                         {
                                             "name": "Linear",
-                                            "function": "Pick",
-                                            "values": 1,
-                                            "Courses": [
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
                                                 "MATH 0520",
                                                 "MATH 0540",
                                                 "CSCI 0530"
@@ -98,9 +98,9 @@
                                         },
                                         {
                                             "name": "Probability",
-                                            "function": "Pick",
-                                            "values": 1,
-                                            "Courses": [
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 1450",
                                                 "APMA 1650",
                                                 "APMA 1655"
@@ -111,12 +111,12 @@
                                 {
                                     "name": "Foundations",
                                     "function": "OR",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Discrete",
-                                            "function": "Pick",
-                                            "values": 1,
-                                            "Courses": [
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 0220",
                                                 "MATH 1530",
                                                 "MATH 1001"
@@ -124,9 +124,9 @@
                                         },
                                         {
                                             "name": "Computation",
-                                            "function": "Pick",
-                                            "values": 1,
-                                            "Courses": [
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 1010"
                                             ]
                                         }
@@ -135,21 +135,21 @@
                                 {
                                     "name": "Systems",
                                     "function": "OR",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Comp_Systems",
-                                            "function": "Pick",
-                                            "values": 1,
-                                            "Courses": [
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 0300",
                                                 "CSCI 0330"
                                             ]
                                         },
                                         {
                                             "name": "Software Engineering",
-                                            "function": "Pick",
-                                            "values": 1,
-                                            "Courses": [
+                                            "function": "PICK",
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 0320"
                                             ]
                                         }
@@ -162,20 +162,20 @@
                 {
                     "function": "OR",
                     "name": "Pathways",
-                    "values": [
+                    "value": [
                         {
                             "name": "Syst_complete",
                             "function": "AND",
-                            "values": [
+                            "value": [
                                 {
                                     "name": "Systems",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Core",
                                             "function": "PICK",
-                                            "values": 1,
-                                            "Courses": [
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 1380",
                                                 "CSCI 1670",
                                                 "CSCI 1680"
@@ -184,8 +184,8 @@
                                         {
                                             "name": "Core_AND",
                                             "function": "PICK",
-                                            "values": 1,
-                                            "Courses": [
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 1380",
                                                 "CSCI 1670",
                                                 "CSCI 1680",
@@ -205,10 +205,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "Intermediate Courses",
+                                    "name": "Intermediate courses",
                                     "function": "PICK",
                                     "value": 3,
-                                    "Courses": [
+                                    "courses": [
                                         "CSCI 0300",
                                         "CSCI 0330",
                                         "CSCI 0220"
@@ -219,16 +219,16 @@
                         {
                             "name": "Software Principles_complete",
                             "function": "AND",
-                            "values": [
+                            "value": [
                                 {
                                     "name": "Software Princ",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Core",
                                             "function": "PICK",
                                             "value": 1,
-                                            "Courses": [
+                                            "courses": [
                                                 "CSCI 1260",
                                                 "CSCI 1320",
                                                 "CSCI 1600",
@@ -240,7 +240,7 @@
                                             "name": "Core_AND",
                                             "function": "PICK",
                                             "value": 1,
-                                            "Courses": [
+                                            "courses": [
                                                 "CSCI 1260",
                                                 "CSCI 1320",
                                                 "CSCI 1600",
@@ -258,10 +258,10 @@
                                     ]
                                 },
                                 {
-                                    "name": "Intermediate Courses",
+                                    "name": "Intermediate courses",
                                     "function": "PICK",
                                     "value": 3,
-                                    "Courses": [
+                                    "courses": [
                                         "CSCI 0300",
                                         "CSCI 0330",
                                         "CSCI 0320",
@@ -273,16 +273,16 @@
                         {
                             "name": "Data_Complete",
                             "function": "AND",
-                            "values": [
+                            "value": [
                                 {
                                     "name": "Data",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Core",
                                             "function": "PICK",
                                             "value": 1,
-                                            "Courses": [
+                                            "courses": [
                                                 "CSCI 1270",
                                                 "CSCI 1420",
                                                 "CSCI 1951A"
@@ -292,7 +292,7 @@
                                             "name": "Core_AND",
                                             "function": "PICK",
                                             "value": 1,
-                                            "Courses": [
+                                            "courses": [
                                                 "CSCI 1270",
                                                 "CSCI 1420",
                                                 "CSCI 1951A",
@@ -302,14 +302,14 @@
                                     ]
                                 },
                                 {
-                                    "name": "Intermediate Courses",
+                                    "name": "Intermediate courses",
                                     "function": "AND",
                                     "value": [
                                         {
                                             "name": "Syst",
                                             "function": "PICK",
                                             "value": 1,
-                                            "Courses": [
+                                            "courses": [
                                                 "CSCI 0320",
                                                 "CSCI 0300",
                                                 "CSCI 0330"
@@ -319,7 +319,7 @@
                                             "name": "Lin",
                                             "function": "PICK",
                                             "value": 1,
-                                            "Courses": [
+                                            "courses": [
                                                 "MATH 0520",
                                                 "MATH 0540",
                                                 "CSCI 0530"
@@ -329,7 +329,7 @@
                                             "name": "Stat",
                                             "function": "PICK",
                                             "value": 1,
-                                            "Courses": [
+                                            "courses": [
                                                 "CSCI 1450",
                                                 "APMA 1650",
                                                 "APMA 1655"
@@ -342,11 +342,11 @@
                         {
                             "name": "AI/ML_Complete",
                             "function": "AND",
-                            "values": [
+                            "value": [
                                 {
                                     "name": "AI/ML",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Core",
                                             "function": "PICK",
@@ -363,7 +363,7 @@
                                         },
                                         {
                                             "name": "Core_AND",
-                                            "Function": "AND",
+                                            "function": "AND",
                                             "value": 1,
                                             "courses": [
                                                 "CSCI 1410",
@@ -384,9 +384,9 @@
                                     ]
                                 },
                                 {
-                                    "name": "Intermediate Courses",
+                                    "name": "Intermediate courses",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Stat",
                                             "function": "PICK",
@@ -414,16 +414,16 @@
                         {
                             "name": "Theory_Complete",
                             "function": "AND",
-                            "values": [
+                            "value": [
                                 {
                                     "name": "Theory",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "CORE",
                                             "function": "PICK",
-                                            "values": 1,
-                                            "Courses": [
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 1510",
                                                 "CSCI 1550",
                                                 "CSCI 1570",
@@ -435,8 +435,8 @@
                                         {
                                             "name": "CORE",
                                             "function": "PICK",
-                                            "values": 1,
-                                            "Courses": [
+                                            "value": 1,
+                                            "courses": [
                                                 "CSCI 1510",
                                                 "CSCI 1550",
                                                 "CSCI 1570",
@@ -455,13 +455,13 @@
                                     ]
                                 },
                                 {
-                                    "name": "Intermediate Courses 1",
+                                    "name": "Intermediate courses 1",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
-                                            "name": "Intermediate Courses",
+                                            "name": "Intermediate courses",
                                             "function": "AND",
-                                            "values": [
+                                            "value": [
                                                 {
                                                     "name": "stat and lin",
                                                     "function": "AND",
@@ -470,7 +470,7 @@
                                                             "name": "stat",
                                                             "function": "PICK",
                                                             "value": 1,
-                                                            "Courses": [
+                                                            "courses": [
                                                                 "CSCI 1450",
                                                                 "APMA 1650",
                                                                 "APMA 1655"
@@ -480,7 +480,7 @@
                                                             "name": "lin",
                                                             "function": "PICK",
                                                             "value": 1,
-                                                            "Courses": [
+                                                            "courses": [
                                                                 "MATH 0520",
                                                                 "MATH 0540",
                                                                 "CSCI 0530"
@@ -492,7 +492,7 @@
                                                     "name": "theory",
                                                     "function": "PICK",
                                                     "value": 1,
-                                                    "Courses": [
+                                                    "courses": [
                                                         "CSCI 1010"
                                                     ]
                                                 }
@@ -503,16 +503,16 @@
                                 {
                                     "name": "Security_Complete",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Security",
                                             "function": "AND",
-                                            "values": [
+                                            "value": [
                                                 {
                                                     "name": "Core",
                                                     "function": "PICK",
                                                     "value": 1,
-                                                    "Courses": [
+                                                    "courses": [
                                                         "CSCI 1510",
                                                         "CSCI 1650",
                                                         "CSCI 1660"
@@ -522,7 +522,7 @@
                                                     "name": "Core_AND",
                                                     "function": "PICK",
                                                     "value": 1,
-                                                    "Courses": [
+                                                    "courses": [
                                                         "CSCI 1510",
                                                         "CSCI 1650",
                                                         "CSCI 1660",
@@ -542,7 +542,7 @@
                                         {
                                             "name": "Intermediate 1",
                                             "function": "AND",
-                                            "values": [
+                                            "value": [
                                                 {
                                                     "name": "stats+syst",
                                                     "function": "AND",
@@ -551,7 +551,7 @@
                                                             "name": "stats",
                                                             "function": "PICK",
                                                             "value": 1,
-                                                            "Courses": [
+                                                            "courses": [
                                                                 "CSCI 1450",
                                                                 "APMA 1650",
                                                                 "APMA 1655"
@@ -561,7 +561,7 @@
                                                             "name": "systm",
                                                             "function": "PICK",
                                                             "value": 1,
-                                                            "Courses": [
+                                                            "courses": [
                                                                 "CSCI 0330",
                                                                 "CSCI 0300"
                                                             ]
@@ -572,7 +572,7 @@
                                                     "name": "Discrete",
                                                     "function": "PICK",
                                                     "value": 1,
-                                                    "Courses": [
+                                                    "courses": [
                                                         "CSCI 0220"
                                                     ]
                                                 }
@@ -583,7 +583,7 @@
                                 {
                                     "name": "Visual Computing_Complete",
                                     "function": "AND",
-                                    "values": [
+                                    "value": [
                                         {
                                             "name": "Visual Computing",
                                             "function": "AND",
@@ -592,7 +592,7 @@
                                                     "name": "Core",
                                                     "value": 1,
                                                     "function": "PICK",
-                                                    "Courses": [
+                                                    "courses": [
                                                         "CSCI 1230",
                                                         "CSCI 1250",
                                                         "CSCI 1280",
@@ -608,7 +608,7 @@
                                                     "name": "Core_AND",
                                                     "function": "PICK",
                                                     "value": 1,
-                                                    "Courses": [
+                                                    "courses": [
                                                         "CSCI 1230",
                                                         "CSCI 1250",
                                                         "CSCI 1280",
@@ -629,14 +629,14 @@
                                             ]
                                         },
                                         {
-                                            "name": "Intermediate Courses 1",
+                                            "name": "Intermediate courses 1",
                                             "function": "AND",
                                             "value": [
                                                 {
                                                     "name": "linear",
                                                     "function": "PICK",
                                                     "value": 1,
-                                                    "Courses": [
+                                                    "courses": [
                                                         "MATH 0520",
                                                         "MATH 0540",
                                                         "CSCI 0530"
@@ -646,7 +646,7 @@
                                                     "name": "System",
                                                     "function": "PICK",
                                                     "value": 1,
-                                                    "Courses": [
+                                                    "courses": [
                                                         "CSCI 0320",
                                                         "CSCI 0330"
                                                     ]
@@ -657,38 +657,38 @@
                                 },
                                 {
                                     "name": "Computer Architecture",
-                                    "Pick": 2,
-                                    "Core Courses": [
+                                    "PICK": 2,
+                                    "Core courses": [
                                         "ENGN 1630",
                                         "ENGN 1640",
                                         "ENGN 1650"
                                     ],
-                                    "Related Courses": [
+                                    "Related courses": [
                                         "CSCI 1660",
                                         "CSCI 1760",
                                         "ENGN 1600"
                                     ],
-                                    "Intermediate Courses": [
+                                    "Intermediate courses": [
                                         "CSCI 0330",
                                         "CSCI 0330"
                                     ]
                                 },
                                 {
                                     "name": "Computational Biology",
-                                    "Pick": 2,
-                                    "Core Courses": [
+                                    "PICK": 2,
+                                    "Core courses": [
                                         "CSCI 1810",
                                         "CSCI 1820",
                                         "CSCI 1850"
                                     ],
-                                    "Related Courses": [
+                                    "Related courses": [
                                         "CSCI 1420",
                                         "CSCI 1430",
                                         "CSCI 1470",
                                         "CSCI 1951A",
                                         "CLPS 1520"
                                     ],
-                                    "Intermediate Courses": [
+                                    "Intermediate courses": [
                                         "CSCI 0220",
                                         "CSCI 1010",
                                         "CSCI 1450",
@@ -698,13 +698,13 @@
                                 },
                                 {
                                     "name": "Design",
-                                    "Pick": 2,
-                                    "Core Courses": [
+                                    "PICK": 2,
+                                    "Core courses": [
                                         "CSCI 1300",
                                         "CSCI 1370",
                                         "CSCI 1951C"
                                     ],
-                                    "Related Courses": [
+                                    "Related courses": [
                                         "CSCI 1230",
                                         "CSCI 1320",
                                         "CSCI 1360",
@@ -717,7 +717,7 @@
                                         "ENGN 1931I",
                                         "VISA 1720"
                                     ],
-                                    "Intermediate Courses": [
+                                    "Intermediate courses": [
                                         "CSCI 0300",
                                         "CSCI 0320",
                                         "CSCI 0330",
@@ -737,7 +737,7 @@
                 "name": "Requirements",
                 "value": 2,
                 "function": "PICK",
-                "Courses": [
+                "courses": [
                     "ECON 0110",
                     "ECON 1210"
                 ]
@@ -746,7 +746,7 @@
                 "name": "Pre-reqs",
                 "value": 1,
                 "function": "PICK",
-                "Courses": [
+                "courses": [
                     "ECON 0170, MATH 0100"
                 ]
             },
@@ -754,7 +754,7 @@
                 "name": "Micro",
                 "value": 1,
                 "function": "PICK",
-                "Courses": [
+                "courses": [
                     "ECON 1110",
                     "ECON 1130"
                 ]
@@ -763,7 +763,7 @@
                 "name": "Stats",
                 "value": 1,
                 "function": "PICK",
-                "Courses": [
+                "courses": [
                     "ECON 1620",
                     "MATH 1620",
                     "APMA 1650"
@@ -773,13 +773,13 @@
                 "name": "Research",
                 "value": 1,
                 "function": "PICK",
-                "Courses": [
+                "courses": [
                     "ECON 1629, ECON 1630"
                 ]
             },
             {
                 "name": "Electives",
-                "Pick": 5
+                "PICK": 5
             }
         ],
         "APMA": {
@@ -788,7 +788,7 @@
                     "name": "Requirements",
                     "value": 2,
                     "function": "PICK",
-                    "Courses": [
+                    "courses": [
                         "APMA 350",
                         "APMA 360"
                     ]
@@ -797,7 +797,7 @@
                     "name": "Linear",
                     "value": 1,
                     "function": "PICK",
-                    "Courses": [
+                    "courses": [
                         "MATH 0520",
                         "MATH 0540"
                     ]
@@ -806,7 +806,7 @@
                     "name": "Multi",
                     "value": 1,
                     "function": "PICK",
-                    "Courses": [
+                    "courses": [
                         "MATH 0180",
                         "MATH 0350",
                         "MATH 0200"
@@ -816,7 +816,8 @@
                     "name": "Computer",
                     "value": 1,
                     "function": "PICK",
-                    "Courses": [
+
+                    "courses": [
                         "APMA 0160",
                         "APMA 0200",
                         "CSCI 0111",
@@ -830,7 +831,7 @@
                 },
                 {
                     "name": "Electives",
-                    "Pick": 5
+                    "PICK": 5
                 }
             ],
             "ScB": [
@@ -838,16 +839,16 @@
                     "name": "Requirements",
                     "value": 2,
                     "function": "PICK",
-                    "Courses": [
-                        "APMA 350",
-                        "APMA 360"
+                    "courses": [
+                        "APMA 0350",
+                        "APMA 0360"
                     ]
                 },
                 {
                     "name": "Linear",
                     "value": 1,
                     "function": "PICK",
-                    "Courses": [
+                    "courses": [
                         "MATH 0520",
                         "MATH 0540"
                     ]
@@ -856,7 +857,7 @@
                     "name": "Multi",
                     "value": 1,
                     "function": "PICK",
-                    "Courses": [
+                    "courses": [
                         "MATH 0180",
                         "MATH 0350",
                         "MATH 0200"
@@ -866,7 +867,7 @@
                     "name": "Computer",
                     "value": 1,
                     "function": "PICK",
-                    "Courses": [
+                    "courses": [
                         "APMA 0160",
                         "APMA 0200",
                         "CSCI 0111",
@@ -880,7 +881,7 @@
                 },
                 {
                     "name": "Electives",
-                    "Pick": 11
+                    "PICK": 11
                 }
             ]
         }

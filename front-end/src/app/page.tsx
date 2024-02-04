@@ -30,6 +30,10 @@ export default function Home() {
     const coursesNotTaken = Object.keys(all_courses).filter((code, i) => !codesOfCoursesTaken.includes(code))
     // @ts-ignore
     const potentialClasses = coursesNotTaken.map((code, i) => ({ code, title: all_courses[code].title }))
+    // @ts-ignore
+    const potentialFallClasses = potentialClasses.filter(({ code }, i) => all_courses[code].term.split(" ")[0]=="Fall")
+    // @ts-ignore
+    const potentialSpringClasses = potentialClasses.filter(({ code }, i) => all_courses[code].term.split(" ")[0]=="Spring")
     return (
         <Box maxW="7xl" m="auto">
             <Box maxW="5xl">
@@ -41,7 +45,7 @@ export default function Home() {
                     <ClassSearch potentialClasses={potentialClasses} /> */}
                     { coursesBySemester.map((courses, i) => (
                             <Semester 
-                                potentialClasses={potentialClasses} 
+                                potentialClasses={i%2==0 ? potentialFallClasses : potentialSpringClasses} 
                                 number={i+1} 
                                 term={i%2==0 ? "Fall" : "Spring"}
                                 onCourseSelect={(c) => onAddCourse(c, i)} 
