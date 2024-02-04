@@ -17,7 +17,7 @@ type Requirement = {
 const course_list = () => JSON.parse(JSON.stringify(Concentration_req));
 const requirements = course_list["placeholder"];
 
-function min(a, b){
+function min(a: number, b: number){
     if(a < b) return a
     else return b
 }
@@ -32,10 +32,18 @@ function isRequirementSatisfied(availableCourses: String[], requirement: Require
             for(let i=0;i<requirement.value;i++){
                 // for each pick, find a course in availableCourses that is in requirement.courses
                 //@ts-ignore
-                for(let j=0;j<availableCourses;j++){
-                    if()
+                for(let j=0;j<availableCourses.length;j++){
+                    if(requirement.courses?.includes(availableCourses[j])){
+                        coursesUsed.push(availableCourses[j])
+                        availableCourses.splice(j, 1)
+                    }
                 }
+                // if we got here, we have no more courses that can satisfy the requirement
+                // @ts-ignore
+                minCoursesLeft = requirement.value - coursesUsed.length
+                return [false, coursesUsed, minCoursesLeft]
             }
+            return [true, coursesUsed, 0]
         case 'AND':
             leftResponse = isRequirementSatisfied(
               availableCourses,
@@ -47,7 +55,7 @@ function isRequirementSatisfied(availableCourses: String[], requirement: Require
             );
 
             isSatisfied = leftResponse[0] && rightResponse[0]
-            coursesUsed = leftResponse[1] + rightResponse[1]
+            coursesUsed = [...new Set(leftResponse[1] + rightResponse[1])] // converting to a Set and back to remove duplicates
             minCoursesLeft =  leftResponse[2] + rightResponse[2]
             return [isSatisfied, coursesUsed, minCoursesLeft]
         case 'OR':
