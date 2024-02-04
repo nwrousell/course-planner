@@ -87,9 +87,21 @@ function getPicks(req: Requirement, courses_taken: string[]){
         return listVal3.concat(listVal4);
         break;
       case "ANY-ABOVE-1000":
-        //getPicks(req.value[0], missingList[n]);
+        for (let j = 0; j < courses_taken.length; j++) {
+          let department = courses_taken[j].split(" ")[0];
+          let number = parseInt(courses_taken[j].split(" ")[1]);
+          // @ts-ignore
+          if (department == req.courses[0] && number >= 1000) {
+            coursesUsed.push(courses_taken[j]);
+            courses_taken.splice(j, 1);
+            break;
+          }
+        }
+        // if we got here, we have no more courses that can satisfy the requirement
+        // @ts-ignore
         break;
     }
+    console.log(remainingCourses);
     return remainingCourses;
 }
 
@@ -102,9 +114,6 @@ export function getRemainingSemesters(
 ): Semester[] {
 
   const semesterCourses: Semester[] = [];
-  const concentrationReq = (): Requirement =>
-    JSON.parse(JSON.stringify(Concentration_req))[concentration][type];
-
   //   for (const key in concentrationReq) {
   //     //TODO: Making total coursesLeft list
 
