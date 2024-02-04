@@ -61,7 +61,7 @@ export default function Home() {
     }
     
     return (
-        <Box maxW="7xl" m="auto">
+        <Box maxW="7xl" minH="calc(100vh)" m="auto">
             <Nav />
             <Box>
                 {/* <Select display="inline-block" maxW="lg" placeholder="Select a concentration" onChange={(e) => setConcentration(e.target.value)}>
@@ -96,6 +96,7 @@ export default function Home() {
                     { csChecked && <RequirementsBox concentration={"CS"} requirements={requirementProgressCS}/>}
                 </Box>
             </Box>
+            <Text position={"absolute"} bottom="1em" transform={"translateX(-50%)"} color="gray.700" left={"50%"}>Made for Hack@Brown 2024 by Ryan Eng, Julian Beaudry, and Noah Rousell</Text>
         </Box>
     )
 }
