@@ -191,27 +191,49 @@
           "name": "Pathways",
           "values": [
             {
-              "name": "Systems",
+              "name": "Syst_complete",
               "function": "AND",
-              "values": [{
-                "name":
-              }],
-              "Pick": 2,
-              "Core": ["CSCI 1380", "CSCI 1670", "CSCI 1680"],
-              "Related Courses": [
-                "CSCI 1260",
-                "CSCI 1270",
-                "CSCI 1320",
-                "CSCI 1600",
-                "CSCI 1650",
-                "CSCI 1650",
-                "CSCI 1660",
-                "CSCI 1710",
-                "CSCI 1730",
-                "CSCI 1760",
-                "ENGN 1640"
-              ],
-              "Intermediate Courses": ["CSCI 0300", "CSCI 0330", "CSCI 0220"]
+              "values": [
+                {
+                  "name": "Systems",
+                  "function": "AND",
+                  "values": [
+                    {
+                      "name": "Core",
+                      "function": "PICK",
+                      "values": 1,
+                      "Courses": ["CSCI 1380", "CSCI 1670", "CSCI 1680"]
+                    },
+                    {
+                      "name": "Core_AND",
+                      "function": "PICK",
+                      "values": 1,
+                      "Courses": [
+                        "CSCI 1380",
+                        "CSCI 1670",
+                        "CSCI 1680",
+                        "CSCI 1260",
+                        "CSCI 1270",
+                        "CSCI 1320",
+                        "CSCI 1600",
+                        "CSCI 1650",
+                        "CSCI 1650",
+                        "CSCI 1660",
+                        "CSCI 1710",
+                        "CSCI 1730",
+                        "CSCI 1760",
+                        "ENGN 1640"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Intermediate Courses",
+                  "function": "PICK",
+                  "value": 3,
+                  "Courses": ["CSCI 0300", "CSCI 0330", "CSCI 0220"]
+                }
+              ]
             },
 
             {
