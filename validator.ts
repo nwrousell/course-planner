@@ -82,8 +82,8 @@ function isRequirementSatisfied(availableCourses: string[], requirement: Require
                 //@ts-ignore
                 foundCourse = false
                 for(let j=0;j<availableCourses.length;j++){
-                    department = availableCourses[j].split[0]
-                    number = parseInt(availableCourses[j].split[1])
+                    department = availableCourses[j].split(" ")[0]
+                    number = parseInt(availableCourses[j].split(" ")[1])
                     // @ts-ignore
                     if(department == requirement.courses[0] && number >= 1000){
                         coursesUsed.push(availableCourses[j])
