@@ -1,4 +1,42 @@
 {
+    "name": "Intro CS Sequence",
+    "function": "OR",
+    "value": [
+        {
+            "name": "Accelerated Sequence",
+            "function": "AND",
+            "value": [
+                {
+                    "function": "Pick",
+                    "value": 1,
+                    "courses": ["CSCI 0190"]
+                },
+                {
+                    "function": "ANY",
+                    "value": 1,
+                    "courses": ["all cs courses"]
+                },
+            ]
+        },
+        {
+            "name": "Normal Sequence",
+            "function": "AND",
+            "value": [
+                {
+                    "function": "Pick",
+                    "value": 1,
+                    "courses": ["CSCI 0150", "CSCI 0170"]
+                },
+                {
+                    "function": "Pick",
+                    "value": 1,
+                    "courses": ["CSCI 0200"]
+                },
+            ]
+        },
+    ]
+}
+{
   "Concentrations": {
     "APMA-CS": {
       "ScB": {

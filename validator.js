@@ -9,3 +9,4 @@ const Concentration_req_json_1 = __importDefault(require("./Concentration_req.js
 console.log(Concentration_req_json_1.default);
 // set up classes the student has already taken
 const alreadyTaken = ["CSCI 0190", ""];
+
