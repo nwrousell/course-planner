@@ -1,6 +1,4 @@
-import Concentration_req from './Concentration_req.json'
-
-type Requirement = {
+export type Requirement = {
     name: String
     function: 'PICK' | 'AND' | 'OR' | 'ANY-ABOVE-1000'
     value: number | Requirement[]
@@ -14,7 +12,7 @@ function min(a: number, b: number){
 }
 
 // Returns [boolean, courses_used, min_courses_left_to_satisfy]
-function isRequirementSatisfied(availableCourses: string[], requirement: Requirement) {
+export function isRequirementSatisfied(availableCourses: string[], requirement: Requirement) {
     let leftResponse, rightResponse, isSatisfied, coursesUsed, minCoursesLeft, foundCourse
     switch(requirement.function){
         case 'PICK':
@@ -40,13 +38,13 @@ function isRequirementSatisfied(availableCourses: string[], requirement: Require
             }
             return [true, coursesUsed, 0]
         case 'AND':
-
+            
             leftResponse = isRequirementSatisfied(
               availableCourses,
               requirement["value"][0]
             );
             availableCourses = availableCourses.filter((v, i) => !leftResponse[1].includes(v))
-            if(requirement?.overlapAllowed){ // ! this is broken
+            if(requirement?.overlapAllowed){
                 // we want to use the same courses for both branches of the AND
                 // so front-load the coursesUsed of the leftResponse in availableCourses  
                 availableCourses = leftResponse[1].concat(availableCourses)
@@ -55,6 +53,7 @@ function isRequirementSatisfied(availableCourses: string[], requirement: Require
               availableCourses,
               requirement["value"][1]
             );
+
             isSatisfied = leftResponse[0] && rightResponse[0]
             coursesUsed = [...new Set(leftResponse[1].concat(rightResponse[1]))] // converting to a Set and back to remove duplicates
             minCoursesLeft =  leftResponse[2] + rightResponse[2] // ! this won't work with overlap
@@ -101,21 +100,3 @@ function isRequirementSatisfied(availableCourses: string[], requirement: Require
             return [true, coursesUsed, 0]
     }
 }
-
-console.log(Concentration_req)
-
-// set up classes the student has already taken
-const alreadyTaken = ["CSCI 0190", "CSCI 0300", "ECON 1110", "ECON 0110", 
-"CSCI 1951A", "CLPS 0220", "CLPS 0700", "MATH 0520", "APMA 1650", "MATH 0200", "MATH 0100", "CSCI 1470", "CSCI 1430", "CSCI 1951Z", "HIST 0234", "CSCI 0220"]
-
-const requirements = Concentration_req["Concentrations"]["CS"]["AB"] as Requirement[]
-for(const req of requirements){
-    const [satisfied, coursesUsed, coursesLeft] = isRequirementSatisfied(alreadyTaken, req)
-    console.log(`Requirement: ${req.name}, satisfied: ${satisfied}, coursesUsed: ${coursesUsed.join(", ")}, # coursesLeft: ${coursesLeft}`)
-}
-
-// ! CS19's second slot will take the next available CS, which isn't always the best choice
-// ! (it could take cs300, which then can't be used for intermediate courses)
-
-// To compile: tsc .\validator.ts --resolveJsonModule --module nodenext
-// to run node validator.js
