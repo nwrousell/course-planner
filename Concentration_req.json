@@ -56,7 +56,25 @@
             {
               "name": "5 course req",
               "function": "PICK",
-              "value": 5
+              "value": 5,
+              "courses": [
+                "CSCI 0220",
+                "MATH 1010",
+                "MATH 1530",
+                "MATH 0540",
+                "CSCI 0530",
+                "CSCI 1450",
+                "APMA 1655",
+                "CSCI 1010",
+                "MATH 0520",
+                "APMA 1650",
+                "MATH 0180",
+                "CSCI 0320",
+                "CSCI 0330",
+                "MATH 0200",
+                "MATH 0350",
+                "CSCI 0300"
+              ]
             },
             {
               "name": "int breadth",
@@ -88,38 +106,44 @@
                   ]
                 },
                 {
-                  "name": "Foundations",
-                  "function": "OR",
+                  "name": "Foundations_Systems",
+                  "function": "AND",
                   "value": [
                     {
-                      "name": "Discrete",
-                      "function": "PICK",
-                      "value": 1,
-                      "courses": ["CSCI 0220", "MATH 1530", "MATH 1001"]
+                      "name": "Foundations",
+                      "function": "OR",
+                      "value": [
+                        {
+                          "name": "Discrete",
+                          "function": "PICK",
+                          "value": 1,
+                          "courses": ["CSCI 0220", "MATH 1530", "MATH 1001"]
+                        },
+                        {
+                          "name": "Computation",
+                          "function": "PICK",
+                          "value": 1,
+                          "courses": ["CSCI 1010"]
+                        }
+                      ]
                     },
                     {
-                      "name": "Computation",
-                      "function": "PICK",
-                      "value": 1,
-                      "courses": ["CSCI 1010"]
-                    }
-                  ]
-                },
-                {
-                  "name": "Systems",
-                  "function": "OR",
-                  "value": [
-                    {
-                      "name": "Comp_Systems",
-                      "function": "PICK",
-                      "value": 1,
-                      "courses": ["CSCI 0300", "CSCI 0330"]
-                    },
-                    {
-                      "name": "Software Engineering",
-                      "function": "PICK",
-                      "value": 1,
-                      "courses": ["CSCI 0320"]
+                      "name": "Systems",
+                      "function": "OR",
+                      "value": [
+                        {
+                          "name": "Comp_Systems",
+                          "function": "PICK",
+                          "value": 1,
+                          "courses": ["CSCI 0300", "CSCI 0330"]
+                        },
+                        {
+                          "name": "Software Engineering",
+                          "function": "PICK",
+                          "value": 1,
+                          "courses": ["CSCI 0320"]
+                        }
+                      ]
                     }
                   ]
                 }
