@@ -18,10 +18,10 @@ import re
 # chrome_options.add_argument("--user-data-dir=Scraper")
 
 ## OPTIONS
-department_value = "ECON"
+department_value = "MATH"
 # TODO - input a valid brown username/password below
-username = "[PUT USERNAME HERE]" 
-password = "[PUT PASSWORD HERE]"
+username = "" 
+password = ""
 blacklist_course_codes = ["CSCI 2450", "ECON 2450", "ECON 2950", "ECON 2930", "ECON 2960", "ECON 2970"]
 
 ## Open cab.brown.edu
@@ -84,7 +84,7 @@ for result in results:
 
     if course_data["code"] in blacklist_course_codes:
         continue
-    if course_data["code"] in ["APMA 2990", "ECON 2990"]:
+    if course_data["code"] in ["APMA 2990", "ECON 2990", "MATH 2970"]:
         break
 
     # Grab term

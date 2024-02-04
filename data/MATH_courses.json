@@ -1,0 +1,681 @@
+[
+    {
+        "code": "MATH 0050",
+        "term": "Fall 2023",
+        "title": "Analytic Geometry and Calculus",
+        "description": "MATH 0050 and 0060 provide a slower-paced introduction to calculus for students who require additional preparation. Presents the same calculus topics as MATH 0090, together with a review of the necessary precalculus topics. Students successfully completing this sequence are prepared for MATH 0100. S/NC only.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0050",
+        "critical_review_data": {
+            "average_hours": "2.33",
+            "max_hours": "4.00",
+            "course_rating": "35%\n3.04",
+            "professor_rating": "58%\n3.89"
+        }
+    },
+    {
+        "code": "MATH 0060",
+        "term": "Spring 2024",
+        "title": "Analytic Geometry and Calculus",
+        "description": "A slower-paced introduction to calculus for students who require additional preparation. Presents the same calculus topics as MATH 0090, together with a review of the necessary precalculus topics. Students successfully completing this sequence are prepared for MATH 0100. Prerequisite: MATH 0050 or written permission. May not be taken for credit in addition to MATH 0070 or MATH 0090. S/NC only.",
+        "prereq_text": "Prerequisite: MATH 0050.",
+        "prereqs": [
+            "MATH 0050"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0060",
+        "critical_review_data": {
+            "average_hours": "3.00",
+            "max_hours": "5.00",
+            "course_rating": "52%\n4.48",
+            "professor_rating": "70%\n4.71"
+        }
+    },
+    {
+        "code": "MATH 0081",
+        "term": "Fall 2023",
+        "title": "Math Teaching Fellows Program",
+        "description": "The Math Teaching Fellows Program is a semester-long certificate program that provides UTAs with the skills and knowledge required to be an effective UTA in the Math Department. Admission into the program is by application only; participants will hold a UTA appointment in a Mathematics course approved by the Teaching Fellows Coordinators and must therefore be eligible for student employment at Brown during the term. Participants should have completed at least one of Math 0100, 0180, 0190, 0200, 0350, 0520, 0540.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0081",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 0090",
+        "term": "Fall 2023",
+        "title": "Single Variable Calculus, Part I",
+        "description": "An intensive course in calculus of one variable including limits, differentiation, maxima and minima, the chain rule, rational functions, trigonometric functions, and exponential functions. Introduction to integration with applications to area and volumes of revolution. MATH 0090 and MATH 0100 or the equivalent are recommended for all students intending to concentrate in the sciences or mathematics. May not be taken for credit in addition to MATH 0060 or MATH 0070. S/NC only.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0090",
+        "critical_review_data": {
+            "average_hours": "3.00",
+            "max_hours": "8.00",
+            "course_rating": "45%\n3.88",
+            "professor_rating": "41%\n3.54"
+        }
+    },
+    {
+        "code": "MATH 0100",
+        "term": "Spring 2024",
+        "title": "Single Variable Calculus, Part II",
+        "description": "A continuation of the material of MATH 90 including further development of techniques of integration. Other topics covered are infinite series, power series, Taylor's formula, polar coordinates, parametric equations, introduction to differential equations, and numerical methods. MATH 90 and 100 or the equivalent are recommended for all students intending to concentrate in mathematics or the sciences. MATH 100 may not be taken in addition to MATH 170 or MATH 190.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0100",
+        "critical_review_data": {
+            "average_hours": "5.88",
+            "max_hours": "11.47",
+            "course_rating": "43%\n3.73",
+            "professor_rating": "49%\n4.25"
+        }
+    },
+    {
+        "code": "MATH 0180",
+        "term": "Fall 2023",
+        "title": "Multivariable Calculus",
+        "description": "Three-dimensional analytic geometry. Differential and integral calculus of functions of two or three variables: partial derivatives, multiple integrals, Green's Theorem, Stokes' theorem, and the divergence theorem. Prerequisite: MATH 100, MATH 170, or MATH 190, or advanced placement or written permission. [MATH 180 may not be taken in addition to MATH 200 or MATH 350.]",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0180",
+        "critical_review_data": {
+            "average_hours": "6.40",
+            "max_hours": "10.73",
+            "course_rating": "41%\n3.54",
+            "professor_rating": "41%\n3.57"
+        }
+    },
+    {
+        "code": "MATH 0190",
+        "term": "Fall 2023",
+        "title": "Single Variable Calculus, Part II (Physics/Engineering)",
+        "description": "This course, which covers roughly the same material and has the same prerequisites as MATH 100, is intended for students with a special interest in physics or engineering. The main topics are: applications and techniques of integration; sequences, series, and power series methods; parametric equations and polar coordinates; additional topics at instructor's discretion. MATH 190 may not be taken in addition to MATH 100 or MATH 170.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0190",
+        "critical_review_data": {
+            "average_hours": "5.17",
+            "max_hours": "9.83",
+            "course_rating": "46%\n4.02",
+            "professor_rating": "69%\n4.67"
+        }
+    },
+    {
+        "code": "MATH 0200",
+        "term": "Fall 2023",
+        "title": "Multivariable Calculus (Physics/Engineering)",
+        "description": "This course, which covers roughly the same material as MATH 180, is intended for students with a special interest in physics or engineering. The main topics are: geometry of three-dimensional space; partial derivatives; Lagrange multipliers; double, surface, and triple integrals; vector analysis; Stokes' theorem and the divergence theorem, with applications to electrostatics and fluid flow. Prerequisite: MATH 100, MATH 170, or MATH 190, or advanced placement or written permission . [MATH 200 may not be taken in addition to MATH 180 or MATH 350.]",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0200",
+        "critical_review_data": {
+            "average_hours": "5.85",
+            "max_hours": "9.47",
+            "course_rating": "56%\n3.75",
+            "professor_rating": "67%\n3.93"
+        }
+    },
+    {
+        "code": "MATH 0350",
+        "term": "Fall 2023",
+        "title": "Multivariable Calculus With Theory",
+        "description": "This course provides a rigorous treatment of multivariable calculus. Topics covered include vector analysis, partial differentiation, multiple integration, line integrals, Green's theorem, Stokes' theorem, and the divergence theorem. MATH 0350 covers the same material as MATH 0180, but with more emphasis on theory and on understanding proofs. Prerequisites: MATH 0100, MATH 0170, or MATH 0190, or advanced placement or written permission. [MATH 0350 may not be taken in addition to MATH 0180 or MATH 0200.]",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0350",
+        "critical_review_data": {
+            "average_hours": "8.14",
+            "max_hours": "13.86",
+            "course_rating": "51%\n4.45",
+            "professor_rating": "55%\n4.76"
+        }
+    },
+    {
+        "code": "MATH 0420",
+        "term": "Spring 2024",
+        "title": "Introduction to Number Theory",
+        "description": "An overview of one of the most beautiful areas of mathematics. Ideal for any student who wants a taste of mathematics outside of, or in addition to, the calculus sequence. Topics include: prime numbers, congruences, quadratic reciprocity, sums of squares, Diophantine equations, and, as time permits, such topics as cryptography and continued fractions. No prerequisites.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0420",
+        "critical_review_data": {
+            "average_hours": "6.40",
+            "max_hours": "12.00",
+            "course_rating": "40%\n4.29",
+            "professor_rating": "47%\n4.98"
+        }
+    },
+    {
+        "code": "MATH 0520",
+        "term": "Fall 2023",
+        "title": "Linear Algebra",
+        "description": "A first course in linear algebra designed to develop students' problem solving skills, mathematical writing skills, and gain facility with the applications and theory of linear algebra. Topics will include: vector spaces, linear transformations, matrices, systems of linear equations, bases, eigenvalues, and additional topics at instructor's discretion. Applications may include differential equations, difference equations, least squares approximations, and models in economics and in biological and physical sciences. MATH 0520 or MATH 0540 is a prerequisite for all 1000-level courses in Mathematics except MATH 1260 or MATH 1610. Recommended prerequisite: MATH 0100 or equivalent. May not be taken in addition to MATH 0540.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0520",
+        "critical_review_data": {
+            "average_hours": "6.20",
+            "max_hours": "10.20",
+            "course_rating": "43%\n3.69",
+            "professor_rating": "61%\n4.10"
+        }
+    },
+    {
+        "code": "MATH 0540",
+        "term": "Fall 2023",
+        "title": "Linear Algebra With Theory",
+        "description": "This course provides a rigorous introduction to the theory of linear algebra. Topics covered include: matrices, linear equations, determinants, and eigenvalues; vector spaces and linear transformations; inner products; Hermitian, orthogonal, and unitary matrices; and Jordan normal form. MATH 540 provides a more theoretical treatment of the topics in MATH 520, and students will have opportunities during the course to develop proof-writing skills. Recommended prerequisite: MATH 100, MATH 170, or MATH 190. [MATH 540 may not be taken in addition to MATH 520.]",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0540",
+        "critical_review_data": {
+            "average_hours": "8.65",
+            "max_hours": "14.94",
+            "course_rating": "49%\n4.25",
+            "professor_rating": "73%\n4.89"
+        }
+    },
+    {
+        "code": "MATH 0750",
+        "term": "Fall 2023",
+        "title": "Introduction to Higher Mathematics",
+        "description": "This semester-long class will expose students to three fundamental areas of mathematics. It will be team taught by three members of the faculty. Topics will be logic and set theory, number theory with applications to cryptography, and combinatorics. Approximately 4 weeks will be devoted to each topic.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/0750",
+        "critical_review_data": {
+            "average_hours": "4.40",
+            "max_hours": "6.30",
+            "course_rating": "52%\n4.53",
+            "professor_rating": "57%\n4.93"
+        }
+    },
+    {
+        "code": "MATH 1010",
+        "term": "Spring 2024",
+        "title": "Analysis: Functions of One Variable",
+        "description": "Completeness properties of the real number system, topology of the real line. Proof of basic theorems in calculus, infinite series. Topics selected from ordinary differential equations. Fourier series, Gamma functions, and the topology of Euclidean plane and 3-space. Prerequisite: MATH 0180, 0200, or 0350. MATH 0520 or 0540 may be taken concurrently. Most students are advised to take MATH 1010 before MATH 1130.",
+        "prereq_text": "Prerequisites: MATH 0520*, 0540* or minimum score of WAIVE in 'Graduate Student PreReq'.\n* May be taken concurrently.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1010",
+        "critical_review_data": {
+            "average_hours": "7.03",
+            "max_hours": "12.03",
+            "course_rating": "87%\n4.35",
+            "professor_rating": "44%\n4.77"
+        }
+    },
+    {
+        "code": "MATH 1040",
+        "term": "Spring 2024",
+        "title": "Fundamental Problems of Geometry",
+        "description": "This class discusses geometry from a modern perspective. Topics include hyperbolic, projective, conformal, and affine geometry, and various theorems and structures built out of them. Prerequisite: MA 0520, MA 0540, or permission of the instructor.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1040",
+        "critical_review_data": {
+            "average_hours": "4.33",
+            "max_hours": "6.67",
+            "course_rating": "51%\n4.46",
+            "professor_rating": "55%\n4.78"
+        }
+    },
+    {
+        "code": "MATH 1060",
+        "term": "Fall 2023",
+        "title": "Differential Geometry",
+        "description": "The study of curves and surfaces in 2- and 3-dimensional Euclidean space using the techniques of differential and integral calculus and linear algebra. Topics include curvature and torsion of curves, Frenet-Serret frames, global properties of closed curves, intrinsic and extrinsic properties of surfaces, Gaussian curvature and mean curvature, geodesics, minimal surfaces, and the Gauss-Bonnet theorem.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1060",
+        "critical_review_data": {
+            "average_hours": "7.00",
+            "max_hours": "11.50",
+            "course_rating": "83%\n4.13",
+            "professor_rating": "56%\n4.92"
+        }
+    },
+    {
+        "code": "MATH 1110",
+        "term": "Fall 2023",
+        "title": "Ordinary Differential Equations",
+        "description": "Ordinary differential equations, including existence and uniqueness theorems and the theory of linear systems. Topics may also include stability theory, the study of singularities, and boundary value problems.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1110",
+        "critical_review_data": {
+            "average_hours": "6.67",
+            "max_hours": "12.67",
+            "course_rating": "53%\n3.97",
+            "professor_rating": "60%\n4.46"
+        }
+    },
+    {
+        "code": "MATH 1120",
+        "term": "Spring 2024",
+        "title": "Partial Differential Equations",
+        "description": "The wave equation, the heat equation, Laplace's equation, and other classical equations of mathematical physics and their generalizations, discussion of well-posedness problems. The method of characteristics, initial and boundary conditions, separation of variables, solutions in series of eigenfunctions, Fourier series, maximum principles, Green\u2019s identities and Green\u2019s functions.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1120",
+        "critical_review_data": {
+            "average_hours": "7.33",
+            "max_hours": "12.80",
+            "course_rating": "51%\n4.39",
+            "professor_rating": "56%\n4.88"
+        }
+    },
+    {
+        "code": "MATH 1130",
+        "term": "Fall 2023",
+        "title": "Functions of Several Variables",
+        "description": "A course on calculus on manifolds. Included are differential forms, integration, and Stokes' formula on manifolds, with applications to geometrical and physical problems, the topology of Euclidean spaces, compactness, connectivity, convexity, differentiability, and Lebesgue integration. It is recommended that a student take a 1000-level course in analysis (MATH 1010 or MATH 1260) before attempting MATH 1130.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1130",
+        "critical_review_data": {
+            "average_hours": "9.00",
+            "max_hours": "13.94",
+            "course_rating": "44%\n3.84",
+            "professor_rating": "59%\n3.96"
+        }
+    },
+    {
+        "code": "MATH 1140",
+        "term": "Spring 2024",
+        "title": "Functions Of Several Variables",
+        "description": "See Functions Of Several Variables (MATH 1130) for course description. Prerequisite: MATH 1130 or instructor permission.",
+        "prereq_text": "Prerequisites: MATH 1130 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 1130"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1140",
+        "critical_review_data": {
+            "average_hours": "10.33",
+            "max_hours": "18.33",
+            "course_rating": "32%\n3.47",
+            "professor_rating": "74%\n3.71"
+        }
+    },
+    {
+        "code": "MATH 1230",
+        "term": "Spring 2024",
+        "title": "Graph Theory",
+        "description": "This course covers important material about graph theory, such as spanning trees, network flow problems, matching problems, coloring problems, planarity, Cayley graphs, spectral theory on graphs, and Ramsey Theory. The emphasis will be on a combination of theory and algorithms. Depending on the instructor, connections to such fields as combinatorics, geometry, or computer science might be emphasized. Prerequisite: MATH 0180, 0200 or 0350 and MATH 0520 or 0540 are recommended.",
+        "prereq_text": "Prerequisites: MATH 0180, 0200 or 0350 and (MATH 0520 or 0540) or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350",
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1230",
+        "critical_review_data": {
+            "average_hours": "7.38",
+            "max_hours": "11.38",
+            "course_rating": "49%\n4.29",
+            "professor_rating": "55%\n4.79"
+        }
+    },
+    {
+        "code": "MATH 1260",
+        "term": "Fall 2023",
+        "title": "Complex Analysis",
+        "description": "Examines one of the cornerstones of mathematics. Complex differentiability, Cauchy-Riemann differential equations, contour integration, residue calculus, harmonic functions, geometric properties of complex mappings. Prerequisite: MATH 0180, 0200, or 0350. This course does not require MATH 0520 or 0540.",
+        "prereq_text": "Prerequisites: MATH 0180, 0200, 0350 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1260",
+        "critical_review_data": {
+            "average_hours": "6.64",
+            "max_hours": "9.91",
+            "course_rating": "52%\n4.56",
+            "professor_rating": "73%\n4.89"
+        }
+    },
+    {
+        "code": "MATH 1410",
+        "term": "Fall 2023",
+        "title": "Topology",
+        "description": "Topology of Euclidean spaces, winding number and applications, knot theory, fundamental group and covering spaces. Euler characteristic, simplicial complexes, classification of two-dimensional manifolds, vector fields, the Poincar\u00e9-Hopf theorem, and introduction to three-dimensional topology. Prerequisites: MATH 0520 or MATH 0540, or instructor permission.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1410",
+        "critical_review_data": {
+            "average_hours": "5.50",
+            "max_hours": "10.25",
+            "course_rating": "51%\n4.44",
+            "professor_rating": "70%\n4.75"
+        }
+    },
+    {
+        "code": "MATH 1530",
+        "term": "Fall 2023",
+        "title": "Abstract Algebra",
+        "description": "A proof-based course that introduces the principles and concepts of modern abstract algebra. Topics will include groups, rings, and fields, with applications to number theory, the theory of equations, and geometry. Previous proof-writing experience is not required. MATH 1530 is required of all students concentrating in mathematics. It is strongly suggested that potential mathematics concentrators make MATH 1530 one of the first thousand level mathematics classes that they take.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1530",
+        "critical_review_data": {
+            "average_hours": "6.80",
+            "max_hours": "10.40",
+            "course_rating": "50%\n4.35",
+            "professor_rating": "73%\n4.94"
+        }
+    },
+    {
+        "code": "MATH 1540",
+        "term": "Spring 2024",
+        "title": "Topics in Abstract Algebra",
+        "description": "Galois theory together with selected topics in algebra. Examples of subjects which have been presented in the past include algebraic curves, group representations, and the advanced theory of equations. Prerequisite: MATH 1530.",
+        "prereq_text": "Prerequisites: MATH 1530 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 1530"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1540",
+        "critical_review_data": {
+            "average_hours": "6.20",
+            "max_hours": "10.40",
+            "course_rating": "41%\n4.37",
+            "professor_rating": "63%\n4.77"
+        }
+    },
+    {
+        "code": "MATH 1560",
+        "term": "Fall 2023",
+        "title": "Number Theory",
+        "description": "Selected topics in number theory will be investigated. Unique factorization, prime numbers, modular arithmetic, arithmetic functions, quadratic reciprocity, finite fields, and related topics. Prerequisite: MATH 1530 or written permission.",
+        "prereq_text": "Prerequisites: MATH 1530 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 1530"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1560",
+        "critical_review_data": {
+            "average_hours": "6.50",
+            "max_hours": "10.27",
+            "course_rating": "35%\n3.74",
+            "professor_rating": "52%\n4.49"
+        }
+    },
+    {
+        "code": "MATH 1580",
+        "term": "Spring 2024",
+        "title": "Cryptography",
+        "description": "This course focuses on the mathematics underlying public key cryptosystems, digital signatures, and other topics in cryptography. A sampling of mathematical topics, such as groups, rings, fields, number theory, probability, complexity theory, elliptic curves, and lattices, will be introduced and applied to cryptography. No prior knowledge of these topics is assumed, nor is prior programming experience needed; any programming knowledge required will be covered in class.",
+        "prereq_text": "Prerequisites: MATH 0520, 0540 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0520",
+            "MATH 0540"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1580",
+        "critical_review_data": {
+            "average_hours": "5.55",
+            "max_hours": "10.10",
+            "course_rating": "42%\n4.43",
+            "professor_rating": "73%\n4.88"
+        }
+    },
+    {
+        "code": "MATH 1610",
+        "term": "Fall 2023",
+        "title": "Probability",
+        "description": "Basic probability theory including random variables, distribution functions, independence, expectation, variance, and conditional expectation. Classical examples of probability density and mass functions (binomial, geometric, normal, exponential) and their applications. Stochastic processes including discrete and continuous time Poisson processes, Markov chains, and Brownian motion.",
+        "prereq_text": "Prerequisites: MATH 0180, 0200, 0350 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 0180",
+            "MATH 0200",
+            "MATH 0350"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1610",
+        "critical_review_data": {
+            "average_hours": "10.25",
+            "max_hours": "15.50",
+            "course_rating": "43%\n4.53",
+            "professor_rating": "57%\n5.00"
+        }
+    },
+    {
+        "code": "MATH 1620",
+        "term": "Spring 2024",
+        "title": "Mathematical Statistics",
+        "description": "Frequentist and Bayesian viewpoints and decision theory principles. Concepts from probability, including the central limit theorem and multivariate normal distributions, and asymptotic estimates. Inferences from independent, identically distributed sampling: point estimation, confidence intervals, and hypothesis testing. Analysis of variance (ANOVA) and generalized linear models of regression.",
+        "prereq_text": "Prerequisites: MATH 1610 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 1610"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1620",
+        "critical_review_data": {
+            "average_hours": "5.00",
+            "max_hours": "8.75",
+            "course_rating": "36%\n3.90",
+            "professor_rating": "41%\n4.34"
+        }
+    },
+    {
+        "code": "MATH 1820A",
+        "term": "Spring 2024",
+        "title": "Introduction to Lie Algebras",
+        "description": "Lie groups and Lie algebras are important, because they are the symmetries of structures such as quadratic forms, differential systems and smooth manifolds. The prototype of a Lie algebra is the space of 3-vectors together with their cross product, which is closely related to the Lie group of rotations. We will see how this basic example generalizes, mostly in the context of matrices. We'll examine special types of Lie algebras, such as nilpotent, solvable and semi-simple, study root systems and their diagrams, explore some representation theory, and end with the classification of the simple Lie algebras. Prerequisite: MATH 1530.",
+        "prereq_text": "Prerequisites: MATH 1530 or minimum score of WAIVE in 'Graduate Student PreReq'.",
+        "prereqs": [
+            "MATH 1530"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/1820A",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2010",
+        "term": "Spring 2024",
+        "title": "Differential Geometry",
+        "description": "Introduction to differential geometry (differentiable manifolds, differential forms, tensor fields, homogeneous spaces, fiber bundles, connections, and Riemannian geometry), followed by selected topics in the field. Pre-reqs: MATH 2110 and undergraduates require permission from the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2010",
+        "critical_review_data": {
+            "average_hours": "10.25",
+            "max_hours": "17.13",
+            "course_rating": "52%\n4.48",
+            "professor_rating": "61%\n4.17"
+        }
+    },
+    {
+        "code": "MATH 2050",
+        "term": "Fall 2023",
+        "title": "Algebraic Geometry",
+        "description": "Complex manifolds and algebraic varieties, sheaves and cohomology, vector bundles, Hodge theory, K\u00e4hler manifolds, vanishing theorems, the Kodaira embedding theorem, the Riemann-Roch theorem, and introduction to deformation theory. Pre-reqs: MATH 2510 and MATH 2520 and undergraduates require permission from the instructor.",
+        "prereq_text": "Prerequisite: MATH 2510*.\n* May be taken concurrently.",
+        "prereqs": [
+            "MATH 2510"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2050",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2060",
+        "term": "Spring 2024",
+        "title": "Algebraic Geometry",
+        "description": "See Algebraic Geometry (MATH 2050) for course description.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2060",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2110",
+        "term": "Fall 2023",
+        "title": "Introduction to Manifolds",
+        "description": "Inverse Function Theorem, manifolds and submanifolds, tangent and cotangent bundles, transversality, flows and vector fields, Frobenius Theorem, vector bundles, tensors and differential forms, Sard\u2019s Theorem, introduction to Lie groups. Pre-reqs: MATH 1060, MATH 1140 and preferably MATH 1410 and undergraduates require permission from the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2110",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2210",
+        "term": "Fall 2023",
+        "title": "Real Function Theory",
+        "description": "Real numbers, outer measures, measures, Lebesgue measure, integrals of measurable functions, Holder and Minkowski inequalities, modes of onvergence, L^p spaces, product measures, Fubini's Theorem, signed measures, Radon-Nikodym theorem, dual space of L^p and of C, Hausdorff measure.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2210",
+        "critical_review_data": {
+            "average_hours": "16.00",
+            "max_hours": "23.60",
+            "course_rating": "51%\n3.45",
+            "professor_rating": "57%\n3.83"
+        }
+    },
+    {
+        "code": "MATH 2220",
+        "term": "Spring 2024",
+        "title": "Real Function Theory",
+        "description": "The basics of Hilbert space theory, including orthogonal projections, the Riesz representation theorem, and compact operators. The basics of Banach space theory, including the open mapping theorem, closed graph theorem, uniform boundedness principle, Hahn-Banach theorem, Riesz representation theorem (pertaining to the dual of C_0(X)), weak and weak-star topologies. Various additional topics, possibly including Fourier series, Fourier transform, ergodic theorems, distribution theory, and the spectral theory of linear operators.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2220",
+        "critical_review_data": {
+            "average_hours": "14.67",
+            "max_hours": "31.83",
+            "course_rating": "37%\n3.94",
+            "professor_rating": "56%\n4.22"
+        }
+    },
+    {
+        "code": "MATH 2250",
+        "term": "Fall 2023",
+        "title": "Complex Function Theory",
+        "description": "Introduction to the theory of analytic functions of one complex variable. Content varies somewhat from year to year, but always includes the study of power series, complex line integrals, analytic continuation, conformal mapping, and an introduction to Riemann surfaces.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2250",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2260",
+        "term": "Spring 2024",
+        "title": "Complex Function Theory",
+        "description": "See Complex Function Theory (MATH 2250) for course description.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2260",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2410",
+        "term": "Fall 2023",
+        "title": "Topology",
+        "description": "An introduction to algebraic topology. Topics include fundamental group, covering spaces, simplicial and singular homology, CW complexes, and an introduction to cohomology. Pre-reqs: MATH 1410, MATH 1530, and MATH 1010 and/or MATH 1130 and undergraduates require permission from the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2410",
+        "critical_review_data": {
+            "average_hours": "15.25",
+            "max_hours": "22.50",
+            "course_rating": "85%\n4.25",
+            "professor_rating": "53%\n4.67"
+        }
+    },
+    {
+        "code": "MATH 2420",
+        "term": "Spring 2024",
+        "title": "Algebraic Topology",
+        "description": "This is a continuation of MATH 2410. Topics include cohomology, cup products, Poincare duality, and other topics chosen by the instructor.",
+        "prereq_text": "Prerequisite: MATH 2410.",
+        "prereqs": [
+            "MATH 2410"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2420",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2510",
+        "term": "Fall 2023",
+        "title": "Algebra",
+        "description": "Basic properties of groups, rings, fields, and modules. Topics include: finite groups, representations of groups, rings with minimum condition, Galois theory, local rings, algebraic number theory, classical ideal theory, basic homological algebra, and elementary algebraic geometry. Pre-reqs: MATH 1530 and MATH 1540 and undergraduates require permission from the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2510",
+        "critical_review_data": {
+            "average_hours": "6.33",
+            "max_hours": "14.33",
+            "course_rating": "48%\n4.17",
+            "professor_rating": "73%\n4.94"
+        }
+    },
+    {
+        "code": "MATH 2520",
+        "term": "Spring 2024",
+        "title": "Algebra",
+        "description": "See Algebra (MATH 2510) for course description. Pre-reqs: MATH 2510 and undergraduates require permission from the instructor.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2520",
+        "critical_review_data": {
+            "average_hours": "9.80",
+            "max_hours": "14.20",
+            "course_rating": "59%\n4.42",
+            "professor_rating": "65%\n4.83"
+        }
+    },
+    {
+        "code": "MATH 2530",
+        "term": "Fall 2023",
+        "title": "Number Theory",
+        "description": "Introduction to algebraic and analytic number theory. Topics covered during the first semester include number fields, rings of integers, primes and ramification theory, completions, adeles and ideles, and zeta functions. Content of the second semester varies from year to year; possible topics include class field theory, arithmetic geometry, analytic number theory, and arithmetic K-theory. Pre-reqs: MATH 2510 and undergraduates require permission from the instructor.",
+        "prereq_text": "Prerequisite: MATH 2510*.\n* May be taken concurrently.",
+        "prereqs": [
+            "MATH 2510"
+        ],
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2530",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2540",
+        "term": "Spring 2024",
+        "title": "Number Theory",
+        "description": "See Number Theory (MATH 2530) for course description.",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2540",
+        "critical_review_data": {}
+    },
+    {
+        "code": "MATH 2720P",
+        "term": "Spring 2024",
+        "title": "Stability Problems in Non-collisional Kinetic Theory",
+        "description": "We will cover the local and global well-posedness for solutions to the Vlasov-Poisson problem, consider steady solution and move on to their stability, starting with the stability of vacuum, we will move on to homogeneous equilibrium and the connection to Landau",
+        "prereqs": [],
+        "prereq_text": "NA",
+        "critical_review_url": "http://www.thecriticalreview.org/MATH/2720P",
+        "critical_review_data": {}
+    }
+]
